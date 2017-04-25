@@ -13,6 +13,12 @@
 		8128C6071EAF398600E1389B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8128C6051EAF398600E1389B /* Main.storyboard */; };
 		8128C6091EAF398600E1389B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8128C6081EAF398600E1389B /* Assets.xcassets */; };
 		8128C60C1EAF398600E1389B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8128C60A1EAF398600E1389B /* LaunchScreen.storyboard */; };
+		8128C6191EAF3C2200E1389B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6181EAF3C2200E1389B /* MainViewController.m */; };
+		8128C6311EAF403500E1389B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6301EAF403500E1389B /* HomeViewController.m */; };
+		8128C6341EAF404D00E1389B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6331EAF404D00E1389B /* MineViewController.m */; };
+		8128C6371EAF406900E1389B /* SelfHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6361EAF406900E1389B /* SelfHelpViewController.m */; };
+		8128C63A1EAF472200E1389B /* TopList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6391EAF472200E1389B /* TopList.m */; };
+		8128C63C1EAF472E00E1389B /* TopList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8128C63B1EAF472D00E1389B /* TopList.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		8128C6081EAF398600E1389B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8128C60B1EAF398600E1389B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8128C60D1EAF398600E1389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8128C6171EAF3C2200E1389B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8128C6181EAF3C2200E1389B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8128C6241EAF3D8200E1389B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8128C6251EAF3DA900E1389B /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		8128C62F1EAF403500E1389B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8128C6301EAF403500E1389B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8128C6321EAF404D00E1389B /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		8128C6331EAF404D00E1389B /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		8128C6351EAF406900E1389B /* SelfHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfHelpViewController.h; sourceTree = "<group>"; };
+		8128C6361EAF406900E1389B /* SelfHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfHelpViewController.m; sourceTree = "<group>"; };
+		8128C6381EAF472200E1389B /* TopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopList.h; sourceTree = "<group>"; };
+		8128C6391EAF472200E1389B /* TopList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopList.m; sourceTree = "<group>"; };
+		8128C63B1EAF472D00E1389B /* TopList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopList.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,11 @@
 		8128C5FB1EAF398600E1389B /* BHRS */ = {
 			isa = PBXGroup;
 			children = (
+				8128C6231EAF3D6C00E1389B /* Helper */,
+				8128C6141EAF3B7400E1389B /* Main */,
+				8128C6131EAF3B7400E1389B /* Home */,
+				8128C6151EAF3B7400E1389B /* Mine */,
+				8128C6161EAF3B7400E1389B /* SelfHelp */,
 				8128C5FF1EAF398600E1389B /* AppDelegate.h */,
 				8128C6001EAF398600E1389B /* AppDelegate.m */,
 				8128C6021EAF398600E1389B /* ViewController.h */,
@@ -77,6 +101,126 @@
 				8128C5FD1EAF398600E1389B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8128C6131EAF3B7400E1389B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8128C62C1EAF401900E1389B /* Controller */,
+				8128C62D1EAF401900E1389B /* Model */,
+				8128C62E1EAF401900E1389B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8128C6141EAF3B7400E1389B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6171EAF3C2200E1389B /* MainViewController.h */,
+				8128C6181EAF3C2200E1389B /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8128C6151EAF3B7400E1389B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6261EAF3FEF00E1389B /* Controller */,
+				8128C6271EAF3FEF00E1389B /* Model */,
+				8128C6281EAF3FEF00E1389B /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8128C6161EAF3B7400E1389B /* SelfHelp */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6291EAF3FF700E1389B /* Controller */,
+				8128C62A1EAF3FF700E1389B /* Model */,
+				8128C62B1EAF3FF700E1389B /* View */,
+			);
+			path = SelfHelp;
+			sourceTree = "<group>";
+		};
+		8128C6231EAF3D6C00E1389B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6241EAF3D8200E1389B /* PrefixHeader.pch */,
+				8128C6251EAF3DA900E1389B /* Macro.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8128C6261EAF3FEF00E1389B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6321EAF404D00E1389B /* MineViewController.h */,
+				8128C6331EAF404D00E1389B /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8128C6271EAF3FEF00E1389B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8128C6281EAF3FEF00E1389B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8128C6291EAF3FF700E1389B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6351EAF406900E1389B /* SelfHelpViewController.h */,
+				8128C6361EAF406900E1389B /* SelfHelpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8128C62A1EAF3FF700E1389B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8128C62B1EAF3FF700E1389B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8128C62C1EAF401900E1389B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8128C62F1EAF403500E1389B /* HomeViewController.h */,
+				8128C6301EAF403500E1389B /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8128C62D1EAF401900E1389B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8128C62E1EAF401900E1389B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8128C6381EAF472200E1389B /* TopList.h */,
+				8128C6391EAF472200E1389B /* TopList.m */,
+				8128C63B1EAF472D00E1389B /* TopList.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +285,7 @@
 				8128C60C1EAF398600E1389B /* LaunchScreen.storyboard in Resources */,
 				8128C6091EAF398600E1389B /* Assets.xcassets in Resources */,
 				8128C6071EAF398600E1389B /* Main.storyboard in Resources */,
+				8128C63C1EAF472E00E1389B /* TopList.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8128C6041EAF398600E1389B /* ViewController.m in Sources */,
+				8128C6341EAF404D00E1389B /* MineViewController.m in Sources */,
+				8128C6371EAF406900E1389B /* SelfHelpViewController.m in Sources */,
+				8128C63A1EAF472200E1389B /* TopList.m in Sources */,
 				8128C6011EAF398600E1389B /* AppDelegate.m in Sources */,
 				8128C5FE1EAF398600E1389B /* main.m in Sources */,
+				8128C6311EAF403500E1389B /* HomeViewController.m in Sources */,
+				8128C6191EAF3C2200E1389B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +422,12 @@
 		8128C6111EAF398600E1389B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = AN74G8J783;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BHRS/Helper/PrefixHeader.pch";
 				INFOPLIST_FILE = BHRS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.www.BHRS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,9 +437,12 @@
 		8128C6121EAF398600E1389B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = AN74G8J783;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BHRS/Helper/PrefixHeader.pch";
 				INFOPLIST_FILE = BHRS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.www.BHRS;
 				PRODUCT_NAME = "$(TARGET_NAME)";

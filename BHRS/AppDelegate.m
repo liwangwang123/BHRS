@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "MineViewController.h"
+#import "SelfHelpViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,48 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    MineViewController *mineVC = [[MineViewController alloc] init];
+    SelfHelpViewController *foundVC = [[SelfHelpViewController alloc] init];
+    
+    
+    
+    UINavigationController *homeNC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    UINavigationController *mineNC = [[UINavigationController alloc] initWithRootViewController:mineVC];
+    UINavigationController *foundNC = [[UINavigationController alloc] initWithRootViewController:foundVC];
+    
+    
+    UIImage *homeImage = [[UIImage imageNamed:@"shouyeXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *homeSelectedImage = [[UIImage imageNamed:@"shouyeSelectedXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineImage = [[UIImage imageNamed:@"myXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineSelectedImage = [[UIImage imageNamed:@"mySelectedXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *foundImage = [[UIImage imageNamed:@"faxianXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *foundSelectedImage = [[UIImage imageNamed:@"faxianSelectedXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UITabBarItem *homeItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:homeImage selectedImage:homeSelectedImage];
+    UITabBarItem *mineItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:mineImage selectedImage:mineSelectedImage];
+    UITabBarItem *foundItem = [[UITabBarItem alloc] initWithTitle:@"发现" image:foundImage selectedImage:foundSelectedImage];
+    
+    
+    homeNC.tabBarItem = homeItem;
+    mineNC.tabBarItem = mineItem;
+    foundNC.tabBarItem = foundItem;
+    
+    NSArray *NCsArray = @[homeNC, mineNC, foundNC];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+//    tabBarController.tabBar.barTintColor = COLOR_RGB(56, 59, 62);//tab背景颜色
+    tabBarController.tabBar.tintColor = [UIColor whiteColor];//选择字体颜色
+    tabBarController.viewControllers = NCsArray;
+    self.window.rootViewController = tabBarController;
+    
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 
