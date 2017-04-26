@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>payget</title>
+         <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+
+        <link rel="stylesheet" type="text/css" href="../css/show.css">
+        <script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+         <script type="text/javascript" src="../js/swiper.min.js" ></script>
+        <script type="text/javascript" src="../js/show.js" ></script>
+    </head>
+    <body style="background:#f6f6f6;">
+        <nav>
+            <ul>
+                <li><a href="index1.html"><i>产品报价</i></a></li>
+                <li><a href="index2.html"><i>投保人信息</i></a></li>
+                <li><a href="index3.html"><i>投保单确认</i></a></li>
+                <li class="current"><a href="index4.html"><i>支付并获得保单</i></a></li>
+            </ul>
+        </nav>
+        <div class="section payget-main">
+            <div class="main-title">
+                <h2>恒顺安康 健康保险计划(A)</h2>
+            </div>
+            <div class="payget-img">
+                <img src="../img/004.png">
+                <span class="light-color">合计：壹仟元整</span>
+            </div>
+             <div class="payget-select">
+                <span class="payget-select-title"><i class="red-sign">*</i>请选择适合您的支付卡支付保费</span>
+                <div class="payget-select-inner">
+                	<span class="current">已绑定银行卡支付</span><!--<span>线上储蓄卡直接支付</span>-->
+                </div>
+            </div>
+            <ul class="payget-card">
+            	<li class="payget-card-line">
+            		<span class="payget-card-line-s"><img src="../img/005.png"></span><span class="payget-card-line-md">储蓄卡</span><span class="payget-card-line-l dark-color">尾号7880</span>
+            		<img src="../img/006.png" class="yescard">
+            	</li>
+            	<li class="payget-card-line current">
+            		<span class="payget-card-line-s"><img src="../img/005.png"></span><span class="payget-card-line-md">储蓄卡</span><span class="payget-card-line-l">尾号7028</span>
+            		<img src="../img/006.png" class="yescard">
+            	</li>
+            </ul>
+        </div>
+
+        <div class="section payget-main">
+            <div class="main-title">
+                <h2>交费账户信息</h2>
+            </div>
+            <ul class="main-content">
+                <li><span><i class="red-sign">*</i>用户名:</span><span><input style="text" class="input-name"></span></li>
+               <li><span><i class="red-sign">*</i>手机号码:</span><span><input type="text" class="input-phone" value=""></span></li>
+                <li><span><i class="red-sign">*</i>手机验证码:</span><span><input type="text"  value="" class="input-phone"><button class="btn-phone-check">获取验证码</button></span></li>
+            </ul>
+        </div>
+
+        <div class="section payget-main">
+            <div class="main-title">
+                <h2>保险费自动转账授权申明</h2>
+            </div>
+           <p>1、投保人本人授权渤海人寿股份有限公司（以下简称“贵公司”）和投保人制定的银行从上述账户中划扣投保人的保单所需交付的保险费。<br>
+                	2、投保人保证本账户有足够的金额支付所应交付保险费，若账户存款余额不足或其他非贵公司转不成功，导致合同不能持续有效，因此引起的责任由投保人承担。（为避免清户，账户余额要始终大于10元）
+                </p>
+
+        </div>
+
+
+        <div class="btn">
+            <button class="next" onclick="javascript:location.href='index5.html'">确定</button>
+        </div>
+
+
+
+    </body>
+</html>

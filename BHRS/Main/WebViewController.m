@@ -9,7 +9,9 @@
 #import "WebViewController.h"
 #import <WebKit/WebKit.h>
 
-@interface WebViewController ()
+@interface WebViewController () <WKNavigationDelegate, WKUIDelegate>
+
+@property (nonatomic, strong) WKWebView *webView;
 
 @end
 
@@ -17,20 +19,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
-- (void)loadWebViewWithUrl:(NSString *)urlString {
-    NSURL *url = [NSURL URLWithString:urlString];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:[WKWebViewConfiguration new]];
-    [self.view addSubview:webView];
-    [webView loadRequest:request];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
     
 }
+
+- (void)loadWebViewWithUrl:(NSString *)url {
+    WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    [webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:url]]];
+    webView.UIDelegate = self;
+    webView.navigationDelegate = self;
+    [self.view addSubview:webView];
+}
+
+- (void)loadWebViewWithFileName:(NSString *)fileName {
+    NSString *path = [[NSBundle mainBundle] bundlePath];
+    NSURL *baseURL = [NSURL fileURLWithPath:path];
+    NSString * htmlPath = [[NSBundle mainBundle] pathForResource:fileName
+                                                          ofType:@"html"];
+    NSString * htmlCont = [NSString stringWithContentsOfFile:htmlPath
+                                                    encoding:NSUTF8StringEncoding
+                                                       error:nil];
+    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT - 64)];
+    [self.view addSubview:self.webView];
+    [self.webView loadHTMLString:htmlCont baseURL:baseURL];
+}
+
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {
+    NSLog(@"开始");
+}
+
+- (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation {
+    NSLog(@"返回");
+}
+
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    NSLog(@"结束");
+}
+
+- (void)webView:(WKWebView *)webView didFailNavigation:(WKNavigation *)navigation withError:(NSError *)error {
+    NSLog(@"失败");
+}
+
 
 static WebViewController *singleton = nil;
 
@@ -52,6 +80,7 @@ static WebViewController *singleton = nil;
     }
     return singleton;
 }
+
 //copy的时候调用
 - (id)copyWithZone:(NSZone *)zone {
     return singleton;
@@ -60,22 +89,15 @@ static WebViewController *singleton = nil;
 + (id)copyWithZone:(struct _NSZone *)zone{
     return  singleton;
 }
+
 + (id)mutableCopyWithZone:(struct _NSZone *)zone{
     return singleton;
 }
+
 - (id)mutableCopyWithZone:(NSZone *)zone{
     return singleton;
 }
 
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

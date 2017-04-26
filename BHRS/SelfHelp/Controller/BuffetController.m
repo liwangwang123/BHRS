@@ -8,6 +8,8 @@
 
 #import "BuffetController.h"
 #import "BuffetView.h"
+#import "WebViewController.h"
+#import "MyPolicyViewController.h"
 
 @interface BuffetController ()
 
@@ -22,7 +24,50 @@
 
 - (void)addBuffetView {
     BuffetView *buffet = [[BuffetView alloc] initWithFrame:self.view.bounds];
+    buffet.myPolicy.tag = 1021;
+    buffet.information.tag = 1022;
+    buffet.informationBottom.tag = 1023;
+    buffet.companyIntroduction.tag = 1024;
+    [buffet.myPolicy addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [buffet.information addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [buffet.informationBottom addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [buffet.companyIntroduction addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:buffet];
+}
+
+- (void)btnClick:(id)sender {
+    UIButton *btn = sender;
+    NSInteger tag = btn.tag;
+    switch (tag) {
+        case 1021: {
+            MyPolicyViewController *myPolicy = [[MyPolicyViewController alloc] initWithNibName:@"MyPolicyViewController" bundle:nil];
+            [self.navigationController pushViewController:myPolicy animated:YES];
+        }
+            break;
+        case 1022: {
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithUrl:@"http://www.bohailife.net/xwzx/bhxw/index.shtml"];
+            [self.navigationController pushViewController:web animated:YES];
+        }
+            break;
+        case 1023: {
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithUrl:@"http://www.bohailife.net/xwzx/bhxw/index.shtml"];
+            [self.navigationController pushViewController:web animated:YES];
+        }
+            break;
+        case 1024: {
+            WebViewController *web = [WebViewController shareInstance];
+            //            [web loadWebViewWithFileName:@"index1"];
+            [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
+            [self.navigationController pushViewController:web animated:YES];
+
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

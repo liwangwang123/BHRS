@@ -12,7 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BuffetView">
             <connections>
+                <outlet property="companyIntroduction" destination="yc3-y8-Mjh" id="qFC-Sn-hVJ"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="DdZ-7z-kBt"/>
+                <outlet property="information" destination="E2b-Nx-Zd4" id="iKC-nx-01O"/>
+                <outlet property="informationBottom" destination="wrp-IX-otl" id="SG5-Pw-dVE"/>
+                <outlet property="myPolicy" destination="D4D-Zs-2AI" id="EUr-gN-fr4"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -76,12 +80,19 @@
                                 <constraint firstAttribute="width" secondItem="7oV-xa-2xk" secondAttribute="height" multiplier="1:2" id="fV6-iP-9id"/>
                             </constraints>
                         </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrp-IX-otl">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wrp-IX-otl" secondAttribute="trailing" id="8Cm-XH-oJ2"/>
+                        <constraint firstAttribute="bottom" secondItem="wrp-IX-otl" secondAttribute="bottom" id="9oU-XE-tuq"/>
                         <constraint firstItem="7oV-xa-2xk" firstAttribute="top" secondItem="my7-lw-zMF" secondAttribute="top" id="Tow-wv-g7f"/>
                         <constraint firstAttribute="bottom" secondItem="my7-lw-zMF" secondAttribute="bottom" constant="10" id="UAj-x0-6ue"/>
                         <constraint firstItem="7oV-xa-2xk" firstAttribute="bottom" secondItem="my7-lw-zMF" secondAttribute="bottom" id="cSk-Jz-urP"/>
+                        <constraint firstItem="wrp-IX-otl" firstAttribute="top" secondItem="GXA-t2-eLb" secondAttribute="top" id="fyD-ZE-4rB"/>
+                        <constraint firstItem="wrp-IX-otl" firstAttribute="leading" secondItem="GXA-t2-eLb" secondAttribute="leading" id="iAl-OK-RiR"/>
                         <constraint firstItem="7oV-xa-2xk" firstAttribute="leading" secondItem="my7-lw-zMF" secondAttribute="trailing" constant="100" id="jZc-hB-avO"/>
                         <constraint firstItem="my7-lw-zMF" firstAttribute="top" secondItem="GXA-t2-eLb" secondAttribute="top" constant="10" id="kXy-Zc-vLh"/>
                         <constraint firstAttribute="height" constant="45" id="pR1-Lj-2wr"/>

@@ -37,7 +37,7 @@
 
 - (void)addScrollView {
     _scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
-    [_scrollView setContentSize:CGSizeMake(SCREEN_WIDTH, 1040)];
+    [_scrollView setContentSize:CGSizeMake(SCREEN_WIDTH, 1000)];
     _scrollView.backgroundColor = COLOR_RGB(245, 245, 245);
     [self.view addSubview:_scrollView];
 }
@@ -77,6 +77,12 @@
     center.button2.tag = 1017;
     center.button3.tag = 1018;
     center.button4.tag = 1019;
+    center.centerBtn.tag = 1020;
+    [center.button1 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [center.button2 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [center.button3 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [center.button4 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [center.centerBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.scrollView addSubview:center];
 }
 
@@ -91,6 +97,7 @@
 - (void)btnClick:(id)sender {
     UIButton *btn = sender;
     NSInteger tag = btn.tag;
+    self.hidesBottomBarWhenPushed = YES;
     switch (tag) {
         case 1010: {
             MyPolicyViewController *myPolicy = [[MyPolicyViewController alloc] initWithNibName:@"MyPolicyViewController" bundle:nil];
@@ -99,7 +106,8 @@
             break;
         case 1011: {
             WebViewController *web = [WebViewController shareInstance];
-            [web loadWebViewWithUrl:@"www.baidu.com"];
+//            [web loadWebViewWithFileName:@"index1"];
+            [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
             [self.navigationController pushViewController:web animated:YES];
         }
             
@@ -110,7 +118,9 @@
         }
             
             break;
-        case 1013:
+        case 1013: {
+            
+        }
             
             break;
         case 1014:
@@ -131,10 +141,18 @@
         case 1019:
             
             break;
+        case 1020: {
+            WebViewController *web = [WebViewController shareInstance];
+            //            [web loadWebViewWithFileName:@"index1"];
+            [web loadWebViewWithFileName:@"product_center"];
+            [self.navigationController pushViewController:web animated:YES];
+        }
+            break;
             
         default:
             break;
     }
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

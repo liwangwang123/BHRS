@@ -11,6 +11,8 @@
 @interface WebViewController : MainViewController
 
 + (instancetype)shareInstance;
-
-- (void)loadWebViewWithUrl:(NSString *)urlString;
+//加载本地html文件
+- (void)loadWebViewWithFileName:(NSString *)fileName;
+//加载网络html文件
+- (void)loadWebViewWithUrl:(NSString *)url;
 @end

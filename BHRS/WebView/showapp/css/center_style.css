@@ -1,0 +1,422 @@
+body {
+    background: #F5F5F5;
+    height: 100%;
+    color: #666;
+    font-family: "微软雅黑";
+}
+@media(max-device-width:320px){
+    html{ font-size: 50%;}
+}
+@media(min-device-width:375px){
+    html{font-size:60%;}
+}
+@media(min-device-width:414px){
+    html{font-size:67.5%;}
+}
+a {
+    color: #666 !important;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:focus {
+    text-decoration: none !important;
+}
+
+.f1 {
+    float: left;
+}
+
+.f2 {
+    float: right;
+}
+
+.c1 {
+    clear: both;
+}
+
+/*******************个人中心****************/
+.main {
+    padding-top: 50px;
+}
+
+.main p {
+    margin-bottom: 0;
+}
+
+.navigation {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background: #ff5400;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navigation span {
+    color: #fff;
+    font-size: 1.87rem;
+    /*padding-top:2.5%;*/
+}
+
+.logo_p1 {
+    color: #fff;
+    font-size: 1.87rem;
+    display: inline-block;
+    margin-left: 28%;
+    font-weight: bold;
+    /*padding-top:2.5%;*/
+}
+
+.individual_div01 {
+    background: #22212E;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.individual_p1 {
+    color: #eee;
+    font-size: 1.87rem;
+}
+
+.individual_p1 .individual_a01 {
+    background: #ff5400;
+    border-radius: 5px;
+    color: #fff!important;
+    font-size: 0.75rem;
+    height: 18px;
+    line-height: 13px;
+    display: inline-block;
+    padding: 2% 5%;
+    margin-left: 5%;
+}
+
+.individual_p2 {
+    color: #eee;
+    font-size: 1.12rem;
+    margin-top: 4%;
+}
+
+.order {
+    background: #fff;
+    margin-top: 2%;
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 5%;
+}
+
+.order_p1 {
+    color: #666;
+    font-size: 1.87rem;
+    border-bottom: 1px solid #ff5400;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+.order_p2 {
+    color: #bbb;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 7%;
+    width: 70%;
+    text-align: right;
+}
+
+.new01 {
+    background: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #ECECEC;
+    padding:0 0 3% 0;
+}
+
+.new01 p {
+    font-family: "微软雅黑" !important;
+    font-size: 1.37rem;
+    color: #666;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.new_div02 {
+    float: left;
+    width: 23.5%;
+    height: auto;
+    margin-right: 1.5%;
+    text-align: center;
+}
+
+.new_div02 img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.order_p3 {
+    color: #666;
+    font-size: 1.87rem;
+    border-bottom: 1px solid #ff5400;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.order_p4 {
+    color: #bbb;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 7%;
+    width: 50%;
+    text-align: right;
+}
+
+.shouyi {
+    position: relative;
+    padding: 5% 0;
+}
+
+.shouyi img {
+
+}
+
+.shouyi_span01 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: #999;
+}
+
+.shouyi_h2 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: #333;
+}
+
+.shouyi_span02 {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    color: #999;
+}
+
+.comparison_01 {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+
+.com_p1 {
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.com_p2 {
+    font-size: 0.94rem;
+    color: #333;
+}
+
+.com_p2 span {
+    font-size: 2.1rem;
+}
+
+.com_a {
+    display: inline-block;
+    color: #ff5400 !important;
+    padding: 2% 10%;
+    border: 1px solid #ff5400;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.com_a:hover {
+    background: #ff5400;
+    color: #fff !important;
+}
+
+.comparison_02 {
+    border-bottom: 1px solid #ccc;
+    padding-left: 5%;
+    width: 50%;
+}
+
+.comparison_03 {
+    border-right: 1px solid #ccc;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.comparison_04 {
+    padding-left: 5%;
+    width: 50%;
+    padding-top: 5%;
+}
+
+/*footer*/
+.footer .message {
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+    font-size: 1.62rem;
+    color: #666;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #fff;
+    margin-top: 5%;
+}
+
+.final {
+    color: #666;
+    font-size: 1.5rem;
+    margin-top: 6%;
+    text-align: center;
+    /*margin-bottom: 5%;*/
+}
+
+/****************************个人资料***************/
+.personal_div01 {
+    background: #fff;
+    color: #333;
+    margin-top: 4%;
+}
+
+.personal_p1 {
+    font-size: 1.5rem;
+    /*border-bottom: 1px solid #E4E4E4;*/
+    padding: 5% 3% 10% 3%;
+}
+
+.personal_span01 {
+    padding-left: 5%;
+    font-size: 1.37rem;
+}
+
+.personal_span02 {
+    color: #999;
+    font-size: 1.37rem;
+}
+
+.personal_div02 {
+    background: #fff;
+    margin-top: 8%;
+    font-size: 1.78rem;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.personal_div02 a {
+    color: #ff5400 !important;
+}
+
+.edit_div a {
+    font-size: 1.87rem;
+    color: #fff !important;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2% 5%;
+    background: #ff5400;
+    margin-top: 20%;
+}
+
+/****************我的证件*************/
+.credentials_p1 {
+    background: #fff;
+    padding: 5% 3% 10% 3%;
+    border-radius: 15px;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    /*box-shadow:3px 3px  3px #ccc,3px 3px  3px #ccc;*/
+    box-shadow: 0 0 20px rgba(153, 153, 153, .7);
+}
+
+.credentials_p2 {
+    border: 1px solid #ff5400;
+    padding: 3%;
+    border-radius: 15px;
+    margin-top: 5%;
+    font-size: 1.87rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.credentials_p2 a {
+    color: #ff5400 !important;
+}
+
+/***********身份证证件填写的模态框******/
+.ensure {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    color: #999;
+    background: #fff;
+    padding: 3% 13%;
+    /*margin-right: 5%;*/
+}
+
+.ensure:hover {
+    border: 1px solid #ff5400;
+    color: #ff5400;
+}
+
+.abolish {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    color: #999;
+    background: #fff;
+    padding: 3% 13%;
+}
+
+.abolish:hover {
+    border: 1px solid #ff5400;
+    color: #ff5400;
+}
+
+/*我的银行卡*/
+.login_a1 {
+    background: #ff5400;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    width: 100%;
+    color: #fff !important;
+    font-size: 1.87rem;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+/*我的保单中的个人信息
+.policy_span1 {
+    font-size: 1.5rem;
+    color: #999;
+    display: inline-block;
+    text-align: right;
+    width: 15%;
+}
+
+.policy_b1 {
+    font-size: 1.5rem;
+}
+*/
+/*我的保单中的个人信息*/
+/*******李都光修改了以下两个样式**************/
+.policy_span1{
+    font-size: 1.12rem;
+    color:#999;
+    display: inline-block;
+    text-align: right;
+    width: 32%;
+}
+.policy_b1{
+font-size: 1.12rem;
+    margin-left: 3%;
+}
+/***************************************/
