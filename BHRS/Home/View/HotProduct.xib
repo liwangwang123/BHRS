@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HotProduct">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="It3-Cr-TcA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-fn-DWf">
+                    <rect key="frame" x="16" y="20" width="10" height="25"/>
+                    <color key="backgroundColor" red="0.99999928469999999" green="0.025474048459999999" blue="0.036103319330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="ABJ-yT-crs"/>
+                        <constraint firstAttribute="height" constant="25" id="UBD-V6-I9B"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热销产品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdX-4u-Uyx">
+                    <rect key="frame" x="56" y="20" width="311" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTQ-z5-29V">
+                    <rect key="frame" x="16" y="53" width="171.5" height="232"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cTQ-z5-29V" secondAttribute="height" multiplier="1:1.352" id="d8v-Xt-4Tj"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="shouyi_bg.jpg"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF4-E5-Y1L">
+                    <rect key="frame" x="195.5" y="53" width="171.5" height="112"/>
+                    <state key="normal" title="Button" image="more_bg.jpg"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fde-wg-e6I">
+                    <rect key="frame" x="195.5" y="173" width="171.5" height="112"/>
+                    <state key="normal" title="Button" image="hert_bg.jpg"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mdX-4u-Uyx" firstAttribute="top" secondItem="JW0-fn-DWf" secondAttribute="top" id="AUT-fv-11d"/>
+                <constraint firstItem="fde-wg-e6I" firstAttribute="trailing" secondItem="EF4-E5-Y1L" secondAttribute="trailing" id="BC8-vR-unF"/>
+                <constraint firstItem="fde-wg-e6I" firstAttribute="top" secondItem="EF4-E5-Y1L" secondAttribute="bottom" constant="8" id="HDx-46-Gt5"/>
+                <constraint firstItem="cTQ-z5-29V" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="HSA-Q3-JAs"/>
+                <constraint firstItem="fde-wg-e6I" firstAttribute="bottom" secondItem="cTQ-z5-29V" secondAttribute="bottom" id="JiO-wj-27F"/>
+                <constraint firstItem="EF4-E5-Y1L" firstAttribute="leading" secondItem="cTQ-z5-29V" secondAttribute="trailing" constant="8" id="K8f-wz-2eX"/>
+                <constraint firstAttribute="trailing" secondItem="mdX-4u-Uyx" secondAttribute="trailing" constant="8" id="S1S-Jh-Ufi"/>
+                <constraint firstItem="EF4-E5-Y1L" firstAttribute="top" secondItem="cTQ-z5-29V" secondAttribute="top" id="X1d-Pb-G0B"/>
+                <constraint firstItem="EF4-E5-Y1L" firstAttribute="width" secondItem="cTQ-z5-29V" secondAttribute="width" id="Zs7-ed-ARY"/>
+                <constraint firstItem="fde-wg-e6I" firstAttribute="leading" secondItem="EF4-E5-Y1L" secondAttribute="leading" id="hGh-4P-Kl2"/>
+                <constraint firstItem="mdX-4u-Uyx" firstAttribute="leading" secondItem="JW0-fn-DWf" secondAttribute="trailing" constant="30" id="ky9-2A-hAM"/>
+                <constraint firstItem="mdX-4u-Uyx" firstAttribute="bottom" secondItem="JW0-fn-DWf" secondAttribute="bottom" id="l3C-8U-Kb9"/>
+                <constraint firstItem="fde-wg-e6I" firstAttribute="height" secondItem="EF4-E5-Y1L" secondAttribute="height" id="l73-oG-PZC"/>
+                <constraint firstItem="JW0-fn-DWf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="opq-ps-eRq"/>
+                <constraint firstAttribute="trailing" secondItem="EF4-E5-Y1L" secondAttribute="trailing" constant="8" id="tzk-nh-R0m"/>
+                <constraint firstItem="JW0-fn-DWf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="uTO-XB-UTe"/>
+                <constraint firstItem="cTQ-z5-29V" firstAttribute="top" secondItem="mdX-4u-Uyx" secondAttribute="bottom" constant="8" id="wTW-0Z-YNU"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hert_bg.jpg" width="305" height="163"/>
+        <image name="more_bg.jpg" width="305" height="163"/>
+        <image name="shouyi_bg.jpg" width="305" height="336"/>
+    </resources>
+</document>

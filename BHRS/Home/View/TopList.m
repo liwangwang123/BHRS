@@ -28,7 +28,7 @@
     [super awakeFromNib];
     [[NSBundle mainBundle] loadNibNamed:@"TopList" owner:self options:nil];
     self.contentView.frame = self.bounds;
-    self.contentView.backgroundColor = [UIColor orangeColor];
+//    self.contentView.backgroundColor = [UIColor orangeColor];
     [self addSubview:self.contentView];
 }
 

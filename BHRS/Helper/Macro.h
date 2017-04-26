@@ -10,9 +10,9 @@
 #define Macro_h
 
 //--------------------------------- 导航栏 --------------------------------------------
-#define Bar_Tint_Color          COLOR_RGB(207, 0, 44)
+#define Bar_Tint_Color          COLOR_RGB(252, 120, 0)
 #define Tint_Color              [UIColor whiteColor]
-#define Main_View_Color         [UIColor whiteColor]
+#define Main_View_Color         COLOR_RGB(245, 245, 245)
 
 #define Label_Text_Color        [UIColor redColor]
 #define Label_Background_Color  [UIColor redColor]
