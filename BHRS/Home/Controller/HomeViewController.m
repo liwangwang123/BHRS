@@ -11,6 +11,9 @@
 #import "XLsn0wLoop.h"
 #import "HotProduct.h"
 #import "ProductCenter.h"
+#import "MyPolicyViewController.h"
+#import "ContactUsViewController.h"
+#import "WebViewController.h"
 
 @interface HomeViewController ()<XLsn0wLoopDelegate>
 @property (nonatomic, strong) XLsn0wLoop *loop;
@@ -22,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.navigationBar.hidden = YES;
+    
     
     
     [self addScrollView];
@@ -51,30 +54,95 @@
 
 - (void)addTopView {
     TopList *topView = [[TopList alloc] initWithFrame:CGRectMake(0, 210, SCREEN_WIDTH, 100)];
+    topView.myInsurance.tag = 1010;
+    topView.companyIntroduction.tag = 1011;
+    topView.contactUs.tag = 1012;
+    [topView.myInsurance addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [topView.companyIntroduction addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [topView.contactUs addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.scrollView addSubview:topView];
 }
 
 - (void)addHotProductView {
     HotProduct *hot = [[HotProduct alloc] initWithFrame:CGRectMake(0, 320, SCREEN_WIDTH, 300)];
+    hot.button1.tag = 1013;
+    hot.button2.tag = 1014;
+    hot.button3.tag = 1015;
     [self.scrollView addSubview:hot];
 }
 
 - (void)addProductCenter {
     ProductCenter *center = [[ProductCenter alloc] initWithFrame:CGRectMake(0, 640, SCREEN_WIDTH, 300)];
+    center.button1.tag = 1016;
+    center.button2.tag = 1017;
+    center.button3.tag = 1018;
+    center.button4.tag = 1019;
     [self.scrollView addSubview:center];
 }
+
+
+
 
 #pragma mark XRCarouselViewDelegate
 - (void)loopView:(XLsn0wLoop *)loopView clickImageAtIndex:(NSInteger)index {
     NSLog(@"点击了第%ld张图片", index);
 }
+//按钮点击
+- (void)btnClick:(id)sender {
+    UIButton *btn = sender;
+    NSInteger tag = btn.tag;
+    switch (tag) {
+        case 1010: {
+            MyPolicyViewController *myPolicy = [[MyPolicyViewController alloc] initWithNibName:@"MyPolicyViewController" bundle:nil];
+            [self.navigationController pushViewController:myPolicy animated:YES];
+        }
+            break;
+        case 1011: {
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithUrl:@"www.baidu.com"];
+            [self.navigationController pushViewController:web animated:YES];
+        }
+            
+            break;
+        case 1012: {
+            ContactUsViewController *contactUs = [[ContactUsViewController alloc] initWithNibName:@"ContactUsViewController" bundle:nil];
+            [self.navigationController pushViewController:contactUs animated:YES];
+        }
+            
+            break;
+        case 1013:
+            
+            break;
+        case 1014:
+            
+            break;
+        case 1015:
+            
+            break;
+        case 1016:
+            
+            break;
+        case 1017:
+            
+            break;
+        case 1018:
+            
+            break;
+        case 1019:
+            
+            break;
+            
+        default:
+            break;
+    }
+}
 
 - (void)viewWillAppear:(BOOL)animated {
-    
+    self.navigationController.navigationBar.hidden = YES;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    
+    self.navigationController.navigationBar.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HotProduct">
             <connections>
+                <outlet property="button1" destination="cTQ-z5-29V" id="K9r-7y-hjX"/>
+                <outlet property="button2" destination="EF4-E5-Y1L" id="7zG-Nv-N2L"/>
+                <outlet property="button3" destination="fde-wg-e6I" id="X5Z-h6-k5B"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="It3-Cr-TcA"/>
             </connections>
         </placeholder>

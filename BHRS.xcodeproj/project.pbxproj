@@ -950,6 +950,7 @@
 		819EF0D31EB042CF003DA7B4 /* mm5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CD1EB042CF003DA7B4 /* mm5.jpg */; };
 		819EF0D41EB042CF003DA7B4 /* mm6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CE1EB042CF003DA7B4 /* mm6.jpg */; };
 		819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DC1EB055A9003DA7B4 /* BuffetController.m */; };
+		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1913,6 +1914,8 @@
 		819EF0CE1EB042CF003DA7B4 /* mm6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm6.jpg; sourceTree = "<group>"; };
 		819EF0DB1EB055A9003DA7B4 /* BuffetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuffetController.h; sourceTree = "<group>"; };
 		819EF0DC1EB055A9003DA7B4 /* BuffetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuffetController.m; sourceTree = "<group>"; };
+		819EF0DE1EB06EE1003DA7B4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1987,6 +1990,8 @@
 			children = (
 				8128C6171EAF3C2200E1389B /* MainViewController.h */,
 				8128C6181EAF3C2200E1389B /* MainViewController.m */,
+				819EF0DE1EB06EE1003DA7B4 /* WebViewController.h */,
+				819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -4083,6 +4088,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8128C6041EAF398600E1389B /* ViewController.m in Sources */,
+				819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */,
 				819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */,
 				8128C6341EAF404D00E1389B /* MineViewController.m in Sources */,
 				8128CD731EAF770300E1389B /* MyPolicyViewController.m in Sources */,

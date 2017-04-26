@@ -12,6 +12,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductCenter">
             <connections>
+                <outlet property="button1" destination="Os9-ON-bjv" id="s5J-W0-2cP"/>
+                <outlet property="button2" destination="dUw-Tf-w4J" id="g2K-vj-zIF"/>
+                <outlet property="button3" destination="xD6-ZG-iT2" id="0i1-ba-5gg"/>
+                <outlet property="button4" destination="qzk-yq-Af3" id="DNH-WK-ymT"/>
                 <outlet property="cententView" destination="iN0-l3-epB" id="PPP-GR-vqw"/>
             </connections>
         </placeholder>

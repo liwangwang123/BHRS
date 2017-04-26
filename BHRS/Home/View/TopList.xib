@@ -11,7 +11,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopList">
             <connections>
+                <outlet property="companyIntroduction" destination="Eym-vP-zM8" id="nVE-SF-d7U"/>
+                <outlet property="contactUs" destination="Oj4-ts-3Zr" id="qO1-O3-GRj"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="jqs-cR-AmC"/>
+                <outlet property="myInsurance" destination="ex5-LF-e97" id="Laa-0a-s0k"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
