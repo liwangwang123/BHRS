@@ -68,6 +68,9 @@
     hot.button1.tag = 1013;
     hot.button2.tag = 1014;
     hot.button3.tag = 1015;
+    [hot.button1 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [hot.button2 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [hot.button3 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.scrollView addSubview:hot];
 }
 
@@ -96,6 +99,7 @@
 //按钮点击
 - (void)btnClick:(id)sender {
     UIButton *btn = sender;
+    
     NSInteger tag = btn.tag;
     self.hidesBottomBarWhenPushed = YES;
     switch (tag) {
@@ -106,7 +110,6 @@
             break;
         case 1011: {
             WebViewController *web = [WebViewController shareInstance];
-//            [web loadWebViewWithFileName:@"index1"];
             [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
             [self.navigationController pushViewController:web animated:YES];
         }
@@ -117,34 +120,49 @@
         }
             break;
         case 1013: {
-            
+            //product_details
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1014: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             
             break;
         case 1015: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             
             break;
         case 1016: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             
             break;
         case 1017: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1018: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1019: {
-            
+            WebViewController *web = [WebViewController shareInstance];
+            [web loadWebViewWithFileName:@"product_details"];
+            [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1020: {
