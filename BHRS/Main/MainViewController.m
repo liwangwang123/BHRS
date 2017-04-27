@@ -31,6 +31,8 @@
     
     self.navigationController.navigationBar.barTintColor = Bar_Tint_Color;
     self.navigationController.navigationBar.tintColor = Tint_Color;
+    
+    self.tabBarController.tabBar.barTintColor = [UIColor darkGrayColor];
 
 
 }

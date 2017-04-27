@@ -35,18 +35,23 @@
     UINavigationController *mineNC = [[UINavigationController alloc] initWithRootViewController:mineVC];
     UINavigationController *selfNC = [[UINavigationController alloc] initWithRootViewController:selfVC];
     
-    
-    UIImage *homeImage = [[UIImage imageNamed:@"shouyeXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *homeSelectedImage = [[UIImage imageNamed:@"shouyeSelectedXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *mineImage = [[UIImage imageNamed:@"myXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *mineSelectedImage = [[UIImage imageNamed:@"mySelectedXiong1.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *selffImage = [[UIImage imageNamed:@"vipsrv_icon_blue_4.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *selfSelectedImage = [[UIImage imageNamed:@"vipsrv_icon_blue_4.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *homeImage = [[UIImage imageNamed:@"首页.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *homeSelectedImage = [[UIImage imageNamed:@"首页_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineImage = [[UIImage imageNamed:@"自助服务.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineSelectedImage = [[UIImage imageNamed:@"自助服务_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *selffImage = [[UIImage imageNamed:@"我的.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *selfSelectedImage = [[UIImage imageNamed:@"我的_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     UITabBarItem *homeItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:homeImage selectedImage:homeSelectedImage];
     UITabBarItem *mineItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:mineImage selectedImage:mineSelectedImage];
     UITabBarItem *selfItem = [[UITabBarItem alloc] initWithTitle:@"发现" image:selffImage selectedImage:selfSelectedImage];
     
+    [homeItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateSelected];
+    [homeItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    [mineItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateSelected];
+    [mineItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    [selfItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateSelected];
+    [selfItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
     
     homeNC.tabBarItem = homeItem;
     mineNC.tabBarItem = mineItem;
