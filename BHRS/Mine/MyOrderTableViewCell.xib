@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZY-2H-uye">
-                                <rect key="frame" x="323" y="12" width="20" height="16"/>
+                                <rect key="frame" x="325" y="12" width="15" height="14"/>
                                 <state key="normal" image="myaccount_myorder_item_share.png"/>
                                 <connections>
                                     <action selector="shareInfoToOther:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sR4-Dd-T9D"/>
@@ -51,9 +51,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eAS-n2-t0J" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="89h-zG-VVv"/>
+<<<<<<< .mine
+                            <constraint firstAttribute="bottom" secondItem="0ZY-2H-uye" secondAttribute="bottom" constant="14" id="O2D-e4-LmM"/>
+                            <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="12" id="T2f-hI-npX"/>
+                            <constraint firstItem="0ZY-2H-uye" firstAttribute="leading" secondItem="eAS-n2-t0J" secondAttribute="trailing" constant="42" id="VjP-j8-BxM"/>
+=======
                             <constraint firstAttribute="bottom" secondItem="0ZY-2H-uye" secondAttribute="bottom" constant="12" id="O2D-e4-LmM"/>
                             <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="9" id="T2f-hI-npX"/>
                             <constraint firstItem="0ZY-2H-uye" firstAttribute="leading" secondItem="eAS-n2-t0J" secondAttribute="trailing" constant="40" id="VjP-j8-BxM"/>
+>>>>>>> .r19
                             <constraint firstItem="0ZY-2H-uye" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="12" id="WYv-nK-zyr"/>
                             <constraint firstAttribute="bottom" secondItem="eAS-n2-t0J" secondAttribute="bottom" constant="6" id="ayh-IX-sVr"/>
                             <constraint firstItem="enV-cN-eNW" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="byW-0B-bj4"/>
@@ -111,23 +117,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHo-HJ-nFX">
-                                <rect key="frame" x="281" y="106" width="55" height="28.5"/>
+                                <rect key="frame" x="281" y="98" width="55" height="32.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="OpM-Ql-28h"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="删除订单"/>
+                                <state key="normal" title="删除订单">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="deletePolicy:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NrA-J3-1d8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNE-Tb-72F">
-                                <rect key="frame" x="202" y="106" width="59" height="28.5"/>
+                                <rect key="frame" x="202" y="98" width="59" height="32.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="Njf-xe-AAn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="去付款"/>
+                                <state key="normal" title="去付款">
+                                    <color key="titleColor" red="0.93333333333333335" green="0.5490196078431373" blue="0.18823529411764706" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="payInfo:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Uht-S6-trb"/>
                                 </connections>
@@ -143,15 +153,15 @@
                             <constraint firstItem="H2I-bx-w7B" firstAttribute="top" secondItem="TEr-jj-lwk" secondAttribute="bottom" constant="3" id="7ex-4a-oaF"/>
                             <constraint firstAttribute="trailing" secondItem="TEr-jj-lwk" secondAttribute="trailing" id="9kN-hN-24z"/>
                             <constraint firstItem="Hc6-Vo-F1y" firstAttribute="leading" secondItem="yoe-UU-wlH" secondAttribute="trailing" constant="8" id="BxD-91-dB9"/>
-                            <constraint firstAttribute="bottom" secondItem="zNE-Tb-72F" secondAttribute="bottom" constant="8" id="HFv-B5-XRf"/>
+                            <constraint firstAttribute="bottom" secondItem="zNE-Tb-72F" secondAttribute="bottom" constant="12" id="HFv-B5-XRf"/>
                             <constraint firstItem="TEr-jj-lwk" firstAttribute="top" secondItem="Hc6-Vo-F1y" secondAttribute="bottom" constant="8" id="HsX-wG-BcG"/>
-                            <constraint firstItem="lHo-HJ-nFX" firstAttribute="top" secondItem="H2I-bx-w7B" secondAttribute="bottom" constant="18" id="I5Y-mf-0qP"/>
+                            <constraint firstItem="lHo-HJ-nFX" firstAttribute="top" secondItem="H2I-bx-w7B" secondAttribute="bottom" constant="10" id="I5Y-mf-0qP"/>
                             <constraint firstItem="lHo-HJ-nFX" firstAttribute="leading" secondItem="zNE-Tb-72F" secondAttribute="trailing" constant="20" id="alf-J1-vRj"/>
-                            <constraint firstAttribute="bottom" secondItem="lHo-HJ-nFX" secondAttribute="bottom" constant="8" id="bNu-lO-Tcf"/>
+                            <constraint firstAttribute="bottom" secondItem="lHo-HJ-nFX" secondAttribute="bottom" constant="12" id="bNu-lO-Tcf"/>
                             <constraint firstItem="H2I-bx-w7B" firstAttribute="leading" secondItem="k0d-Kr-3jF" secondAttribute="leading" constant="116" id="bd7-R5-x9w"/>
                             <constraint firstItem="Hc6-Vo-F1y" firstAttribute="top" secondItem="oz3-JW-BTc" secondAttribute="bottom" constant="8" id="hvf-mr-iMm"/>
                             <constraint firstAttribute="trailing" secondItem="oz3-JW-BTc" secondAttribute="trailing" id="ira-ov-bhG"/>
-                            <constraint firstItem="zNE-Tb-72F" firstAttribute="top" secondItem="H2I-bx-w7B" secondAttribute="bottom" constant="18" id="irb-Ys-8zy"/>
+                            <constraint firstItem="zNE-Tb-72F" firstAttribute="top" secondItem="H2I-bx-w7B" secondAttribute="bottom" constant="10" id="irb-Ys-8zy"/>
                             <constraint firstAttribute="trailing" secondItem="H2I-bx-w7B" secondAttribute="trailing" constant="16" id="jBX-GP-exQ"/>
                             <constraint firstAttribute="trailing" secondItem="Hc6-Vo-F1y" secondAttribute="trailing" id="kMd-E1-ulA"/>
                             <constraint firstItem="yoe-UU-wlH" firstAttribute="top" secondItem="k0d-Kr-3jF" secondAttribute="top" constant="8" id="lHM-Y6-8HD"/>
