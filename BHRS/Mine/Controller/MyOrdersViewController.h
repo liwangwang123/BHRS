@@ -9,5 +9,6 @@
 #import "MainViewController.h"
 
 @interface MyOrdersViewController : MainViewController
+- (void)btnClicked:(UIButton *)btn;
 
 @end

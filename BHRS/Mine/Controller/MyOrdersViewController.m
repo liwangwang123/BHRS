@@ -28,6 +28,9 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
     // Do any additional setup after loading the view.
   [self initWithUI];
 }
+- (void)viewWillAppear:(BOOL)animated{
+  self.navigationController.navigationBar.hidden = NO;
+}
 - (void)initWithUI{
   NSArray *array = [NSArray arrayWithObjects:@"已完成",@"未完成",@"已失效",nil];
   int width = (self.view.bounds.size.width-3)/3;
@@ -40,10 +43,14 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
     btn.frame = CGRectMake(i*width + i*1, 64, width, 60);
     btn.tag = 1000+i;
     [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
-    
     [self.view addSubview:btn];
+    UIView *orangeView = [[UIView alloc] initWithFrame:CGRectMake(0, btn.bounds.size.height-5, btn.bounds.size.width, 5)];
+    orangeView.backgroundColor = [UIColor whiteColor];
+    orangeView.tag = 2000+i;
+    [btn addSubview:orangeView];
   }
-   DataTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 114, self.view.bounds.size.width  , self.view.bounds.size.height - 104)];//指定位置大小
+ 
+   DataTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 124, self.view.bounds.size.width  , self.view.bounds.size.height - 104)];//指定位置大小
   
   [DataTable setDelegate:self];//指定委托
   
@@ -55,10 +62,10 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
   
   InternetArray = [NSMutableArray array];
   dataArray = [NSMutableArray array];
- 
+  UIButton *button = (UIButton *)[self.view viewWithTag:1000];
+  [self btnClicked:button];
 }
 - (void)requeseInfoFromSever:(NSString *)str{
-  dataArray = [NSMutableArray array];
   for (int i = 0; i<2; i++) {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     [dict setValue:@"加载中..." forKey:@"policyNum"];
@@ -79,6 +86,10 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
 }
 
 - (void)btnClicked:(UIButton *)btn{
+  UIView *slabel = (UIView *)[self.view viewWithTag:btn.tag + 1000];
+  [slabel setBackgroundColor:[UIColor orangeColor]];
+  InternetArray = [NSMutableArray array];
+  dataArray = [NSMutableArray array];
   if (btn.tag == 1000) {
     btn.selected = YES;
     [self requeseInfoFromSever:nil];
@@ -91,9 +102,15 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
   }
   for (int i=1000; i<1003; i++) {
     if (btn.tag != i) {
+      UILabel *slabel = (UILabel *)[self.view viewWithTag:i + 1000];
+      [slabel setBackgroundColor:[UIColor whiteColor]];
+
       UIButton *button = (UIButton *)[self.view viewWithTag:i];
       button.selected = NO;
 //      button.userInteractionEnabled = YES;
+    }else{
+      
+      
     }
   }
 }
@@ -115,6 +132,8 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
 //  if (cell == nil) {
     //通过xib的名称加载自定义的cell
     MyOrderTableViewCell *cell = [[[NSBundle mainBundle] loadNibNamed:@"MyOrderTableViewCell" owner:self options:nil] lastObject];
+  // 禁止cell点击事件
+  cell.selectionStyle = UITableViewCellSelectionStyleNone;
 //    cell = [[MyOrderTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
 //  }
   OrderModel *orderModel = [dataArray objectAtIndex:indexPath.row];

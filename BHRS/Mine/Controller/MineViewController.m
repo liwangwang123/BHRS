@@ -73,12 +73,24 @@
 }
 
 - (IBAction)referCompletedOrders:(UIButton *)sender {
+  MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
+  UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1000];
+  [orderCtrl btnClicked:button];
+  [self.navigationController pushViewController:orderCtrl animated:NO];
 }
 
 - (IBAction)referUncompletedOrders:(UIButton *)sender {
+  MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
+  UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1001];
+  [orderCtrl btnClicked:button];
+  [self.navigationController pushViewController:orderCtrl animated:NO];
 }
 
 - (IBAction)referExpireOrders:(UIButton *)sender {
+  MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
+  UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1002];
+  [orderCtrl btnClicked:button];
+  [self.navigationController pushViewController:orderCtrl animated:NO];
 }
 - (IBAction)referRelebancyOrders:(UIButton *)sender {
 }
