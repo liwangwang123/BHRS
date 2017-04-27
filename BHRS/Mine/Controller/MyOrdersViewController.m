@@ -30,6 +30,7 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
 }
 - (void)viewWillAppear:(BOOL)animated{
   self.navigationController.navigationBar.hidden = NO;
+  self.tabBarController.tabBar.hidden = YES;
 }
 - (void)initWithUI{
   NSArray *array = [NSArray arrayWithObjects:@"已完成",@"未完成",@"已失效",nil];
@@ -59,7 +60,7 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
   [self.view addSubview:DataTable];//加载tableview
   
   [DataTable registerClass:[MyOrderTableViewCell class] forCellReuseIdentifier:cellIdentifier];
-  
+   DataTable.tableFooterView = [[UIView alloc] init];
   InternetArray = [NSMutableArray array];
   dataArray = [NSMutableArray array];
   UIButton *button = (UIButton *)[self.view viewWithTag:1000];
