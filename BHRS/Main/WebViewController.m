@@ -1,4 +1,4 @@
-//
+	//
 //  WebViewController.m
 //  BHRS
 //
@@ -31,16 +31,16 @@
 }
 
 - (void)loadWebViewWithFileName:(NSString *)fileName {
-    NSString *path = [[NSBundle mainBundle] bundlePath];
-    NSURL *baseURL = [NSURL fileURLWithPath:path];
-    NSString * htmlPath = [[NSBundle mainBundle] pathForResource:fileName
-                                                          ofType:@"html"];
-    NSString * htmlCont = [NSString stringWithContentsOfFile:htmlPath
-                                                    encoding:NSUTF8StringEncoding
-                                                       error:nil];
+    NSString *mainBundlePath = [[NSBundle mainBundle] bundlePath];
+    NSString * basePath = [NSString stringWithFormat:@"%@/showapp/pages", mainBundlePath];
+    NSURL *baseUrl = [NSURL fileURLWithPath:basePath isDirectory:YES];
+    NSString *htmlPath = [NSString stringWithFormat:@"%@/%@%@", basePath, fileName, @".html"];
+    NSString *htmlString = [NSString stringWithContentsOfFile:htmlPath encoding:NSUTF8StringEncoding error:nil];
+    
+    
     self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT - 64)];
     [self.view addSubview:self.webView];
-    [self.webView loadHTMLString:htmlCont baseURL:baseURL];
+    [self.webView loadHTMLString:htmlString baseURL:baseUrl];
 }
 
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {

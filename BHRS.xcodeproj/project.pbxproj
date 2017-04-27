@@ -951,143 +951,8 @@
 		819EF0D41EB042CF003DA7B4 /* mm6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CE1EB042CF003DA7B4 /* mm6.jpg */; };
 		819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DC1EB055A9003DA7B4 /* BuffetController.m */; };
 		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
-		819EF1761EB07717003DA7B4 /* .project in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0E51EB07716003DA7B4 /* .project */; };
-		819EF1771EB07717003DA7B4 /* about_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0E71EB07716003DA7B4 /* about_style.css */; };
-		819EF1781EB07717003DA7B4 /* bootstrap-theme.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0E81EB07716003DA7B4 /* bootstrap-theme.css */; };
-		819EF1791EB07717003DA7B4 /* bootstrap-theme.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0E91EB07716003DA7B4 /* bootstrap-theme.min.css */; };
-		819EF17A1EB07717003DA7B4 /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0EA1EB07716003DA7B4 /* bootstrap.css */; };
-		819EF17B1EB07717003DA7B4 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0EB1EB07716003DA7B4 /* bootstrap.min.css */; };
-		819EF17C1EB07717003DA7B4 /* center_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0EC1EB07716003DA7B4 /* center_style.css */; };
-		819EF17D1EB07717003DA7B4 /* center_style.css.bak in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0ED1EB07717003DA7B4 /* center_style.css.bak */; };
-		819EF17E1EB07717003DA7B4 /* index_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0EE1EB07717003DA7B4 /* index_style.css */; };
-		819EF17F1EB07717003DA7B4 /* index_style.css.bak in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0EF1EB07717003DA7B4 /* index_style.css.bak */; };
-		819EF1801EB07717003DA7B4 /* login_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F01EB07717003DA7B4 /* login_style.css */; };
-		819EF1811EB07717003DA7B4 /* login_style.css.bak in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F11EB07717003DA7B4 /* login_style.css.bak */; };
-		819EF1821EB07717003DA7B4 /* mobiscroll.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F21EB07717003DA7B4 /* mobiscroll.css */; };
-		819EF1831EB07717003DA7B4 /* mobiscroll_date.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F31EB07717003DA7B4 /* mobiscroll_date.css */; };
-		819EF1841EB07717003DA7B4 /* productCenter_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F41EB07717003DA7B4 /* productCenter_style.css */; };
-		819EF1851EB07717003DA7B4 /* show.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F51EB07717003DA7B4 /* show.css */; };
-		819EF1861EB07717003DA7B4 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F61EB07717003DA7B4 /* swiper.min.css */; };
-		819EF1871EB07717003DA7B4 /* glyphicons-halflings-regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F81EB07717003DA7B4 /* glyphicons-halflings-regular.eot */; };
-		819EF1881EB07717003DA7B4 /* glyphicons-halflings-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0F91EB07717003DA7B4 /* glyphicons-halflings-regular.svg */; };
-		819EF1891EB07717003DA7B4 /* glyphicons-halflings-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0FA1EB07717003DA7B4 /* glyphicons-halflings-regular.ttf */; };
-		819EF18A1EB07717003DA7B4 /* glyphicons-halflings-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0FB1EB07717003DA7B4 /* glyphicons-halflings-regular.woff */; };
-		819EF18B1EB07717003DA7B4 /* glyphicons-halflings-regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0FC1EB07717003DA7B4 /* glyphicons-halflings-regular.woff2 */; };
-		819EF18C1EB07717003DA7B4 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0FE1EB07717003DA7B4 /* 001.png */; };
-		819EF18D1EB07717003DA7B4 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0FF1EB07717003DA7B4 /* 002.png */; };
-		819EF18E1EB07717003DA7B4 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1001EB07717003DA7B4 /* 003.png */; };
-		819EF18F1EB07717003DA7B4 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1011EB07717003DA7B4 /* 004.png */; };
-		819EF1901EB07717003DA7B4 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1021EB07717003DA7B4 /* 005.png */; };
-		819EF1911EB07717003DA7B4 /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1031EB07717003DA7B4 /* 006.png */; };
-		819EF1921EB07717003DA7B4 /* about_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1051EB07717003DA7B4 /* about_01.png */; };
-		819EF1931EB07717003DA7B4 /* about_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1061EB07717003DA7B4 /* about_02.png */; };
-		819EF1941EB07717003DA7B4 /* about_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1071EB07717003DA7B4 /* about_03.png */; };
-		819EF1951EB07717003DA7B4 /* about_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1081EB07717003DA7B4 /* about_04.png */; };
-		819EF1961EB07717003DA7B4 /* about_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1091EB07717003DA7B4 /* about_05.png */; };
-		819EF1971EB07717003DA7B4 /* about_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10A1EB07717003DA7B4 /* about_06.png */; };
-		819EF1981EB07717003DA7B4 /* about_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10B1EB07717003DA7B4 /* about_07.png */; };
-		819EF1991EB07717003DA7B4 /* Contact_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10C1EB07717003DA7B4 /* Contact_03.png */; };
-		819EF19A1EB07717003DA7B4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10D1EB07717003DA7B4 /* back.png */; };
-		819EF19B1EB07717003DA7B4 /* choose_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10E1EB07717003DA7B4 /* choose_03.png */; };
-		819EF19C1EB07717003DA7B4 /* choose_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF10F1EB07717003DA7B4 /* choose_g.png */; };
-		819EF19D1EB07717003DA7B4 /* deposit01_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1101EB07717003DA7B4 /* deposit01_03.png */; };
-		819EF19E1EB07717003DA7B4 /* dsf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1111EB07717003DA7B4 /* dsf.jpg */; };
-		819EF19F1EB07717003DA7B4 /* dt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1121EB07717003DA7B4 /* dt.jpg */; };
-		819EF1A01EB07717003DA7B4 /* gonggao01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1131EB07717003DA7B4 /* gonggao01.png */; };
-		819EF1A11EB07717003DA7B4 /* gonggao02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1141EB07717003DA7B4 /* gonggao02.png */; };
-		819EF1A21EB07717003DA7B4 /* gonggao03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1151EB07717003DA7B4 /* gonggao03.png */; };
-		819EF1A31EB07717003DA7B4 /* gonggao04.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1161EB07717003DA7B4 /* gonggao04.png */; };
-		819EF1A41EB07717003DA7B4 /* gonggao05.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1171EB07717003DA7B4 /* gonggao05.png */; };
-		819EF1A51EB07717003DA7B4 /* APP_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1191EB07717003DA7B4 /* APP_d.png */; };
-		819EF1A61EB07717003DA7B4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11A1EB07717003DA7B4 /* logo.png */; };
-		819EF1A71EB07717003DA7B4 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11B1EB07717003DA7B4 /* shop.png */; };
-		819EF1A81EB07717003DA7B4 /* wap_index_App_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11C1EB07717003DA7B4 /* wap_index_App_02.png */; };
-		819EF1A91EB07717003DA7B4 /* wap_index_App_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11D1EB07717003DA7B4 /* wap_index_App_03.png */; };
-		819EF1AA1EB07717003DA7B4 /* wap_index_c_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11E1EB07717003DA7B4 /* wap_index_c_01.jpg */; };
-		819EF1AB1EB07717003DA7B4 /* wap_index_c_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF11F1EB07717003DA7B4 /* wap_index_c_02.jpg */; };
-		819EF1AC1EB07717003DA7B4 /* wap_index_c_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1201EB07717003DA7B4 /* wap_index_c_03.jpg */; };
-		819EF1AD1EB07717003DA7B4 /* wap_index_c_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1211EB07717003DA7B4 /* wap_index_c_04.jpg */; };
-		819EF1AE1EB07717003DA7B4 /* wap_index_j_img01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1221EB07717003DA7B4 /* wap_index_j_img01.jpg */; };
-		819EF1AF1EB07717003DA7B4 /* wap_index_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1231EB07717003DA7B4 /* wap_index_phone.png */; };
-		819EF1B01EB07717003DA7B4 /* wap_index_q_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1241EB07717003DA7B4 /* wap_index_q_01.png */; };
-		819EF1B11EB07717003DA7B4 /* wap_index_q_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1251EB07717003DA7B4 /* wap_index_q_02.png */; };
-		819EF1B21EB07717003DA7B4 /* wap_index_q_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1261EB07717003DA7B4 /* wap_index_q_03.png */; };
-		819EF1B31EB07717003DA7B4 /* wap_index_q_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1271EB07717003DA7B4 /* wap_index_q_04.png */; };
-		819EF1B41EB07717003DA7B4 /* wap_index_q_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1281EB07717003DA7B4 /* wap_index_q_05.png */; };
-		819EF1B51EB07717003DA7B4 /* wap_index_q_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1291EB07717003DA7B4 /* wap_index_q_06.png */; };
-		819EF1B61EB07717003DA7B4 /* wap_index_q_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12A1EB07717003DA7B4 /* wap_index_q_07.png */; };
-		819EF1B71EB07717003DA7B4 /* wap_index_q_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12B1EB07717003DA7B4 /* wap_index_q_08.png */; };
-		819EF1B81EB07717003DA7B4 /* wap_index_r_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12C1EB07717003DA7B4 /* wap_index_r_01.jpg */; };
-		819EF1B91EB07717003DA7B4 /* wap_index_r_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12D1EB07717003DA7B4 /* wap_index_r_02.jpg */; };
-		819EF1BA1EB07717003DA7B4 /* wap_index_r_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12E1EB07717003DA7B4 /* wap_index_r_03.jpg */; };
-		819EF1BB1EB07717003DA7B4 /* wap_index_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF12F1EB07717003DA7B4 /* wap_index_up.png */; };
-		819EF1BC1EB07717003DA7B4 /* wap_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1301EB07717003DA7B4 /* wap_logo.png */; };
-		819EF1BD1EB07717003DA7B4 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1321EB07717003DA7B4 /* 01.png */; };
-		819EF1BE1EB07717003DA7B4 /* associated_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1331EB07717003DA7B4 /* associated_01.png */; };
-		819EF1BF1EB07717003DA7B4 /* boin.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1341EB07717003DA7B4 /* boin.png */; };
-		819EF1C01EB07717003DA7B4 /* failure.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1351EB07717003DA7B4 /* failure.png */; };
-		819EF1C11EB07717003DA7B4 /* NO_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1361EB07717003DA7B4 /* NO_03.png */; };
-		819EF1C21EB07717003DA7B4 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1371EB07717003DA7B4 /* order.png */; };
-		819EF1C31EB07717003DA7B4 /* order_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1381EB07717003DA7B4 /* order_1.png */; };
-		819EF1C41EB07717003DA7B4 /* P_Center_P_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1391EB07717003DA7B4 /* P_Center_P_1.png */; };
-		819EF1C51EB07717003DA7B4 /* policy_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13A1EB07717003DA7B4 /* policy_01.png */; };
-		819EF1C61EB07717003DA7B4 /* trade_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13B1EB07717003DA7B4 /* trade_01.png */; };
-		819EF1C71EB07717003DA7B4 /* wap_grzx_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13C1EB07717003DA7B4 /* wap_grzx_bg.png */; };
-		819EF1C81EB07717003DA7B4 /* wap_grzx_img01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13D1EB07717003DA7B4 /* wap_grzx_img01.png */; };
-		819EF1C91EB07717003DA7B4 /* wap_grzx_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13E1EB07717003DA7B4 /* wap_grzx_img02.png */; };
-		819EF1CA1EB07717003DA7B4 /* wap_grzx_img03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF13F1EB07717003DA7B4 /* wap_grzx_img03.png */; };
-		819EF1CB1EB07717003DA7B4 /* wap_grzx_img04.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1401EB07717003DA7B4 /* wap_grzx_img04.png */; };
-		819EF1CC1EB07717003DA7B4 /* wap_grzx_yh01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1411EB07717003DA7B4 /* wap_grzx_yh01.png */; };
-		819EF1CD1EB07717003DA7B4 /* wap_grzx_yh02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1421EB07717003DA7B4 /* wap_grzx_yh02.png */; };
-		819EF1CE1EB07717003DA7B4 /* wap_grzx_yh03.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1431EB07717003DA7B4 /* wap_grzx_yh03.png */; };
-		819EF1CF1EB07717003DA7B4 /* wap_grzx_yh04.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1441EB07717003DA7B4 /* wap_grzx_yh04.png */; };
-		819EF1D01EB07717003DA7B4 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1451EB07717003DA7B4 /* left.png */; };
-		819EF1D11EB07717003DA7B4 /* wap_cpzx_fl_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1471EB07717003DA7B4 /* wap_cpzx_fl_1_1.png */; };
-		819EF1D21EB07717003DA7B4 /* wap_cpzx_fl_1_1_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1481EB07717003DA7B4 /* wap_cpzx_fl_1_1_L.png */; };
-		819EF1D31EB07717003DA7B4 /* wap_cpzx_fl_1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1491EB07717003DA7B4 /* wap_cpzx_fl_1_2.png */; };
-		819EF1D41EB07717003DA7B4 /* wap_cpzx_fl_1_2_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14A1EB07717003DA7B4 /* wap_cpzx_fl_1_2_L.png */; };
-		819EF1D51EB07717003DA7B4 /* wap_cpzx_fl_1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14B1EB07717003DA7B4 /* wap_cpzx_fl_1_3.png */; };
-		819EF1D61EB07717003DA7B4 /* wap_cpzx_fl_1_3_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14C1EB07717003DA7B4 /* wap_cpzx_fl_1_3_L.png */; };
-		819EF1D71EB07717003DA7B4 /* wap_cpzx_fl_1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14D1EB07717003DA7B4 /* wap_cpzx_fl_1_4.png */; };
-		819EF1D81EB07717003DA7B4 /* wap_cpzx_fl_1_4_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14E1EB07717003DA7B4 /* wap_cpzx_fl_1_4_L.png */; };
-		819EF1D91EB07717003DA7B4 /* wap_cpzx_fl_1_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF14F1EB07717003DA7B4 /* wap_cpzx_fl_1_5.png */; };
-		819EF1DA1EB07717003DA7B4 /* wap_cpzx_fl_1_5_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1501EB07717003DA7B4 /* wap_cpzx_fl_1_5_L.png */; };
-		819EF1DB1EB07717003DA7B4 /* wap_cpzx_fl_1_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1511EB07717003DA7B4 /* wap_cpzx_fl_1_6.png */; };
-		819EF1DC1EB07717003DA7B4 /* wap_cpzx_fl_1_6_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1521EB07717003DA7B4 /* wap_cpzx_fl_1_6_L.png */; };
-		819EF1DD1EB07717003DA7B4 /* web_pc_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1531EB07717003DA7B4 /* web_pc_bg.jpg */; };
-		819EF1DE1EB07717003DA7B4 /* web_PC_fx_fx.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1541EB07717003DA7B4 /* web_PC_fx_fx.png */; };
-		819EF1DF1EB07717003DA7B4 /* web_PC_fx_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1551EB07717003DA7B4 /* web_PC_fx_qq.png */; };
-		819EF1E01EB07717003DA7B4 /* web_PC_fx_wx.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1561EB07717003DA7B4 /* web_PC_fx_wx.png */; };
-		819EF1E11EB07717003DA7B4 /* web_PC_fx_xl.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1571EB07717003DA7B4 /* web_PC_fx_xl.png */; };
-		819EF1E21EB07717003DA7B4 /* web_PC_fx_zone.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1581EB07717003DA7B4 /* web_PC_fx_zone.png */; };
-		819EF1E31EB07717003DA7B4 /* web_pc_xq_img01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1591EB07717003DA7B4 /* web_pc_xq_img01.jpg */; };
-		819EF1E41EB07717003DA7B4 /* web_ProductC_img01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15A1EB07717003DA7B4 /* web_ProductC_img01.png */; };
-		819EF1E51EB07717003DA7B4 /* web_ProductC_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15B1EB07717003DA7B4 /* web_ProductC_img02.png */; };
-		819EF1E61EB07717003DA7B4 /* web_ProductC_js01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15C1EB07717003DA7B4 /* web_ProductC_js01.png */; };
-		819EF1E71EB07717003DA7B4 /* receive01.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15D1EB07717003DA7B4 /* receive01.png */; };
-		819EF1E81EB07717003DA7B4 /* rerg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15E1EB07717003DA7B4 /* rerg.jpg */; };
-		819EF1E91EB07717003DA7B4 /* teta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF15F1EB07717003DA7B4 /* teta.jpg */; };
-		819EF1EA1EB07717003DA7B4 /* yzm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1601EB07717003DA7B4 /* yzm.jpg */; };
-		819EF1EB1EB07717003DA7B4 /* bootlint.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1621EB07717003DA7B4 /* bootlint.js */; };
-		819EF1EC1EB07717003DA7B4 /* bootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1631EB07717003DA7B4 /* bootstrap.js */; };
-		819EF1ED1EB07717003DA7B4 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1641EB07717003DA7B4 /* bootstrap.min.js */; };
-		819EF1EE1EB07717003DA7B4 /* bottom.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1651EB07717003DA7B4 /* bottom.js */; };
-		819EF1EF1EB07717003DA7B4 /* html5shiv.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1661EB07717003DA7B4 /* html5shiv.min.js */; };
-		819EF1F01EB07717003DA7B4 /* jquery-1.11.3.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1671EB07717003DA7B4 /* jquery-1.11.3.js */; };
-		819EF1F11EB07717003DA7B4 /* less.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1681EB07717003DA7B4 /* less.min.js */; };
-		819EF1F21EB07717003DA7B4 /* mobiscroll.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1691EB07717003DA7B4 /* mobiscroll.js */; };
-		819EF1F31EB07717003DA7B4 /* mobiscroll_date.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF16A1EB07717003DA7B4 /* mobiscroll_date.js */; };
-		819EF1F41EB07717003DA7B4 /* respond.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF16B1EB07717003DA7B4 /* respond.min.js */; };
-		819EF1F51EB07717003DA7B4 /* show.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF16C1EB07717003DA7B4 /* show.js */; };
-		819EF1F61EB07717003DA7B4 /* swiper.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 819EF16D1EB07717003DA7B4 /* swiper.min.js */; };
-		819EF1F71EB07717003DA7B4 /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF16F1EB07717003DA7B4 /* index1.html */; };
-		819EF1F81EB07717003DA7B4 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1701EB07717003DA7B4 /* index2.html */; };
-		819EF1F91EB07717003DA7B4 /* index3.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1711EB07717003DA7B4 /* index3.html */; };
-		819EF1FA1EB07717003DA7B4 /* index4.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1721EB07717003DA7B4 /* index4.html */; };
-		819EF1FB1EB07717003DA7B4 /* index5.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1731EB07717003DA7B4 /* index5.html */; };
-		819EF1FC1EB07717003DA7B4 /* product_center.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1741EB07717003DA7B4 /* product_center.html */; };
-		819EF1FD1EB07717003DA7B4 /* product_details.html in Resources */ = {isa = PBXBuildFile; fileRef = 819EF1751EB07717003DA7B4 /* product_details.html */; };
 		819EF2001EB07D83003DA7B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819EF1FF1EB07D82003DA7B4 /* WebKit.framework */; };
+		81FF4EC81EB1B23A005D03F2 /* showapp in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4EC71EB1B23A005D03F2 /* showapp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2053,143 +1918,8 @@
 		819EF0DC1EB055A9003DA7B4 /* BuffetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuffetController.m; sourceTree = "<group>"; };
 		819EF0DE1EB06EE1003DA7B4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		819EF0E51EB07716003DA7B4 /* .project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .project; sourceTree = "<group>"; };
-		819EF0E71EB07716003DA7B4 /* about_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = about_style.css; sourceTree = "<group>"; };
-		819EF0E81EB07716003DA7B4 /* bootstrap-theme.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "bootstrap-theme.css"; sourceTree = "<group>"; };
-		819EF0E91EB07716003DA7B4 /* bootstrap-theme.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "bootstrap-theme.min.css"; sourceTree = "<group>"; };
-		819EF0EA1EB07716003DA7B4 /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
-		819EF0EB1EB07716003DA7B4 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
-		819EF0EC1EB07716003DA7B4 /* center_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = center_style.css; sourceTree = "<group>"; };
-		819EF0ED1EB07717003DA7B4 /* center_style.css.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = center_style.css.bak; sourceTree = "<group>"; };
-		819EF0EE1EB07717003DA7B4 /* index_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index_style.css; sourceTree = "<group>"; };
-		819EF0EF1EB07717003DA7B4 /* index_style.css.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index_style.css.bak; sourceTree = "<group>"; };
-		819EF0F01EB07717003DA7B4 /* login_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = login_style.css; sourceTree = "<group>"; };
-		819EF0F11EB07717003DA7B4 /* login_style.css.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = login_style.css.bak; sourceTree = "<group>"; };
-		819EF0F21EB07717003DA7B4 /* mobiscroll.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mobiscroll.css; sourceTree = "<group>"; };
-		819EF0F31EB07717003DA7B4 /* mobiscroll_date.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mobiscroll_date.css; sourceTree = "<group>"; };
-		819EF0F41EB07717003DA7B4 /* productCenter_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = productCenter_style.css; sourceTree = "<group>"; };
-		819EF0F51EB07717003DA7B4 /* show.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = show.css; sourceTree = "<group>"; };
-		819EF0F61EB07717003DA7B4 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
-		819EF0F81EB07717003DA7B4 /* glyphicons-halflings-regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.eot"; sourceTree = "<group>"; };
-		819EF0F91EB07717003DA7B4 /* glyphicons-halflings-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "glyphicons-halflings-regular.svg"; sourceTree = "<group>"; };
-		819EF0FA1EB07717003DA7B4 /* glyphicons-halflings-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.ttf"; sourceTree = "<group>"; };
-		819EF0FB1EB07717003DA7B4 /* glyphicons-halflings-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff"; sourceTree = "<group>"; };
-		819EF0FC1EB07717003DA7B4 /* glyphicons-halflings-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff2"; sourceTree = "<group>"; };
-		819EF0FE1EB07717003DA7B4 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
-		819EF0FF1EB07717003DA7B4 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
-		819EF1001EB07717003DA7B4 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
-		819EF1011EB07717003DA7B4 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
-		819EF1021EB07717003DA7B4 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
-		819EF1031EB07717003DA7B4 /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
-		819EF1051EB07717003DA7B4 /* about_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_01.png; sourceTree = "<group>"; };
-		819EF1061EB07717003DA7B4 /* about_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_02.png; sourceTree = "<group>"; };
-		819EF1071EB07717003DA7B4 /* about_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_03.png; sourceTree = "<group>"; };
-		819EF1081EB07717003DA7B4 /* about_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_04.png; sourceTree = "<group>"; };
-		819EF1091EB07717003DA7B4 /* about_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_05.png; sourceTree = "<group>"; };
-		819EF10A1EB07717003DA7B4 /* about_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_06.png; sourceTree = "<group>"; };
-		819EF10B1EB07717003DA7B4 /* about_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_07.png; sourceTree = "<group>"; };
-		819EF10C1EB07717003DA7B4 /* Contact_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact_03.png; sourceTree = "<group>"; };
-		819EF10D1EB07717003DA7B4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		819EF10E1EB07717003DA7B4 /* choose_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choose_03.png; sourceTree = "<group>"; };
-		819EF10F1EB07717003DA7B4 /* choose_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choose_g.png; sourceTree = "<group>"; };
-		819EF1101EB07717003DA7B4 /* deposit01_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deposit01_03.png; sourceTree = "<group>"; };
-		819EF1111EB07717003DA7B4 /* dsf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dsf.jpg; sourceTree = "<group>"; };
-		819EF1121EB07717003DA7B4 /* dt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dt.jpg; sourceTree = "<group>"; };
-		819EF1131EB07717003DA7B4 /* gonggao01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonggao01.png; sourceTree = "<group>"; };
-		819EF1141EB07717003DA7B4 /* gonggao02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonggao02.png; sourceTree = "<group>"; };
-		819EF1151EB07717003DA7B4 /* gonggao03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonggao03.png; sourceTree = "<group>"; };
-		819EF1161EB07717003DA7B4 /* gonggao04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonggao04.png; sourceTree = "<group>"; };
-		819EF1171EB07717003DA7B4 /* gonggao05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gonggao05.png; sourceTree = "<group>"; };
-		819EF1191EB07717003DA7B4 /* APP_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = APP_d.png; sourceTree = "<group>"; };
-		819EF11A1EB07717003DA7B4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		819EF11B1EB07717003DA7B4 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
-		819EF11C1EB07717003DA7B4 /* wap_index_App_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_App_02.png; sourceTree = "<group>"; };
-		819EF11D1EB07717003DA7B4 /* wap_index_App_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_App_03.png; sourceTree = "<group>"; };
-		819EF11E1EB07717003DA7B4 /* wap_index_c_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_c_01.jpg; sourceTree = "<group>"; };
-		819EF11F1EB07717003DA7B4 /* wap_index_c_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_c_02.jpg; sourceTree = "<group>"; };
-		819EF1201EB07717003DA7B4 /* wap_index_c_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_c_03.jpg; sourceTree = "<group>"; };
-		819EF1211EB07717003DA7B4 /* wap_index_c_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_c_04.jpg; sourceTree = "<group>"; };
-		819EF1221EB07717003DA7B4 /* wap_index_j_img01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_j_img01.jpg; sourceTree = "<group>"; };
-		819EF1231EB07717003DA7B4 /* wap_index_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_phone.png; sourceTree = "<group>"; };
-		819EF1241EB07717003DA7B4 /* wap_index_q_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_01.png; sourceTree = "<group>"; };
-		819EF1251EB07717003DA7B4 /* wap_index_q_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_02.png; sourceTree = "<group>"; };
-		819EF1261EB07717003DA7B4 /* wap_index_q_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_03.png; sourceTree = "<group>"; };
-		819EF1271EB07717003DA7B4 /* wap_index_q_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_04.png; sourceTree = "<group>"; };
-		819EF1281EB07717003DA7B4 /* wap_index_q_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_05.png; sourceTree = "<group>"; };
-		819EF1291EB07717003DA7B4 /* wap_index_q_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_06.png; sourceTree = "<group>"; };
-		819EF12A1EB07717003DA7B4 /* wap_index_q_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_07.png; sourceTree = "<group>"; };
-		819EF12B1EB07717003DA7B4 /* wap_index_q_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_q_08.png; sourceTree = "<group>"; };
-		819EF12C1EB07717003DA7B4 /* wap_index_r_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_r_01.jpg; sourceTree = "<group>"; };
-		819EF12D1EB07717003DA7B4 /* wap_index_r_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_r_02.jpg; sourceTree = "<group>"; };
-		819EF12E1EB07717003DA7B4 /* wap_index_r_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wap_index_r_03.jpg; sourceTree = "<group>"; };
-		819EF12F1EB07717003DA7B4 /* wap_index_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_index_up.png; sourceTree = "<group>"; };
-		819EF1301EB07717003DA7B4 /* wap_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_logo.png; sourceTree = "<group>"; };
-		819EF1321EB07717003DA7B4 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
-		819EF1331EB07717003DA7B4 /* associated_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = associated_01.png; sourceTree = "<group>"; };
-		819EF1341EB07717003DA7B4 /* boin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boin.png; sourceTree = "<group>"; };
-		819EF1351EB07717003DA7B4 /* failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failure.png; sourceTree = "<group>"; };
-		819EF1361EB07717003DA7B4 /* NO_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NO_03.png; sourceTree = "<group>"; };
-		819EF1371EB07717003DA7B4 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
-		819EF1381EB07717003DA7B4 /* order_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order_1.png; sourceTree = "<group>"; };
-		819EF1391EB07717003DA7B4 /* P_Center_P_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Center_P_1.png; sourceTree = "<group>"; };
-		819EF13A1EB07717003DA7B4 /* policy_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policy_01.png; sourceTree = "<group>"; };
-		819EF13B1EB07717003DA7B4 /* trade_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trade_01.png; sourceTree = "<group>"; };
-		819EF13C1EB07717003DA7B4 /* wap_grzx_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_bg.png; sourceTree = "<group>"; };
-		819EF13D1EB07717003DA7B4 /* wap_grzx_img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_img01.png; sourceTree = "<group>"; };
-		819EF13E1EB07717003DA7B4 /* wap_grzx_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_img02.png; sourceTree = "<group>"; };
-		819EF13F1EB07717003DA7B4 /* wap_grzx_img03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_img03.png; sourceTree = "<group>"; };
-		819EF1401EB07717003DA7B4 /* wap_grzx_img04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_img04.png; sourceTree = "<group>"; };
-		819EF1411EB07717003DA7B4 /* wap_grzx_yh01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_yh01.png; sourceTree = "<group>"; };
-		819EF1421EB07717003DA7B4 /* wap_grzx_yh02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_yh02.png; sourceTree = "<group>"; };
-		819EF1431EB07717003DA7B4 /* wap_grzx_yh03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_yh03.png; sourceTree = "<group>"; };
-		819EF1441EB07717003DA7B4 /* wap_grzx_yh04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_grzx_yh04.png; sourceTree = "<group>"; };
-		819EF1451EB07717003DA7B4 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
-		819EF1471EB07717003DA7B4 /* wap_cpzx_fl_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_1.png; sourceTree = "<group>"; };
-		819EF1481EB07717003DA7B4 /* wap_cpzx_fl_1_1_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_1_L.png; sourceTree = "<group>"; };
-		819EF1491EB07717003DA7B4 /* wap_cpzx_fl_1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_2.png; sourceTree = "<group>"; };
-		819EF14A1EB07717003DA7B4 /* wap_cpzx_fl_1_2_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_2_L.png; sourceTree = "<group>"; };
-		819EF14B1EB07717003DA7B4 /* wap_cpzx_fl_1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_3.png; sourceTree = "<group>"; };
-		819EF14C1EB07717003DA7B4 /* wap_cpzx_fl_1_3_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_3_L.png; sourceTree = "<group>"; };
-		819EF14D1EB07717003DA7B4 /* wap_cpzx_fl_1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_4.png; sourceTree = "<group>"; };
-		819EF14E1EB07717003DA7B4 /* wap_cpzx_fl_1_4_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_4_L.png; sourceTree = "<group>"; };
-		819EF14F1EB07717003DA7B4 /* wap_cpzx_fl_1_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_5.png; sourceTree = "<group>"; };
-		819EF1501EB07717003DA7B4 /* wap_cpzx_fl_1_5_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_5_L.png; sourceTree = "<group>"; };
-		819EF1511EB07717003DA7B4 /* wap_cpzx_fl_1_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_6.png; sourceTree = "<group>"; };
-		819EF1521EB07717003DA7B4 /* wap_cpzx_fl_1_6_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wap_cpzx_fl_1_6_L.png; sourceTree = "<group>"; };
-		819EF1531EB07717003DA7B4 /* web_pc_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = web_pc_bg.jpg; sourceTree = "<group>"; };
-		819EF1541EB07717003DA7B4 /* web_PC_fx_fx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_PC_fx_fx.png; sourceTree = "<group>"; };
-		819EF1551EB07717003DA7B4 /* web_PC_fx_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_PC_fx_qq.png; sourceTree = "<group>"; };
-		819EF1561EB07717003DA7B4 /* web_PC_fx_wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_PC_fx_wx.png; sourceTree = "<group>"; };
-		819EF1571EB07717003DA7B4 /* web_PC_fx_xl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_PC_fx_xl.png; sourceTree = "<group>"; };
-		819EF1581EB07717003DA7B4 /* web_PC_fx_zone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_PC_fx_zone.png; sourceTree = "<group>"; };
-		819EF1591EB07717003DA7B4 /* web_pc_xq_img01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = web_pc_xq_img01.jpg; sourceTree = "<group>"; };
-		819EF15A1EB07717003DA7B4 /* web_ProductC_img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_ProductC_img01.png; sourceTree = "<group>"; };
-		819EF15B1EB07717003DA7B4 /* web_ProductC_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_ProductC_img02.png; sourceTree = "<group>"; };
-		819EF15C1EB07717003DA7B4 /* web_ProductC_js01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_ProductC_js01.png; sourceTree = "<group>"; };
-		819EF15D1EB07717003DA7B4 /* receive01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receive01.png; sourceTree = "<group>"; };
-		819EF15E1EB07717003DA7B4 /* rerg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rerg.jpg; sourceTree = "<group>"; };
-		819EF15F1EB07717003DA7B4 /* teta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teta.jpg; sourceTree = "<group>"; };
-		819EF1601EB07717003DA7B4 /* yzm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yzm.jpg; sourceTree = "<group>"; };
-		819EF1621EB07717003DA7B4 /* bootlint.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootlint.js; sourceTree = "<group>"; };
-		819EF1631EB07717003DA7B4 /* bootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
-		819EF1641EB07717003DA7B4 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
-		819EF1651EB07717003DA7B4 /* bottom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bottom.js; sourceTree = "<group>"; };
-		819EF1661EB07717003DA7B4 /* html5shiv.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = html5shiv.min.js; sourceTree = "<group>"; };
-		819EF1671EB07717003DA7B4 /* jquery-1.11.3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.11.3.js"; sourceTree = "<group>"; };
-		819EF1681EB07717003DA7B4 /* less.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = less.min.js; sourceTree = "<group>"; };
-		819EF1691EB07717003DA7B4 /* mobiscroll.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mobiscroll.js; sourceTree = "<group>"; };
-		819EF16A1EB07717003DA7B4 /* mobiscroll_date.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mobiscroll_date.js; sourceTree = "<group>"; };
-		819EF16B1EB07717003DA7B4 /* respond.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = respond.min.js; sourceTree = "<group>"; };
-		819EF16C1EB07717003DA7B4 /* show.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = show.js; sourceTree = "<group>"; };
-		819EF16D1EB07717003DA7B4 /* swiper.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = swiper.min.js; sourceTree = "<group>"; };
-		819EF16F1EB07717003DA7B4 /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
-		819EF1701EB07717003DA7B4 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
-		819EF1711EB07717003DA7B4 /* index3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index3.html; sourceTree = "<group>"; };
-		819EF1721EB07717003DA7B4 /* index4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index4.html; sourceTree = "<group>"; };
-		819EF1731EB07717003DA7B4 /* index5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index5.html; sourceTree = "<group>"; };
-		819EF1741EB07717003DA7B4 /* product_center.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = product_center.html; sourceTree = "<group>"; };
-		819EF1751EB07717003DA7B4 /* product_details.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = product_details.html; sourceTree = "<group>"; };
 		819EF1FF1EB07D82003DA7B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		81FF4EC71EB1B23A005D03F2 /* showapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = showapp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2224,7 +1954,7 @@
 		8128C5FB1EAF398600E1389B /* BHRS */ = {
 			isa = PBXGroup;
 			children = (
-				819EF0E31EB0770E003DA7B4 /* WebView */,
+				81FF4EC71EB1B23A005D03F2 /* showapp */,
 				8128C63D1EAF497900E1389B /* Images */,
 				8128C6231EAF3D6C00E1389B /* Helper */,
 				8128C6141EAF3B7400E1389B /* Main */,
@@ -2393,6 +2123,7 @@
 		8128C63D1EAF497900E1389B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				819EF2011EB09CDA003DA7B4 /* tabbarImage */,
 				8128CC441EAF532300E1389B /* drawable */,
 				8128CC491EAF532300E1389B /* drawable-hdpi */,
 				8128CCCE1EAF532300E1389B /* drawable-nodpi */,
@@ -3366,235 +3097,19 @@
 			path = mm;
 			sourceTree = "<group>";
 		};
-		819EF0E31EB0770E003DA7B4 /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0E41EB07716003DA7B4 /* showapp */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		819EF0E41EB07716003DA7B4 /* showapp */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0E51EB07716003DA7B4 /* .project */,
-				819EF0E61EB07716003DA7B4 /* css */,
-				819EF0F71EB07717003DA7B4 /* fonts */,
-				819EF0FD1EB07717003DA7B4 /* img */,
-				819EF1611EB07717003DA7B4 /* js */,
-				819EF16E1EB07717003DA7B4 /* pages */,
-			);
-			path = showapp;
-			sourceTree = "<group>";
-		};
-		819EF0E61EB07716003DA7B4 /* css */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0E71EB07716003DA7B4 /* about_style.css */,
-				819EF0E81EB07716003DA7B4 /* bootstrap-theme.css */,
-				819EF0E91EB07716003DA7B4 /* bootstrap-theme.min.css */,
-				819EF0EA1EB07716003DA7B4 /* bootstrap.css */,
-				819EF0EB1EB07716003DA7B4 /* bootstrap.min.css */,
-				819EF0EC1EB07716003DA7B4 /* center_style.css */,
-				819EF0ED1EB07717003DA7B4 /* center_style.css.bak */,
-				819EF0EE1EB07717003DA7B4 /* index_style.css */,
-				819EF0EF1EB07717003DA7B4 /* index_style.css.bak */,
-				819EF0F01EB07717003DA7B4 /* login_style.css */,
-				819EF0F11EB07717003DA7B4 /* login_style.css.bak */,
-				819EF0F21EB07717003DA7B4 /* mobiscroll.css */,
-				819EF0F31EB07717003DA7B4 /* mobiscroll_date.css */,
-				819EF0F41EB07717003DA7B4 /* productCenter_style.css */,
-				819EF0F51EB07717003DA7B4 /* show.css */,
-				819EF0F61EB07717003DA7B4 /* swiper.min.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		819EF0F71EB07717003DA7B4 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0F81EB07717003DA7B4 /* glyphicons-halflings-regular.eot */,
-				819EF0F91EB07717003DA7B4 /* glyphicons-halflings-regular.svg */,
-				819EF0FA1EB07717003DA7B4 /* glyphicons-halflings-regular.ttf */,
-				819EF0FB1EB07717003DA7B4 /* glyphicons-halflings-regular.woff */,
-				819EF0FC1EB07717003DA7B4 /* glyphicons-halflings-regular.woff2 */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		819EF0FD1EB07717003DA7B4 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0FE1EB07717003DA7B4 /* 001.png */,
-				819EF0FF1EB07717003DA7B4 /* 002.png */,
-				819EF1001EB07717003DA7B4 /* 003.png */,
-				819EF1011EB07717003DA7B4 /* 004.png */,
-				819EF1021EB07717003DA7B4 /* 005.png */,
-				819EF1031EB07717003DA7B4 /* 006.png */,
-				819EF1041EB07717003DA7B4 /* about */,
-				819EF10D1EB07717003DA7B4 /* back.png */,
-				819EF10E1EB07717003DA7B4 /* choose_03.png */,
-				819EF10F1EB07717003DA7B4 /* choose_g.png */,
-				819EF1101EB07717003DA7B4 /* deposit01_03.png */,
-				819EF1111EB07717003DA7B4 /* dsf.jpg */,
-				819EF1121EB07717003DA7B4 /* dt.jpg */,
-				819EF1131EB07717003DA7B4 /* gonggao01.png */,
-				819EF1141EB07717003DA7B4 /* gonggao02.png */,
-				819EF1151EB07717003DA7B4 /* gonggao03.png */,
-				819EF1161EB07717003DA7B4 /* gonggao04.png */,
-				819EF1171EB07717003DA7B4 /* gonggao05.png */,
-				819EF1181EB07717003DA7B4 /* index */,
-				819EF1311EB07717003DA7B4 /* individual_center */,
-				819EF1451EB07717003DA7B4 /* left.png */,
-				819EF1461EB07717003DA7B4 /* product_center */,
-				819EF15D1EB07717003DA7B4 /* receive01.png */,
-				819EF15E1EB07717003DA7B4 /* rerg.jpg */,
-				819EF15F1EB07717003DA7B4 /* teta.jpg */,
-				819EF1601EB07717003DA7B4 /* yzm.jpg */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		819EF1041EB07717003DA7B4 /* about */ = {
-			isa = PBXGroup;
-			children = (
-				819EF1051EB07717003DA7B4 /* about_01.png */,
-				819EF1061EB07717003DA7B4 /* about_02.png */,
-				819EF1071EB07717003DA7B4 /* about_03.png */,
-				819EF1081EB07717003DA7B4 /* about_04.png */,
-				819EF1091EB07717003DA7B4 /* about_05.png */,
-				819EF10A1EB07717003DA7B4 /* about_06.png */,
-				819EF10B1EB07717003DA7B4 /* about_07.png */,
-				819EF10C1EB07717003DA7B4 /* Contact_03.png */,
-			);
-			path = about;
-			sourceTree = "<group>";
-		};
-		819EF1181EB07717003DA7B4 /* index */ = {
-			isa = PBXGroup;
-			children = (
-				819EF1191EB07717003DA7B4 /* APP_d.png */,
-				819EF11A1EB07717003DA7B4 /* logo.png */,
-				819EF11B1EB07717003DA7B4 /* shop.png */,
-				819EF11C1EB07717003DA7B4 /* wap_index_App_02.png */,
-				819EF11D1EB07717003DA7B4 /* wap_index_App_03.png */,
-				819EF11E1EB07717003DA7B4 /* wap_index_c_01.jpg */,
-				819EF11F1EB07717003DA7B4 /* wap_index_c_02.jpg */,
-				819EF1201EB07717003DA7B4 /* wap_index_c_03.jpg */,
-				819EF1211EB07717003DA7B4 /* wap_index_c_04.jpg */,
-				819EF1221EB07717003DA7B4 /* wap_index_j_img01.jpg */,
-				819EF1231EB07717003DA7B4 /* wap_index_phone.png */,
-				819EF1241EB07717003DA7B4 /* wap_index_q_01.png */,
-				819EF1251EB07717003DA7B4 /* wap_index_q_02.png */,
-				819EF1261EB07717003DA7B4 /* wap_index_q_03.png */,
-				819EF1271EB07717003DA7B4 /* wap_index_q_04.png */,
-				819EF1281EB07717003DA7B4 /* wap_index_q_05.png */,
-				819EF1291EB07717003DA7B4 /* wap_index_q_06.png */,
-				819EF12A1EB07717003DA7B4 /* wap_index_q_07.png */,
-				819EF12B1EB07717003DA7B4 /* wap_index_q_08.png */,
-				819EF12C1EB07717003DA7B4 /* wap_index_r_01.jpg */,
-				819EF12D1EB07717003DA7B4 /* wap_index_r_02.jpg */,
-				819EF12E1EB07717003DA7B4 /* wap_index_r_03.jpg */,
-				819EF12F1EB07717003DA7B4 /* wap_index_up.png */,
-				819EF1301EB07717003DA7B4 /* wap_logo.png */,
-			);
-			path = index;
-			sourceTree = "<group>";
-		};
-		819EF1311EB07717003DA7B4 /* individual_center */ = {
-			isa = PBXGroup;
-			children = (
-				819EF1321EB07717003DA7B4 /* 01.png */,
-				819EF1331EB07717003DA7B4 /* associated_01.png */,
-				819EF1341EB07717003DA7B4 /* boin.png */,
-				819EF1351EB07717003DA7B4 /* failure.png */,
-				819EF1361EB07717003DA7B4 /* NO_03.png */,
-				819EF1371EB07717003DA7B4 /* order.png */,
-				819EF1381EB07717003DA7B4 /* order_1.png */,
-				819EF1391EB07717003DA7B4 /* P_Center_P_1.png */,
-				819EF13A1EB07717003DA7B4 /* policy_01.png */,
-				819EF13B1EB07717003DA7B4 /* trade_01.png */,
-				819EF13C1EB07717003DA7B4 /* wap_grzx_bg.png */,
-				819EF13D1EB07717003DA7B4 /* wap_grzx_img01.png */,
-				819EF13E1EB07717003DA7B4 /* wap_grzx_img02.png */,
-				819EF13F1EB07717003DA7B4 /* wap_grzx_img03.png */,
-				819EF1401EB07717003DA7B4 /* wap_grzx_img04.png */,
-				819EF1411EB07717003DA7B4 /* wap_grzx_yh01.png */,
-				819EF1421EB07717003DA7B4 /* wap_grzx_yh02.png */,
-				819EF1431EB07717003DA7B4 /* wap_grzx_yh03.png */,
-				819EF1441EB07717003DA7B4 /* wap_grzx_yh04.png */,
-			);
-			path = individual_center;
-			sourceTree = "<group>";
-		};
-		819EF1461EB07717003DA7B4 /* product_center */ = {
-			isa = PBXGroup;
-			children = (
-				819EF1471EB07717003DA7B4 /* wap_cpzx_fl_1_1.png */,
-				819EF1481EB07717003DA7B4 /* wap_cpzx_fl_1_1_L.png */,
-				819EF1491EB07717003DA7B4 /* wap_cpzx_fl_1_2.png */,
-				819EF14A1EB07717003DA7B4 /* wap_cpzx_fl_1_2_L.png */,
-				819EF14B1EB07717003DA7B4 /* wap_cpzx_fl_1_3.png */,
-				819EF14C1EB07717003DA7B4 /* wap_cpzx_fl_1_3_L.png */,
-				819EF14D1EB07717003DA7B4 /* wap_cpzx_fl_1_4.png */,
-				819EF14E1EB07717003DA7B4 /* wap_cpzx_fl_1_4_L.png */,
-				819EF14F1EB07717003DA7B4 /* wap_cpzx_fl_1_5.png */,
-				819EF1501EB07717003DA7B4 /* wap_cpzx_fl_1_5_L.png */,
-				819EF1511EB07717003DA7B4 /* wap_cpzx_fl_1_6.png */,
-				819EF1521EB07717003DA7B4 /* wap_cpzx_fl_1_6_L.png */,
-				819EF1531EB07717003DA7B4 /* web_pc_bg.jpg */,
-				819EF1541EB07717003DA7B4 /* web_PC_fx_fx.png */,
-				819EF1551EB07717003DA7B4 /* web_PC_fx_qq.png */,
-				819EF1561EB07717003DA7B4 /* web_PC_fx_wx.png */,
-				819EF1571EB07717003DA7B4 /* web_PC_fx_xl.png */,
-				819EF1581EB07717003DA7B4 /* web_PC_fx_zone.png */,
-				819EF1591EB07717003DA7B4 /* web_pc_xq_img01.jpg */,
-				819EF15A1EB07717003DA7B4 /* web_ProductC_img01.png */,
-				819EF15B1EB07717003DA7B4 /* web_ProductC_img02.png */,
-				819EF15C1EB07717003DA7B4 /* web_ProductC_js01.png */,
-			);
-			path = product_center;
-			sourceTree = "<group>";
-		};
-		819EF1611EB07717003DA7B4 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				819EF1621EB07717003DA7B4 /* bootlint.js */,
-				819EF1631EB07717003DA7B4 /* bootstrap.js */,
-				819EF1641EB07717003DA7B4 /* bootstrap.min.js */,
-				819EF1651EB07717003DA7B4 /* bottom.js */,
-				819EF1661EB07717003DA7B4 /* html5shiv.min.js */,
-				819EF1671EB07717003DA7B4 /* jquery-1.11.3.js */,
-				819EF1681EB07717003DA7B4 /* less.min.js */,
-				819EF1691EB07717003DA7B4 /* mobiscroll.js */,
-				819EF16A1EB07717003DA7B4 /* mobiscroll_date.js */,
-				819EF16B1EB07717003DA7B4 /* respond.min.js */,
-				819EF16C1EB07717003DA7B4 /* show.js */,
-				819EF16D1EB07717003DA7B4 /* swiper.min.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		819EF16E1EB07717003DA7B4 /* pages */ = {
-			isa = PBXGroup;
-			children = (
-				819EF16F1EB07717003DA7B4 /* index1.html */,
-				819EF1701EB07717003DA7B4 /* index2.html */,
-				819EF1711EB07717003DA7B4 /* index3.html */,
-				819EF1721EB07717003DA7B4 /* index4.html */,
-				819EF1731EB07717003DA7B4 /* index5.html */,
-				819EF1741EB07717003DA7B4 /* product_center.html */,
-				819EF1751EB07717003DA7B4 /* product_details.html */,
-			);
-			path = pages;
-			sourceTree = "<group>";
-		};
 		819EF1FE1EB07D82003DA7B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				819EF1FF1EB07D82003DA7B4 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		819EF2011EB09CDA003DA7B4 /* tabbarImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tabbarImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3659,7 +3174,6 @@
 				8128CCDF1EAF532300E1389B /* bangclepay_keyboard_button.9.png in Resources */,
 				8128CD201EAF532300E1389B /* mm_title_act_btn_focused.9.png in Resources */,
 				8128CC0E1EAF499100E1389B /* tianbaoyingba.jpg in Resources */,
-				819EF17F1EB07717003DA7B4 /* index_style.css.bak in Resources */,
 				8128CB601EAF499100E1389B /* policyloancredit_orderdetail_write.png in Resources */,
 				8128CBAA1EAF499100E1389B /* skyblue_logo_flickr_checked.png in Resources */,
 				8128CABE1EAF499100E1389B /* onlineserver_acv.png in Resources */,
@@ -3682,17 +3196,14 @@
 				8128CB371EAF499100E1389B /* onlineserver_icon.png in Resources */,
 				8128CBC51EAF499100E1389B /* skyblue_logo_pocket.png in Resources */,
 				8128CB6F1EAF499100E1389B /* product_header_item_icon1.png in Resources */,
-				819EF1E91EB07717003DA7B4 /* teta.jpg in Resources */,
 				8128C9E11EAF499100E1389B /* f_share_active.png in Resources */,
 				8128CAB21EAF499100E1389B /* mypolicy_list_item_bg.9.png in Resources */,
 				8128C9C41EAF499100E1389B /* f_listmodules_s.png in Resources */,
 				8128CC111EAF499100E1389B /* verifycode.9.png in Resources */,
 				8128CA051EAF499100E1389B /* healthtest_main_gender_checked.png in Resources */,
-				819EF1DE1EB07717003DA7B4 /* web_PC_fx_fx.png in Resources */,
 				8128CA511EAF499100E1389B /* login_mouse_normal.png in Resources */,
 				8128CBAD1EAF499100E1389B /* skyblue_logo_googleplus.png in Resources */,
 				8128CBF21EAF499100E1389B /* srvintroduce_service_home_item_4.png in Resources */,
-				819EF1F21EB07717003DA7B4 /* mobiscroll.js in Resources */,
 				8128CB3C1EAF499100E1389B /* onlineserver_menu_rt_normal.png in Resources */,
 				8128CAF71EAF499100E1389B /* onlineserver_f045.png in Resources */,
 				8128CD0D1EAF532300E1389B /* btn_statistics.png in Resources */,
@@ -3705,15 +3216,12 @@
 				8128CCFC1EAF532300E1389B /* bangclepay_keyboard_sign_gray.png in Resources */,
 				8128CAA11EAF499100E1389B /* myaccount_menu_b_cur.png in Resources */,
 				8128CD611EAF532300E1389B /* addmenu_menu_1.png in Resources */,
-				819EF1E21EB07717003DA7B4 /* web_PC_fx_zone.png in Resources */,
 				8128CB2B1EAF499100E1389B /* onlineserver_f097.png in Resources */,
-				819EF1C31EB07717003DA7B4 /* order_1.png in Resources */,
 				8128CBCE1EAF499100E1389B /* skyblue_logo_shortmessage_checked.png in Resources */,
 				8128CA551EAF499100E1389B /* logo_douban.png in Resources */,
 				8128CB3E1EAF499100E1389B /* onlineserver_recordactive.png in Resources */,
 				8128CA781EAF499100E1389B /* logo_yixin.png in Resources */,
 				8128CD531EAF532300E1389B /* progressdialog_bg.9.png in Resources */,
-				819EF17D1EB07717003DA7B4 /* center_style.css.bak in Resources */,
 				8128CB051EAF499100E1389B /* onlineserver_f059.png in Resources */,
 				8128CBE81EAF499100E1389B /* skyblue_logo_yixinmoments_checked.png in Resources */,
 				8128CBF41EAF499100E1389B /* ssdk_auth_title_back.png in Resources */,
@@ -3723,10 +3231,8 @@
 				8128CB491EAF499100E1389B /* policy_transfer_config_active.png in Resources */,
 				8128CAC51EAF499100E1389B /* onlineserver_button.png in Resources */,
 				8128CB9D1EAF499100E1389B /* skyblue_logo_douban.png in Resources */,
-				819EF19C1EB07717003DA7B4 /* choose_g.png in Resources */,
 				8128CC391EAF499100E1389B /* vipsrv_login_bk_b1.png in Resources */,
 				8128CC1D1EAF499100E1389B /* vipsrv_green_btn.png in Resources */,
-				819EF1841EB07717003DA7B4 /* productCenter_style.css in Resources */,
 				8128CAFE1EAF499100E1389B /* onlineserver_f052.png in Resources */,
 				8128CA291EAF499100E1389B /* hospitalquery_location_path.png in Resources */,
 				8128CC0B1EAF499100E1389B /* tianbaoying_suixinxiang_card_validite_unchecked.png in Resources */,
@@ -3749,7 +3255,6 @@
 				8128C9671EAF499000E1389B /* btn_cancel_back.9.png in Resources */,
 				8128CD4F1EAF532300E1389B /* pay_radio.png in Resources */,
 				8128C9F61EAF499100E1389B /* framework_splash_4.png in Resources */,
-				819EF18D1EB07717003DA7B4 /* 002.png in Resources */,
 				819EF0D21EB042CF003DA7B4 /* mm4.jpg in Resources */,
 				8128CB911EAF499100E1389B /* share_vp_back.9.png in Resources */,
 				8128C9451EAF499000E1389B /* accessory_risk_not_renewal_check_dot.png in Resources */,
@@ -3761,7 +3266,6 @@
 				8128C9951EAF499000E1389B /* common_bt_bg_down.9.png in Resources */,
 				8128CB131EAF499100E1389B /* onlineserver_f073.png in Resources */,
 				8128C98E1EAF499000E1389B /* cardbind_add_card_arrow.png in Resources */,
-				819EF1E81EB07717003DA7B4 /* rerg.jpg in Resources */,
 				8128CA0D1EAF499100E1389B /* home_page_bottom4.png in Resources */,
 				8128CB4D1EAF499100E1389B /* policyassociation_down_arrow.9.png in Resources */,
 				8128CB291EAF499100E1389B /* onlineserver_f095.png in Resources */,
@@ -3774,11 +3278,9 @@
 				8128CB4B1EAF499100E1389B /* policyassociation_bg.9.png in Resources */,
 				8128CD671EAF532300E1389B /* addmenu_menu_7.png in Resources */,
 				8128CB581EAF499100E1389B /* policyinforquery_icon_c_07.png in Resources */,
-				819EF1E51EB07717003DA7B4 /* web_ProductC_img02.png in Resources */,
 				8128CD581EAF532300E1389B /* sport_completed_bottom_bg.png in Resources */,
 				8128C60C1EAF398600E1389B /* LaunchScreen.storyboard in Resources */,
 				8128CBFE1EAF499100E1389B /* strengthnci_mechanism_network.png in Resources */,
-				819EF17B1EB07717003DA7B4 /* bootstrap.min.css in Resources */,
 				8128CABA1EAF499100E1389B /* network_search_route_bk.png in Resources */,
 				8128CBC41EAF499100E1389B /* skyblue_logo_pinterest_checked.png in Resources */,
 				8128CD211EAF532300E1389B /* mm_title_act_btn_normal.9.png in Resources */,
@@ -3789,13 +3291,10 @@
 				8128CC3D1EAF499100E1389B /* vipsrv_txt_bg_right.9.png in Resources */,
 				8128CC1A1EAF499100E1389B /* vipsrv_dailog_vip_cancel.png in Resources */,
 				8128CA451EAF499100E1389B /* loaninfor_btn_blue_move.png in Resources */,
-				819EF1EB1EB07717003DA7B4 /* bootlint.js in Resources */,
 				8128CB5C1EAF499100E1389B /* policyinforquery_icon_c_11.png in Resources */,
 				8128CB941EAF499100E1389B /* skyblue_editpage_bg.9.png in Resources */,
 				8128CBEF1EAF499100E1389B /* srvintroduce_service_home_item_1.png in Resources */,
-				819EF1C41EB07717003DA7B4 /* P_Center_P_1.png in Resources */,
 				8128C9821EAF499000E1389B /* c_view_del.png in Resources */,
-				819EF1D91EB07717003DA7B4 /* wap_cpzx_fl_1_5.png in Resources */,
 				8128CA3C1EAF499100E1389B /* jbsc_gold_mall_prompt.png in Resources */,
 				8128C9D21EAF499100E1389B /* f_menu_b4_on.png in Resources */,
 				8128CBB71EAF499100E1389B /* skyblue_logo_kakaotalk.png in Resources */,
@@ -3803,12 +3302,10 @@
 				8128CD2D1EAF532300E1389B /* pay_btn_back.png in Resources */,
 				8128CD081EAF532300E1389B /* btn_arrow_right.png in Resources */,
 				8128CADD1EAF499100E1389B /* onlineserver_f019.png in Resources */,
-				819EF1761EB07717003DA7B4 /* .project in Resources */,
 				8128CB091EAF499100E1389B /* onlineserver_f063.png in Resources */,
 				8128C9B61EAF499100E1389B /* f_found_jbsc_2.png in Resources */,
 				8128CAD21EAF499100E1389B /* onlineserver_f008.png in Resources */,
 				8128CD1C1EAF532300E1389B /* in_motion_mode_bg.png in Resources */,
-				819EF1DB1EB07717003DA7B4 /* wap_cpzx_fl_1_6.png in Resources */,
 				8128CB481EAF499100E1389B /* policy_account_change_time_bg.png in Resources */,
 				8128CB9A1EAF499100E1389B /* skyblue_logo_baidutieba_checked.png in Resources */,
 				8128CB441EAF499100E1389B /* onlineserver_talkright.9.png in Resources */,
@@ -3819,7 +3316,6 @@
 				8128CC0C1EAF499100E1389B /* tianbaoying_withdraw_notice.png in Resources */,
 				8128CB8B1EAF499100E1389B /* setting_sz_set_downlist_sanjiao_active.9.png in Resources */,
 				8128CB7C1EAF499100E1389B /* receiveinforquery_textarea_bg.png in Resources */,
-				819EF1A61EB07717003DA7B4 /* logo.png in Resources */,
 				8128CC081EAF499100E1389B /* telsrv_vertical_bottom_line.png in Resources */,
 				8128CA1D1EAF499100E1389B /* home_pager_redarrow.png in Resources */,
 				8128CA8D1EAF499100E1389B /* my_mystatus_settings.png in Resources */,
@@ -3841,17 +3337,13 @@
 				8128CAE71EAF499100E1389B /* onlineserver_f029.png in Resources */,
 				8128CB471EAF499100E1389B /* payinforquery_textarea_bg.png in Resources */,
 				8128C96E1EAF499000E1389B /* c_box.9.png in Resources */,
-				819EF1FB1EB07717003DA7B4 /* index5.html in Resources */,
 				8128CA041EAF499100E1389B /* healthtest_main_gender.png in Resources */,
 				8128CA421EAF499100E1389B /* jianbuzou.png in Resources */,
 				8128C9EB1EAF499100E1389B /* framework_logo.png in Resources */,
-				819EF1AE1EB07717003DA7B4 /* wap_index_j_img01.jpg in Resources */,
 				8128CAE31EAF499100E1389B /* onlineserver_f025.png in Resources */,
 				8128CB921EAF499100E1389B /* skyblue_actionbar_back_btn.png in Resources */,
-				819EF1A11EB07717003DA7B4 /* gonggao02.png in Resources */,
 				8128CC071EAF499100E1389B /* telsrv_teleconsult.png in Resources */,
 				8128C9771EAF499000E1389B /* c_line.png in Resources */,
-				819EF1B51EB07717003DA7B4 /* wap_index_q_06.png in Resources */,
 				8128C9DE1EAF499100E1389B /* f_register_deal_on.png in Resources */,
 				8128C97B1EAF499000E1389B /* c_notice_textarea.png in Resources */,
 				8128C9661EAF499000E1389B /* btn_back_nor.9.png in Resources */,
@@ -3859,12 +3351,9 @@
 				8128CC371EAF499100E1389B /* vipsrv_icon_gray_selected.png in Resources */,
 				8128CBB11EAF499100E1389B /* skyblue_logo_instapaper.png in Resources */,
 				8128CAFF1EAF499100E1389B /* onlineserver_f053.png in Resources */,
-				819EF1C11EB07717003DA7B4 /* NO_03.png in Resources */,
 				8128C9C01EAF499100E1389B /* f_list_bt.png in Resources */,
 				8128CAEE1EAF499100E1389B /* onlineserver_f036.png in Resources */,
 				8128CA001EAF499100E1389B /* healthtest_gender_bg.png in Resources */,
-				819EF1F71EB07717003DA7B4 /* index1.html in Resources */,
-				819EF17E1EB07717003DA7B4 /* index_style.css in Resources */,
 				8128CB841EAF499100E1389B /* service_net.png in Resources */,
 				8128CA231EAF499100E1389B /* home_pager_refresh_pull_icon_big.png in Resources */,
 				8128C9A01EAF499100E1389B /* edittext_back.9.png in Resources */,
@@ -3875,7 +3364,6 @@
 				8128CA311EAF499100E1389B /* jbsc_gold_mall_dailytask_head_ad.png in Resources */,
 				8128CC091EAF499100E1389B /* telsrv_vertical_line.png in Resources */,
 				8128C9761EAF499000E1389B /* c_input.png in Resources */,
-				819EF19A1EB07717003DA7B4 /* back.png in Resources */,
 				8128CA5A1EAF499100E1389B /* logo_facebookmessenger.png in Resources */,
 				8128CCFA1EAF532300E1389B /* bangclepay_keyboard_sign_delete_normal.png in Resources */,
 				8128CB181EAF499100E1389B /* onlineserver_f078.png in Resources */,
@@ -3908,7 +3396,6 @@
 				8128CB451EAF499100E1389B /* onlineserver_viewpager_more_bg.png in Resources */,
 				8128C97C1EAF499000E1389B /* c_policy_layout_arrow.png in Resources */,
 				8128CA4C1EAF499100E1389B /* location_icon.png in Resources */,
-				819EF1C01EB07717003DA7B4 /* failure.png in Resources */,
 				8128CC321EAF499100E1389B /* vipsrv_icon_gray_08_on.png in Resources */,
 				8128CA6C1EAF499100E1389B /* logo_renren.png in Resources */,
 				8128C9631EAF499000E1389B /* bankcard_unchecked_box.png in Resources */,
@@ -3938,7 +3425,6 @@
 				8128C9E21EAF499100E1389B /* f_slip_bg.png in Resources */,
 				8128CB971EAF499100E1389B /* skyblue_editpage_image_bg.9.png in Resources */,
 				8128CD1D1EAF532300E1389B /* jiankang_bg.jpg in Resources */,
-				819EF1CC1EB07717003DA7B4 /* wap_grzx_yh01.png in Resources */,
 				8128CA6D1EAF499100E1389B /* logo_shortmessage.png in Resources */,
 				8128CC031EAF499100E1389B /* sy_home_pager_x.png in Resources */,
 				8128CA141EAF499100E1389B /* home_page_tianbaoying_button.9.png in Resources */,
@@ -3955,7 +3441,6 @@
 				8128CAC21EAF499100E1389B /* onlineserver_b_menu_devideline.png in Resources */,
 				8128C9F91EAF499100E1389B /* framework_splash_4_text_up.png in Resources */,
 				8128CBF81EAF499100E1389B /* ssdk_oks_yaoyiyao.png in Resources */,
-				819EF1FD1EB07717003DA7B4 /* product_details.html in Resources */,
 				8128CA501EAF499100E1389B /* login_mouse_clicked.png in Resources */,
 				8128CCF61EAF532300E1389B /* bangclepay_keyboard_num_popup.png in Resources */,
 				8128CB211EAF499100E1389B /* onlineserver_f087.png in Resources */,
@@ -3971,7 +3456,6 @@
 				8128CD101EAF532300E1389B /* code.png in Resources */,
 				8128CB021EAF499100E1389B /* onlineserver_f056.png in Resources */,
 				8128CA821EAF499100E1389B /* map_route_car_active.png in Resources */,
-				819EF1C91EB07717003DA7B4 /* wap_grzx_img02.png in Resources */,
 				8128C9D11EAF499100E1389B /* f_menu_b4.png in Resources */,
 				8128C93F1EAF499000E1389B /* abbc.png in Resources */,
 				8128CB301EAF499100E1389B /* onlineserver_f102.png in Resources */,
@@ -3982,11 +3466,9 @@
 				8128CC2B1EAF499100E1389B /* vipsrv_icon_gray_05_on.png in Resources */,
 				8128CABF1EAF499100E1389B /* onlineserver_acw.png in Resources */,
 				8128CAD91EAF499100E1389B /* onlineserver_f015.png in Resources */,
-				819EF1CD1EB07717003DA7B4 /* wap_grzx_yh02.png in Resources */,
 				8128CB9F1EAF499100E1389B /* skyblue_logo_dropbox.png in Resources */,
 				8128CA951EAF499100E1389B /* myaccount_blue_bg_up.png in Resources */,
 				8128C9F11EAF499100E1389B /* framework_splash_2_text.png in Resources */,
-				819EF1BC1EB07717003DA7B4 /* wap_logo.png in Resources */,
 				8128CB0C1EAF499100E1389B /* onlineserver_f066.png in Resources */,
 				8128CD501EAF532300E1389B /* pay_radio_s.png in Resources */,
 				8128C9AA1EAF499100E1389B /* ehousekeeper_calendar_list_item_icon4.png in Resources */,
@@ -3995,14 +3477,9 @@
 				8128CAAE1EAF499100E1389B /* myorder_bottonm_line.png in Resources */,
 				8128CB2A1EAF499100E1389B /* onlineserver_f096.png in Resources */,
 				8128CB3D1EAF499100E1389B /* onlineserver_record.png in Resources */,
-				819EF1CE1EB07717003DA7B4 /* wap_grzx_yh03.png in Resources */,
-				819EF1D61EB07717003DA7B4 /* wap_cpzx_fl_1_3_L.png in Resources */,
 				8128CA901EAF499100E1389B /* my_policy_connect.png in Resources */,
-				819EF1B71EB07717003DA7B4 /* wap_index_q_08.png in Resources */,
 				8128CA2A1EAF499100E1389B /* hospitalquery_location_telephone.png in Resources */,
 				8128CB151EAF499100E1389B /* onlineserver_f075.png in Resources */,
-				819EF1E61EB07717003DA7B4 /* web_ProductC_js01.png in Resources */,
-				819EF1961EB07717003DA7B4 /* about_05.png in Resources */,
 				8128CD3F1EAF532300E1389B /* pay_edit_d.png in Resources */,
 				8128CCFD1EAF532300E1389B /* bangclepay_keyboard_sign_key_normal.png in Resources */,
 				8128CACA1EAF499100E1389B /* onlineserver_f000.png in Resources */,
@@ -4010,22 +3487,16 @@
 				8128CA171EAF499100E1389B /* home_pager_activty_icon2.png in Resources */,
 				8128C9A21EAF499100E1389B /* ehousekeeper_calendar_edit1.png in Resources */,
 				8128CD381EAF532300E1389B /* pay_btn_shift_out_d.png in Resources */,
-				819EF1A41EB07717003DA7B4 /* gonggao05.png in Resources */,
-				819EF1B21EB07717003DA7B4 /* wap_index_q_03.png in Resources */,
 				8128CD181EAF532300E1389B /* ic_undobar_undo.png in Resources */,
-				819EF1ED1EB07717003DA7B4 /* bootstrap.min.js in Resources */,
 				8128CD0A1EAF532300E1389B /* btn_home.png in Resources */,
 				8128C9721EAF499000E1389B /* c_box_title.9.png in Resources */,
 				8128CC361EAF499100E1389B /* vipsrv_icon_gray_10_on.png in Resources */,
 				8128CBE51EAF499100E1389B /* skyblue_logo_yixin.png in Resources */,
-				819EF1F01EB07717003DA7B4 /* jquery-1.11.3.js in Resources */,
 				8128CCE81EAF532300E1389B /* bangclepay_keyboard_letter_normal.png in Resources */,
 				8128CC101EAF499100E1389B /* title_shadow.png in Resources */,
-				819EF1F91EB07717003DA7B4 /* index3.html in Resources */,
 				8128CAC81EAF499100E1389B /* onlineserver_delete.png in Resources */,
 				8128CAF31EAF499100E1389B /* onlineserver_f041.png in Resources */,
 				8128CBFB1EAF499100E1389B /* strengthnci_btn_bg_click.png in Resources */,
-				819EF1A21EB07717003DA7B4 /* gonggao03.png in Resources */,
 				8128C96D1EAF499000E1389B /* c_back_x.png in Resources */,
 				8128CA081EAF499100E1389B /* home_page_banner_selected.png in Resources */,
 				8128C9621EAF499000E1389B /* bankcard_checked_box.png in Resources */,
@@ -4040,13 +3511,10 @@
 				8128CB4F1EAF499100E1389B /* policyassociation_round_bt.9.png in Resources */,
 				8128CCE71EAF532300E1389B /* bangclepay_keyboard_letter_key_press.png in Resources */,
 				8128CA751EAF499100E1389B /* logo_wechatfavorite.png in Resources */,
-				819EF1971EB07717003DA7B4 /* about_06.png in Resources */,
 				8128CA201EAF499100E1389B /* home_pager_refresh_load_failed.png in Resources */,
-				819EF1941EB07717003DA7B4 /* about_03.png in Resources */,
 				8128CA011EAF499100E1389B /* healthtest_gender_bgcolor.png in Resources */,
 				8128CBFA1EAF499100E1389B /* strengthnci_btn_bg.png in Resources */,
 				8128CBBE1EAF499100E1389B /* skyblue_logo_linkedin_checked.png in Resources */,
-				819EF1931EB07717003DA7B4 /* about_02.png in Resources */,
 				8128CB1F1EAF499100E1389B /* onlineserver_f085.png in Resources */,
 				8128CA3D1EAF499100E1389B /* jbsc_gold_mall_right_arrow.png in Resources */,
 				8128CAC31EAF499100E1389B /* onlineserver_back.png in Resources */,
@@ -4059,23 +3527,18 @@
 				8128CAF01EAF499100E1389B /* onlineserver_f038.png in Resources */,
 				8128CA8F1EAF499100E1389B /* my_policy.png in Resources */,
 				8128C9B91EAF499100E1389B /* f_found_jbsc_exchange.png in Resources */,
-				819EF1DC1EB07717003DA7B4 /* wap_cpzx_fl_1_6_L.png in Resources */,
 				8128CA521EAF499100E1389B /* login_pwd_filled.png in Resources */,
 				8128CBEE1EAF499100E1389B /* srvintroduce_service__btn_bg.png in Resources */,
-				819EF1C71EB07717003DA7B4 /* wap_grzx_bg.png in Resources */,
 				8128CACE1EAF499100E1389B /* onlineserver_f004.png in Resources */,
-				819EF1F61EB07717003DA7B4 /* swiper.min.js in Resources */,
 				8128CD6A1EAF532300E1389B /* f_title_bk_red.png in Resources */,
 				8128CB9E1EAF499100E1389B /* skyblue_logo_douban_checked.png in Resources */,
 				8128CB721EAF499100E1389B /* product_header_item_icon4.png in Resources */,
 				8128CB3F1EAF499100E1389B /* onlineserver_send.png in Resources */,
 				8128CAB91EAF499100E1389B /* network_search_name_bk.png in Resources */,
 				8128CAD51EAF499100E1389B /* onlineserver_f011.png in Resources */,
-				819EF1911EB07717003DA7B4 /* 006.png in Resources */,
 				8128CBF61EAF499100E1389B /* ssdk_logo.png in Resources */,
 				8128CB361EAF499100E1389B /* onlineserver_faceactive.png in Resources */,
 				8128CBF51EAF499100E1389B /* ssdk_back_arr.png in Resources */,
-				819EF1771EB07717003DA7B4 /* about_style.css in Resources */,
 				8128CA6A1EAF499100E1389B /* logo_qq.png in Resources */,
 				8128CADE1EAF499100E1389B /* onlineserver_f020.png in Resources */,
 				8128CBCC1EAF499100E1389B /* skyblue_logo_renren_checked.png in Resources */,
@@ -4085,24 +3548,20 @@
 				8128CAE11EAF499100E1389B /* onlineserver_f023.png in Resources */,
 				8128CBA51EAF499100E1389B /* skyblue_logo_facebook.png in Resources */,
 				8128CB681EAF499100E1389B /* policyrele_box_tip_white.png in Resources */,
-				819EF1A71EB07717003DA7B4 /* shop.png in Resources */,
 				8128CB251EAF499100E1389B /* onlineserver_f091.png in Resources */,
 				8128CD161EAF532300E1389B /* ic_launcher.png in Resources */,
 				8128CD661EAF532300E1389B /* addmenu_menu_6.png in Resources */,
 				8128C9611EAF499000E1389B /* bankcard_arrow.png in Resources */,
 				8128C9781EAF499000E1389B /* c_line_red.png in Resources */,
-				819EF1E71EB07717003DA7B4 /* receive01.png in Resources */,
 				8128CCE41EAF532300E1389B /* bangclepay_keyboard_letter_delete_press.png in Resources */,
 				8128C95F1EAF499000E1389B /* baidupushmessagecenter_xlistview_arrow.png in Resources */,
 				8128C9CF1EAF499100E1389B /* f_menu_b3.png in Resources */,
 				8128CA121EAF499100E1389B /* home_page_menu3.png in Resources */,
 				8128CCE31EAF532300E1389B /* bangclepay_keyboard_letter_delete_normal.png in Resources */,
 				8128CAD81EAF499100E1389B /* onlineserver_f014.png in Resources */,
-				819EF1FA1EB07717003DA7B4 /* index4.html in Resources */,
 				8128C9701EAF499000E1389B /* c_box_small.9.png in Resources */,
 				8128CCED1EAF532300E1389B /* bangclepay_keyboard_letter_shift_normal.png in Resources */,
 				8128CD241EAF532300E1389B /* mm_title_btn_normal.9.png in Resources */,
-				819EF18B1EB07717003DA7B4 /* glyphicons-halflings-regular.woff2 in Resources */,
 				8128CB311EAF499100E1389B /* onlineserver_f103.png in Resources */,
 				8128CBAE1EAF499100E1389B /* skyblue_logo_googleplus_checked.png in Resources */,
 				8128CC331EAF499100E1389B /* vipsrv_icon_gray_09.png in Resources */,
@@ -4117,7 +3576,6 @@
 				8128CBD81EAF499100E1389B /* skyblue_logo_tumblr_checked.png in Resources */,
 				8128CAF81EAF499100E1389B /* onlineserver_f046.png in Resources */,
 				8128CA461EAF499100E1389B /* loaninfor_title.png in Resources */,
-				819EF1AA1EB07717003DA7B4 /* wap_index_c_01.jpg in Resources */,
 				8128CB161EAF499100E1389B /* onlineserver_f076.png in Resources */,
 				8128CD2C1EAF532300E1389B /* pay_btn.png in Resources */,
 				8128CC2E1EAF499100E1389B /* vipsrv_icon_gray_07.png in Resources */,
@@ -4125,7 +3583,6 @@
 				8128CBFC1EAF499100E1389B /* strengthnci_honor.png in Resources */,
 				8128CB9B1EAF499100E1389B /* skyblue_logo_bluetooth.png in Resources */,
 				8128CAB41EAF499100E1389B /* network_search_downlist_sanjiao_active.9.png in Resources */,
-				819EF1C51EB07717003DA7B4 /* policy_01.png in Resources */,
 				8128CB981EAF499100E1389B /* skyblue_editpage_image_remove.png in Resources */,
 				8128CB031EAF499100E1389B /* onlineserver_f057.png in Resources */,
 				8128CD5A1EAF532300E1389B /* sport_completed_speed_bg.png in Resources */,
@@ -4135,7 +3592,6 @@
 				8128CBE21EAF499100E1389B /* skyblue_logo_wechatmoments_checked.png in Resources */,
 				8128C94D1EAF499000E1389B /* addmenu_button.png in Resources */,
 				8128C9901EAF499000E1389B /* cardbind_add_icon_normal.png in Resources */,
-				819EF1B91EB07717003DA7B4 /* wap_index_r_02.jpg in Resources */,
 				8128CA211EAF499100E1389B /* home_pager_refresh_load_succeed.png in Resources */,
 				8128CD621EAF532300E1389B /* addmenu_menu_2.png in Resources */,
 				8128CC2D1EAF499100E1389B /* vipsrv_icon_gray_06_on.png in Resources */,
@@ -4152,11 +3608,8 @@
 				8128C9AE1EAF499100E1389B /* f_blue_head_bg.png in Resources */,
 				8128CB791EAF499100E1389B /* receiveinfor_btn_link_arrow.png in Resources */,
 				8128CA061EAF499100E1389B /* healthwalk_title_horzontal_cursor_line.png in Resources */,
-				819EF1791EB07717003DA7B4 /* bootstrap-theme.min.css in Resources */,
 				8128CC201EAF499100E1389B /* vipsrv_icon_blue_3.png in Resources */,
 				8128CB8E1EAF499100E1389B /* setting_sz_set_qrcode.png in Resources */,
-				819EF1811EB07717003DA7B4 /* login_style.css.bak in Resources */,
-				819EF1B01EB07717003DA7B4 /* wap_index_q_01.png in Resources */,
 				8128CBA41EAF499100E1389B /* skyblue_logo_evernote_checked.png in Resources */,
 				8128CB1C1EAF499100E1389B /* onlineserver_f082.png in Resources */,
 				8128CA2E1EAF499100E1389B /* img_cancel.png in Resources */,
@@ -4170,10 +3623,7 @@
 				8128C9811EAF499000E1389B /* c_select_spinner.png in Resources */,
 				8128CBB91EAF499100E1389B /* skyblue_logo_laiwangmoments.png in Resources */,
 				8128CA361EAF499100E1389B /* jbsc_gold_mall_dailytask_yilingqu.png in Resources */,
-				819EF1891EB07717003DA7B4 /* glyphicons-halflings-regular.ttf in Resources */,
 				8128CA441EAF499100E1389B /* light_blue_point.png in Resources */,
-				819EF18E1EB07717003DA7B4 /* 003.png in Resources */,
-				819EF1A51EB07717003DA7B4 /* APP_d.png in Resources */,
 				8128CAB61EAF499100E1389B /* network_search_location_path.png in Resources */,
 				8128CB061EAF499100E1389B /* onlineserver_f060.png in Resources */,
 				8128CAE21EAF499100E1389B /* onlineserver_f024.png in Resources */,
@@ -4181,21 +3631,17 @@
 				8128CCE01EAF532300E1389B /* bangclepay_keyboard_button_large.9.png in Resources */,
 				8128CAAF1EAF499100E1389B /* myorder_vertical_line.png in Resources */,
 				8128CC1C1EAF499100E1389B /* vipsrv_fuwu_btn_active.png in Resources */,
-				819EF1871EB07717003DA7B4 /* glyphicons-halflings-regular.eot in Resources */,
 				8128CC191EAF499100E1389B /* vipsrv_box_shuoming_right.png in Resources */,
 				8128C97D1EAF499000E1389B /* c_policy_layout_arrow1.png in Resources */,
 				8128CC221EAF499100E1389B /* vipsrv_icon_gray_01.png in Resources */,
 				8128CA861EAF499100E1389B /* my_background.png in Resources */,
 				8128CA631EAF499100E1389B /* logo_laiwang.png in Resources */,
 				8128CB961EAF499100E1389B /* skyblue_editpage_divider.9.png in Resources */,
-				819EF18A1EB07717003DA7B4 /* glyphicons-halflings-regular.woff in Resources */,
 				8128CAB01EAF499100E1389B /* mypolicy.png in Resources */,
 				8128C9ED1EAF499100E1389B /* framework_splash_1_text_down.png in Resources */,
-				819EF1901EB07717003DA7B4 /* 005.png in Resources */,
 				8128CC211EAF499100E1389B /* vipsrv_icon_blue_4.png in Resources */,
 				8128CA2F1EAF499100E1389B /* insurerinforchange_back_selector1.png in Resources */,
 				8128CA091EAF499100E1389B /* home_page_banner_unselect.png in Resources */,
-				819EF19D1EB07717003DA7B4 /* deposit01_03.png in Resources */,
 				8128CBFF1EAF499100E1389B /* strengthnci_product_system.png in Resources */,
 				8128C9561EAF499000E1389B /* annuityreceive_risk_not_renewal_btn_downlist.png in Resources */,
 				8128CC341EAF499100E1389B /* vipsrv_icon_gray_09_on.png in Resources */,
@@ -4216,21 +3662,15 @@
 				8128CCDC1EAF532300E1389B /* new_icon_s_61.png in Resources */,
 				8128CBD31EAF499100E1389B /* skyblue_logo_sohusuishenkan.png in Resources */,
 				8128CA741EAF499100E1389B /* logo_wechat.png in Resources */,
-				819EF1CA1EB07717003DA7B4 /* wap_grzx_img03.png in Resources */,
 				8128CBAB1EAF499100E1389B /* skyblue_logo_foursquare.png in Resources */,
 				8128C9C61EAF499100E1389B /* f_login_before.png in Resources */,
-				819EF1D21EB07717003DA7B4 /* wap_cpzx_fl_1_1_L.png in Resources */,
 				8128CC271EAF499100E1389B /* vipsrv_icon_gray_03_on.png in Resources */,
 				8128CC241EAF499100E1389B /* vipsrv_icon_gray_02.png in Resources */,
-				819EF1A01EB07717003DA7B4 /* gonggao01.png in Resources */,
-				819EF1981EB07717003DA7B4 /* about_07.png in Resources */,
 				8128CAA81EAF499100E1389B /* myaccount_myorder_item_share.png in Resources */,
 				8128CB881EAF499100E1389B /* setting_sz_set_box_bg_big.9.png in Resources */,
 				8128CAAD1EAF499100E1389B /* myaccount_white_bg2.png in Resources */,
-				819EF1EE1EB07717003DA7B4 /* bottom.js in Resources */,
 				8128CBD41EAF499100E1389B /* skyblue_logo_sohusuishenkan_checked.png in Resources */,
 				8128CAE01EAF499100E1389B /* onlineserver_f022.png in Resources */,
-				819EF1BB1EB07717003DA7B4 /* wap_index_up.png in Resources */,
 				8128CA9E1EAF499100E1389B /* myaccount_home_box_5.png in Resources */,
 				8128CB751EAF499100E1389B /* product_header_item_icon7.png in Resources */,
 				8128CB781EAF499100E1389B /* receivechange_downlist_sanjiao_active.9.png in Resources */,
@@ -4245,10 +3685,8 @@
 				8128CBEA1EAF499100E1389B /* skyblue_logo_youdao_checked.png in Resources */,
 				8128CAF11EAF499100E1389B /* onlineserver_f039.png in Resources */,
 				8128CC161EAF499100E1389B /* vipsrv_blue_btn.png in Resources */,
-				819EF1BA1EB07717003DA7B4 /* wap_index_r_03.jpg in Resources */,
 				8128CD3E1EAF532300E1389B /* pay_edit_big.png in Resources */,
 				8128C9BB1EAF499100E1389B /* f_found_jbz.png in Resources */,
-				819EF19F1EB07717003DA7B4 /* dt.jpg in Resources */,
 				8128CB811EAF499100E1389B /* renewalpayment_btn_blue_move.png in Resources */,
 				8128CA0B1EAF499100E1389B /* home_page_bottom2.png in Resources */,
 				8128C9F81EAF499100E1389B /* framework_splash_4_text_down.png in Resources */,
@@ -4259,7 +3697,6 @@
 				8128C9431EAF499000E1389B /* accessory_risk_not_renewal_btn_closedownlist.png in Resources */,
 				8128CD511EAF532300E1389B /* pay_title_line.png in Resources */,
 				8128C9CE1EAF499100E1389B /* f_menu_b2_on.png in Resources */,
-				819EF1A91EB07717003DA7B4 /* wap_index_App_03.png in Resources */,
 				8128CCE61EAF532300E1389B /* bangclepay_keyboard_letter_key_normal.png in Resources */,
 				8128CD521EAF532300E1389B /* pay_titlebar.png in Resources */,
 				8128CB821EAF499100E1389B /* renewalpayment_orderdetail_title.png in Resources */,
@@ -4272,7 +3709,6 @@
 				8128CD7E1EAF7F6F00E1389B /* BuffetView.xib in Resources */,
 				8128C9471EAF499000E1389B /* accessory_risk_not_renewal_home_index_arrow.png in Resources */,
 				8128C9A91EAF499100E1389B /* ehousekeeper_calendar_list_item_icon3.png in Resources */,
-				819EF1F11EB07717003DA7B4 /* less.min.js in Resources */,
 				8128CAED1EAF499100E1389B /* onlineserver_f035.png in Resources */,
 				8128CD441EAF532300E1389B /* pay_ic_new.png in Resources */,
 				8128CAE61EAF499100E1389B /* onlineserver_f028.png in Resources */,
@@ -4281,7 +3717,6 @@
 				8128C99D1EAF499000E1389B /* default_banner.jpg in Resources */,
 				8128CA7F1EAF499100E1389B /* map_route_bus.png in Resources */,
 				8128CB8C1EAF499100E1389B /* setting_sz_set_er_wei_ma_bg.png in Resources */,
-				819EF1D51EB07717003DA7B4 /* wap_cpzx_fl_1_3.png in Resources */,
 				8128CBE91EAF499100E1389B /* skyblue_logo_youdao.png in Resources */,
 				8128C9C91EAF499100E1389B /* f_login_line_blue.jpg in Resources */,
 				8128C99C1EAF499000E1389B /* customerinforauth_switch_male.png in Resources */,
@@ -4290,7 +3725,6 @@
 				8128C9D91EAF499100E1389B /* f_pwd_area_bk.png in Resources */,
 				8128CA8C1EAF499100E1389B /* my_mail.png in Resources */,
 				8128CBD51EAF499100E1389B /* skyblue_logo_tencentweibo.png in Resources */,
-				819EF1831EB07717003DA7B4 /* mobiscroll_date.css in Resources */,
 				8128CA601EAF499100E1389B /* logo_kaixin.png in Resources */,
 				8128C9FD1EAF499100E1389B /* healthtest_btn.png in Resources */,
 				8128CA321EAF499100E1389B /* jbsc_gold_mall_dailytask_lijilingqu.png in Resources */,
@@ -4302,16 +3736,12 @@
 				8128CD5C1EAF532300E1389B /* toast_error.png in Resources */,
 				8128CBC01EAF499100E1389B /* skyblue_logo_mingdao_checked.png in Resources */,
 				8128CAE81EAF499100E1389B /* onlineserver_f030.png in Resources */,
-				819EF1B31EB07717003DA7B4 /* wap_index_q_04.png in Resources */,
 				8128CB141EAF499100E1389B /* onlineserver_f074.png in Resources */,
 				8128CAEB1EAF499100E1389B /* onlineserver_f033.png in Resources */,
-				819EF1D81EB07717003DA7B4 /* wap_cpzx_fl_1_4_L.png in Resources */,
 				8128CA8B1EAF499100E1389B /* my_login_dredge_tianbao.9.png in Resources */,
 				8128CBA81EAF499100E1389B /* skyblue_logo_facebookmessenger_checked.png in Resources */,
 				8128CA9B1EAF499100E1389B /* myaccount_home_box_1.png in Resources */,
 				8128CA851EAF499100E1389B /* my_assets.png in Resources */,
-				819EF1DD1EB07717003DA7B4 /* web_pc_bg.jpg in Resources */,
-				819EF1B11EB07717003DA7B4 /* wap_index_q_02.png in Resources */,
 				8128CAA91EAF499100E1389B /* myaccount_popwindow_active.png in Resources */,
 				8128CBB21EAF499100E1389B /* skyblue_logo_instapaper_checked.png in Resources */,
 				8128CB121EAF499100E1389B /* onlineserver_f072.png in Resources */,
@@ -4340,27 +3770,23 @@
 				8128C94E1EAF499000E1389B /* addmenu_dialog.png in Resources */,
 				8128C9BD1EAF499100E1389B /* f_headshot.png in Resources */,
 				8128CD2B1EAF532300E1389B /* pay_bg_line.png in Resources */,
-				819EF1C81EB07717003DA7B4 /* wap_grzx_img01.png in Resources */,
 				8128CD541EAF532300E1389B /* shouyi_bg.jpg in Resources */,
 				8128C96A1EAF499000E1389B /* c_arrow.png in Resources */,
 				8128CA221EAF499100E1389B /* home_pager_refresh_loading.png in Resources */,
 				8128CBD21EAF499100E1389B /* skyblue_logo_sohumicroblog_checked.png in Resources */,
-				819EF1BD1EB07717003DA7B4 /* 01.png in Resources */,
 				8128C9DB1EAF499100E1389B /* f_red_dot.png in Resources */,
 				8128CA931EAF499100E1389B /* my_tianbaoying_logo.png in Resources */,
-				819EF1E01EB07717003DA7B4 /* web_PC_fx_wx.png in Resources */,
 				8128CB221EAF499100E1389B /* onlineserver_f088.png in Resources */,
 				8128CAB31EAF499100E1389B /* network_search_btn_search.png in Resources */,
 				8128CCE11EAF532300E1389B /* bangclepay_keyboard_icon.png in Resources */,
-				819EF1FC1EB07717003DA7B4 /* product_center.html in Resources */,
 				8128CC311EAF499100E1389B /* vipsrv_icon_gray_08.png in Resources */,
-				819EF1A81EB07717003DA7B4 /* wap_index_App_02.png in Resources */,
 				8128CBEC1EAF499100E1389B /* skyblue_platform_checked_disabled.png in Resources */,
 				8128C9DC1EAF499100E1389B /* f_red_head_bg.png in Resources */,
 				8128C9AC1EAF499100E1389B /* ehousekeeper_line.png in Resources */,
 				8128CA131EAF499100E1389B /* home_page_menu4.png in Resources */,
 				8128CB611EAF499100E1389B /* policyloanrepayment_btn_blue_move.png in Resources */,
 				8128C98F1EAF499000E1389B /* cardbind_add_icon_check.png in Resources */,
+				81FF4EC81EB1B23A005D03F2 /* showapp in Resources */,
 				8128C9D51EAF499100E1389B /* f_nci_logo.png in Resources */,
 				8128CA811EAF499100E1389B /* map_route_car.png in Resources */,
 				8128CB111EAF499100E1389B /* onlineserver_f071.png in Resources */,
@@ -4373,7 +3799,6 @@
 				8128CC141EAF499100E1389B /* vipsrv_big_btn_sos.png in Resources */,
 				8128CB5E1EAF499100E1389B /* policyinforquery_textarea_bg.png in Resources */,
 				8128CA911EAF499100E1389B /* my_policy_service.png in Resources */,
-				819EF1BE1EB07717003DA7B4 /* associated_01.png in Resources */,
 				8128C9751EAF499000E1389B /* c_button_up.png in Resources */,
 				8128C9E71EAF499100E1389B /* f_welcome_jump.png in Resources */,
 				8128CB731EAF499100E1389B /* product_header_item_icon5.png in Resources */,
@@ -4398,20 +3823,15 @@
 				8128CA881EAF499100E1389B /* my_head_icon.png in Resources */,
 				8128CBBF1EAF499100E1389B /* skyblue_logo_mingdao.png in Resources */,
 				8128C99B1EAF499000E1389B /* customerinforauth_switch_female.png in Resources */,
-				819EF1991EB07717003DA7B4 /* Contact_03.png in Resources */,
 				8128CD601EAF532300E1389B /* yiwai_bg.jpg in Resources */,
 				8128C9B31EAF499100E1389B /* f_foot_background_red.png in Resources */,
 				8128CD4C1EAF532300E1389B /* pay_menu_d.png in Resources */,
 				8128CB741EAF499100E1389B /* product_header_item_icon6.png in Resources */,
-				819EF1C61EB07717003DA7B4 /* trade_01.png in Resources */,
-				819EF1AD1EB07717003DA7B4 /* wap_index_c_04.jpg in Resources */,
 				8128CABD1EAF499100E1389B /* news.png in Resources */,
-				819EF1E11EB07717003DA7B4 /* web_PC_fx_xl.png in Resources */,
 				8128CB561EAF499100E1389B /* policyinforquery_icon_c_05.png in Resources */,
 				8128CD221EAF532300E1389B /* mm_title_act_btn_pressed.9.png in Resources */,
 				8128CD0C1EAF532300E1389B /* btn_share.png in Resources */,
 				8128CAF51EAF499100E1389B /* onlineserver_f043.png in Resources */,
-				819EF1F31EB07717003DA7B4 /* mobiscroll_date.js in Resources */,
 				8128CA841EAF499100E1389B /* map_route_walk_active.png in Resources */,
 				8128CA961EAF499100E1389B /* myaccount_box_notice.png in Resources */,
 				8128CADF1EAF499100E1389B /* onlineserver_f021.png in Resources */,
@@ -4428,7 +3848,6 @@
 				8128C94F1EAF499000E1389B /* addmenu_line.png in Resources */,
 				8128CAFA1EAF499100E1389B /* onlineserver_f048.png in Resources */,
 				8128CBB01EAF499100E1389B /* skyblue_logo_instagram_checked.png in Resources */,
-				819EF1EA1EB07717003DA7B4 /* yzm.jpg in Resources */,
 				8128CAA41EAF499100E1389B /* myaccount_myorder_item_delete_btn.9.png in Resources */,
 				8128CAD31EAF499100E1389B /* onlineserver_f009.png in Resources */,
 				8128CBCF1EAF499100E1389B /* skyblue_logo_sinaweibo.png in Resources */,
@@ -4456,20 +3875,12 @@
 				8128C9A71EAF499100E1389B /* ehousekeeper_calendar_list_item_icon1.png in Resources */,
 				8128CD1F1EAF532300E1389B /* message_bg.png in Resources */,
 				8128C6091EAF398600E1389B /* Assets.xcassets in Resources */,
-				819EF1D11EB07717003DA7B4 /* wap_cpzx_fl_1_1.png in Resources */,
-				819EF1861EB07717003DA7B4 /* swiper.min.css in Resources */,
 				8128C9E51EAF499100E1389B /* f_tai_logo.png in Resources */,
 				8128CAC61EAF499100E1389B /* onlineserver_buttonactive.png in Resources */,
 				8128CBE01EAF499100E1389B /* skyblue_logo_wechatfavorite_checked.png in Resources */,
-				819EF1CF1EB07717003DA7B4 /* wap_grzx_yh04.png in Resources */,
 				8128CAC41EAF499100E1389B /* onlineserver_back_active.png in Resources */,
 				8128CD331EAF532300E1389B /* pay_btn_link.png in Resources */,
-				819EF1F51EB07717003DA7B4 /* show.js in Resources */,
-				819EF1F81EB07717003DA7B4 /* index2.html in Resources */,
-				819EF17C1EB07717003DA7B4 /* center_style.css in Resources */,
 				8128C9601EAF499000E1389B /* bankcard_add_btn.png in Resources */,
-				819EF1951EB07717003DA7B4 /* about_04.png in Resources */,
-				819EF1DA1EB07717003DA7B4 /* wap_cpzx_fl_1_5_L.png in Resources */,
 				8128CA9F1EAF499100E1389B /* myaccount_icon_myorder.png in Resources */,
 				8128C9B81EAF499100E1389B /* f_found_jbsc_4.png in Resources */,
 				8128CCEE1EAF532300E1389B /* bangclepay_keyboard_letter_shift_press.png in Resources */,
@@ -4480,13 +3891,10 @@
 				8128CB5A1EAF499100E1389B /* policyinforquery_icon_c_09.png in Resources */,
 				8128CD281EAF532300E1389B /* num_delete.png in Resources */,
 				8128C9A41EAF499100E1389B /* ehousekeeper_calendar_edit_delete1.png in Resources */,
-				819EF19B1EB07717003DA7B4 /* choose_03.png in Resources */,
-				819EF1801EB07717003DA7B4 /* login_style.css in Resources */,
 				8128CD361EAF532300E1389B /* pay_btn_shift_in_d.png in Resources */,
 				8128CA391EAF499100E1389B /* jbsc_gold_mall_myprize_listview_item_chou.png in Resources */,
 				8128C9731EAF499000E1389B /* c_button_down.png in Resources */,
 				8128CAEA1EAF499100E1389B /* onlineserver_f032.png in Resources */,
-				819EF1A31EB07717003DA7B4 /* gonggao04.png in Resources */,
 				8128CD371EAF532300E1389B /* pay_btn_shift_out.png in Resources */,
 				8128C97A1EAF499000E1389B /* c_notice_box.png in Resources */,
 				8128C9BF1EAF499100E1389B /* f_jf_active.png in Resources */,
@@ -4502,7 +3910,6 @@
 				8128CAF61EAF499100E1389B /* onlineserver_f044.png in Resources */,
 				8128CBA61EAF499100E1389B /* skyblue_logo_facebook_checked.png in Resources */,
 				8128C6071EAF398600E1389B /* Main.storyboard in Resources */,
-				819EF1AB1EB07717003DA7B4 /* wap_index_c_02.jpg in Resources */,
 				8128CA8E1EAF499100E1389B /* my_phone_iv.png in Resources */,
 				8128CACB1EAF499100E1389B /* onlineserver_f001.png in Resources */,
 				8128CA2C1EAF499100E1389B /* hospitalquery_name_bk.png in Resources */,
@@ -4527,13 +3934,11 @@
 				8128CBD61EAF499100E1389B /* skyblue_logo_tencentweibo_checked.png in Resources */,
 				8128CD2F1EAF532300E1389B /* pay_btn_d.png in Resources */,
 				8128CBDB1EAF499100E1389B /* skyblue_logo_vkontakte.png in Resources */,
-				819EF18F1EB07717003DA7B4 /* 004.png in Resources */,
 				8128CCF51EAF532300E1389B /* bangclepay_keyboard_num_ok_press.png in Resources */,
 				8128CA831EAF499100E1389B /* map_route_walk.png in Resources */,
 				8128CD111EAF532300E1389B /* com_ttshrk_view_scroll_picker_background.png in Resources */,
 				8128CA3F1EAF499100E1389B /* jbsc_gold_mall_task.png in Resources */,
 				8128CC2C1EAF499100E1389B /* vipsrv_icon_gray_06.png in Resources */,
-				819EF17A1EB07717003DA7B4 /* bootstrap.css in Resources */,
 				8128CA151EAF499100E1389B /* home_pager_activtes_size.png in Resources */,
 				8128CB1E1EAF499100E1389B /* onlineserver_f084.png in Resources */,
 				8128C9831EAF499000E1389B /* c_view_myindentdialog_line.png in Resources */,
@@ -4542,7 +3947,6 @@
 				8128C9541EAF499000E1389B /* annuityreceive_box_list_details.png in Resources */,
 				8128C9A11EAF499100E1389B /* ehousekeeper_add_normal.png in Resources */,
 				8128CAF41EAF499100E1389B /* onlineserver_f042.png in Resources */,
-				819EF1E31EB07717003DA7B4 /* web_pc_xq_img01.jpg in Resources */,
 				8128CB641EAF499100E1389B /* policyreinstatement_icon_b_15.png in Resources */,
 				8128C9DD1EAF499100E1389B /* f_register_deal_down.png in Resources */,
 				8128CD2E1EAF532300E1389B /* pay_btn_back_d.png in Resources */,
@@ -4550,7 +3954,6 @@
 				8128CBF11EAF499100E1389B /* srvintroduce_service_home_item_3.png in Resources */,
 				8128CD691EAF532300E1389B /* f_title_bk.png in Resources */,
 				8128CA731EAF499100E1389B /* logo_vkontakte.png in Resources */,
-				819EF1B81EB07717003DA7B4 /* wap_index_r_01.jpg in Resources */,
 				8128CB5D1EAF499100E1389B /* policyinforquery_icon_c_12.png in Resources */,
 				8128CD401EAF532300E1389B /* pay_ic_back.png in Resources */,
 				8128C9EC1EAF499100E1389B /* framework_splash_1.png in Resources */,
@@ -4558,20 +3961,17 @@
 				8128CA3E1EAF499100E1389B /* jbsc_gold_mall_sign.png in Resources */,
 				8128C9801EAF499000E1389B /* c_select_grey.png in Resources */,
 				8128CD791EAF7B5000E1389B /* ContactUsViewController.xib in Resources */,
-				819EF1D31EB07717003DA7B4 /* wap_cpzx_fl_1_2.png in Resources */,
 				8128C9C21EAF499100E1389B /* f_listmodules_infor.png in Resources */,
 				8128CB2C1EAF499100E1389B /* onlineserver_f098.png in Resources */,
 				8128CBE31EAF499100E1389B /* skyblue_logo_whatsapp.png in Resources */,
 				8128C9FB1EAF499100E1389B /* framework_splash_bottom_dot.png in Resources */,
 				8128CB861EAF499100E1389B /* setting_contactsus_feedback_redarrow.9.png in Resources */,
 				8128C9EF1EAF499100E1389B /* framework_splash_2.png in Resources */,
-				819EF1EF1EB07717003DA7B4 /* html5shiv.min.js in Resources */,
 				8128CD071EAF532300E1389B /* btn_arrow_left.png in Resources */,
 				8128C9CA1EAF499100E1389B /* f_login_password.png in Resources */,
 				8128CC281EAF499100E1389B /* vipsrv_icon_gray_04.png in Resources */,
 				8128CCFB1EAF532300E1389B /* bangclepay_keyboard_sign_delete_press.png in Resources */,
 				8128C9D31EAF499100E1389B /* f_more.png in Resources */,
-				819EF1821EB07717003DA7B4 /* mobiscroll.css in Resources */,
 				8128CAC11EAF499100E1389B /* onlineserver_addactive.png in Resources */,
 				8128CB591EAF499100E1389B /* policyinforquery_icon_c_08.png in Resources */,
 				8128C9511EAF499000E1389B /* address_add_set_default.9.png in Resources */,
@@ -4579,7 +3979,6 @@
 				8128CA5E1EAF499100E1389B /* logo_instagram.png in Resources */,
 				819EF0D31EB042CF003DA7B4 /* mm5.jpg in Resources */,
 				8128CD091EAF532300E1389B /* btn_camera.png in Resources */,
-				819EF1851EB07717003DA7B4 /* show.css in Resources */,
 				8128CCD91EAF532300E1389B /* failed.png in Resources */,
 				8128CA9D1EAF499100E1389B /* myaccount_home_box_4.png in Resources */,
 				8128CA691EAF499100E1389B /* logo_pocket.png in Resources */,
@@ -4598,7 +3997,6 @@
 				8128CBB51EAF499100E1389B /* skyblue_logo_kakaostory.png in Resources */,
 				8128CD311EAF532300E1389B /* pay_btn_finish_d.png in Resources */,
 				8128CB6B1EAF499100E1389B /* position_title_bk.png in Resources */,
-				819EF1E41EB07717003DA7B4 /* web_ProductC_img01.png in Resources */,
 				8128CD021EAF532300E1389B /* bangclepay_keyboard_sign_ok_normal.png in Resources */,
 				8128CA981EAF499100E1389B /* myaccount_btn_link.png in Resources */,
 				8128CD571EAF532300E1389B /* sport_completed_arrow_select.png in Resources */,
@@ -4631,10 +4029,8 @@
 				8128CD191EAF532300E1389B /* in_motion_bg.png in Resources */,
 				8128C9EE1EAF499100E1389B /* framework_splash_1_text_up.png in Resources */,
 				8128C9F51EAF499100E1389B /* framework_splash_3_text_up.png in Resources */,
-				819EF1F41EB07717003DA7B4 /* respond.min.js in Resources */,
 				8128CAC91EAF499100E1389B /* onlineserver_edittext_bg.png in Resources */,
 				8128CBA21EAF499100E1389B /* skyblue_logo_email_checked.png in Resources */,
-				819EF1AC1EB07717003DA7B4 /* wap_index_c_03.jpg in Resources */,
 				8128CB5F1EAF499100E1389B /* policyloancredit_orderdetail_title.png in Resources */,
 				8128C9DA1EAF499100E1389B /* f_qr_scan_active.png in Resources */,
 				8128CCF81EAF532300E1389B /* bangclepay_keyboard_sign_back_normal.png in Resources */,
@@ -4654,9 +4050,7 @@
 				8128CA031EAF499100E1389B /* healthtest_main_btn_background_checked.png in Resources */,
 				8128C9C31EAF499100E1389B /* f_listmodules_login.png in Resources */,
 				8128CBA31EAF499100E1389B /* skyblue_logo_evernote.png in Resources */,
-				819EF1EC1EB07717003DA7B4 /* bootstrap.js in Resources */,
 				8128CACC1EAF499100E1389B /* onlineserver_f002.png in Resources */,
-				819EF18C1EB07717003DA7B4 /* 001.png in Resources */,
 				8128C9411EAF499000E1389B /* abc2.jpg in Resources */,
 				8128CB351EAF499100E1389B /* onlineserver_face.png in Resources */,
 				8128CD3A1EAF532300E1389B /* pay_check_s.png in Resources */,
@@ -4664,19 +4058,12 @@
 				8128CD061EAF532300E1389B /* bhlogo.jpg in Resources */,
 				8128C9421EAF499000E1389B /* accessory_risk_low_coverage_renewal_title_bk1.png in Resources */,
 				8128C9B11EAF499100E1389B /* f_config_active.png in Resources */,
-				819EF1781EB07717003DA7B4 /* bootstrap-theme.css in Resources */,
-				819EF1CB1EB07717003DA7B4 /* wap_grzx_img04.png in Resources */,
-				819EF1881EB07717003DA7B4 /* glyphicons-halflings-regular.svg in Resources */,
 				8128CB7D1EAF499100E1389B /* register.png in Resources */,
 				819EF0D41EB042CF003DA7B4 /* mm6.jpg in Resources */,
-				819EF1921EB07717003DA7B4 /* about_01.png in Resources */,
-				819EF1D71EB07717003DA7B4 /* wap_cpzx_fl_1_4.png in Resources */,
 				8128CB6E1EAF499100E1389B /* product_backgound.png in Resources */,
 				8128C9A51EAF499100E1389B /* ehousekeeper_calendar_edit_save1.png in Resources */,
-				819EF1BF1EB07717003DA7B4 /* boin.png in Resources */,
 				8128CBB81EAF499100E1389B /* skyblue_logo_kakaotalk_checked.png in Resources */,
 				8128CD631EAF532300E1389B /* addmenu_menu_3.png in Resources */,
-				819EF1B41EB07717003DA7B4 /* wap_index_q_05.png in Resources */,
 				8128CA6F1EAF499100E1389B /* logo_sohusuishenkan.png in Resources */,
 				8128C9491EAF499000E1389B /* accessory_risk_not_renewal_title_bk1.png in Resources */,
 				8128CA101EAF499100E1389B /* home_page_menu1.png in Resources */,
@@ -4684,14 +4071,10 @@
 				8128CD5D1EAF532300E1389B /* toast_right.png in Resources */,
 				8128C94A1EAF499000E1389B /* accountinforquery_query_layout_title.png in Resources */,
 				8128C97E1EAF499000E1389B /* c_policy_layout_bg.png in Resources */,
-				819EF19E1EB07717003DA7B4 /* dsf.jpg in Resources */,
-				819EF1D01EB07717003DA7B4 /* left.png in Resources */,
 				8128C9501EAF499000E1389B /* addmenu_selected.png in Resources */,
 				8128CC131EAF499100E1389B /* vipsrv_big_btn_kefu.png in Resources */,
 				8128CA1B1EAF499100E1389B /* home_pager_position.png in Resources */,
 				8128CACD1EAF499100E1389B /* onlineserver_f003.png in Resources */,
-				819EF1B61EB07717003DA7B4 /* wap_index_q_07.png in Resources */,
-				819EF1AF1EB07717003DA7B4 /* wap_index_phone.png in Resources */,
 				8128CBCA1EAF499100E1389B /* skyblue_logo_qzone_checked.png in Resources */,
 				8128CD1B1EAF532300E1389B /* in_motion_mode_arrow_down.png in Resources */,
 				8128CB2E1EAF499100E1389B /* onlineserver_f100.png in Resources */,
@@ -4703,10 +4086,7 @@
 				8128CCEF1EAF532300E1389B /* bangclepay_keyboard_num_delete_normal.png in Resources */,
 				8128CD001EAF532300E1389B /* bangclepay_keyboard_sign_more_press.png in Resources */,
 				8128CB4E1EAF499100E1389B /* policyassociation_gray_bt.9.png in Resources */,
-				819EF1DF1EB07717003DA7B4 /* web_PC_fx_qq.png in Resources */,
-				819EF1C21EB07717003DA7B4 /* order.png in Resources */,
 				8128CB871EAF499100E1389B /* setting_sz_set_box9.9.png in Resources */,
-				819EF1D41EB07717003DA7B4 /* wap_cpzx_fl_1_2_L.png in Resources */,
 				8128C9BC1EAF499100E1389B /* f_head_background.png in Resources */,
 				8128CC121EAF499100E1389B /* vipsrv_bak_tel.png in Resources */,
 				8128CA5B1EAF499100E1389B /* logo_flickr.png in Resources */,
