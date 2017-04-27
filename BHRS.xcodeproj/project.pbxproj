@@ -942,13 +942,6 @@
 		8128CD7C1EAF7F6400E1389B /* BuffetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128CD7B1EAF7F6400E1389B /* BuffetView.m */; };
 		8128CD7E1EAF7F6F00E1389B /* BuffetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8128CD7D1EAF7F6F00E1389B /* BuffetView.xib */; };
 		819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */; };
-		819EF0C71EB0425C003DA7B4 /* XLsn0wLoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0C51EB0425C003DA7B4 /* XLsn0wLoop.png */; };
-		819EF0CF1EB042CF003DA7B4 /* mm0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0C91EB042CF003DA7B4 /* mm0.jpg */; };
-		819EF0D01EB042CF003DA7B4 /* mm1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CA1EB042CF003DA7B4 /* mm1.jpg */; };
-		819EF0D11EB042CF003DA7B4 /* mm2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CB1EB042CF003DA7B4 /* mm2.jpg */; };
-		819EF0D21EB042CF003DA7B4 /* mm4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CC1EB042CF003DA7B4 /* mm4.jpg */; };
-		819EF0D31EB042CF003DA7B4 /* mm5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CD1EB042CF003DA7B4 /* mm5.jpg */; };
-		819EF0D41EB042CF003DA7B4 /* mm6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 819EF0CE1EB042CF003DA7B4 /* mm6.jpg */; };
 		819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DC1EB055A9003DA7B4 /* BuffetController.m */; };
 		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
 		819EF2001EB07D83003DA7B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819EF1FF1EB07D82003DA7B4 /* WebKit.framework */; };
@@ -1918,13 +1911,6 @@
 		8128CD7D1EAF7F6F00E1389B /* BuffetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuffetView.xib; sourceTree = "<group>"; };
 		819EF0C31EB0425C003DA7B4 /* XLsn0wLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLoop.h; sourceTree = "<group>"; };
 		819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLoop.m; sourceTree = "<group>"; };
-		819EF0C51EB0425C003DA7B4 /* XLsn0wLoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XLsn0wLoop.png; sourceTree = "<group>"; };
-		819EF0C91EB042CF003DA7B4 /* mm0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm0.jpg; sourceTree = "<group>"; };
-		819EF0CA1EB042CF003DA7B4 /* mm1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm1.jpg; sourceTree = "<group>"; };
-		819EF0CB1EB042CF003DA7B4 /* mm2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm2.jpg; sourceTree = "<group>"; };
-		819EF0CC1EB042CF003DA7B4 /* mm4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm4.jpg; sourceTree = "<group>"; };
-		819EF0CD1EB042CF003DA7B4 /* mm5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm5.jpg; sourceTree = "<group>"; };
-		819EF0CE1EB042CF003DA7B4 /* mm6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm6.jpg; sourceTree = "<group>"; };
 		819EF0DB1EB055A9003DA7B4 /* BuffetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuffetController.h; sourceTree = "<group>"; };
 		819EF0DC1EB055A9003DA7B4 /* BuffetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuffetController.m; sourceTree = "<group>"; };
 		819EF0DE1EB06EE1003DA7B4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -3110,25 +3096,10 @@
 		819EF0C21EB0425C003DA7B4 /* XLsn0wLoop */ = {
 			isa = PBXGroup;
 			children = (
-				819EF0C81EB042CF003DA7B4 /* mm */,
 				819EF0C31EB0425C003DA7B4 /* XLsn0wLoop.h */,
 				819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */,
-				819EF0C51EB0425C003DA7B4 /* XLsn0wLoop.png */,
 			);
 			path = XLsn0wLoop;
-			sourceTree = "<group>";
-		};
-		819EF0C81EB042CF003DA7B4 /* mm */ = {
-			isa = PBXGroup;
-			children = (
-				819EF0C91EB042CF003DA7B4 /* mm0.jpg */,
-				819EF0CA1EB042CF003DA7B4 /* mm1.jpg */,
-				819EF0CB1EB042CF003DA7B4 /* mm2.jpg */,
-				819EF0CC1EB042CF003DA7B4 /* mm4.jpg */,
-				819EF0CD1EB042CF003DA7B4 /* mm5.jpg */,
-				819EF0CE1EB042CF003DA7B4 /* mm6.jpg */,
-			);
-			path = mm;
 			sourceTree = "<group>";
 		};
 		819EF1FE1EB07D82003DA7B4 /* Frameworks */ = {
@@ -3302,7 +3273,6 @@
 				8128C9671EAF499000E1389B /* btn_cancel_back.9.png in Resources */,
 				8128CD4F1EAF532300E1389B /* pay_radio.png in Resources */,
 				8128C9F61EAF499100E1389B /* framework_splash_4.png in Resources */,
-				819EF0D21EB042CF003DA7B4 /* mm4.jpg in Resources */,
 				8128CB911EAF499100E1389B /* share_vp_back.9.png in Resources */,
 				8128C9451EAF499000E1389B /* accessory_risk_not_renewal_check_dot.png in Resources */,
 				8128CB171EAF499100E1389B /* onlineserver_f077.png in Resources */,
@@ -3424,7 +3394,6 @@
 				8128CD3D1EAF532300E1389B /* pay_edit.png in Resources */,
 				8128CBC71EAF499100E1389B /* skyblue_logo_qq.png in Resources */,
 				8128CA5F1EAF499100E1389B /* logo_instapaper.png in Resources */,
-				819EF0CF1EB042CF003DA7B4 /* mm0.jpg in Resources */,
 				8128CD131EAF532300E1389B /* health_race_action_mark.png in Resources */,
 				8128CBE41EAF499100E1389B /* skyblue_logo_whatsapp_checked.png in Resources */,
 				8128CB7F1EAF499100E1389B /* register_checkbox_unchecked.png in Resources */,
@@ -3509,7 +3478,6 @@
 				8128CB301EAF499100E1389B /* onlineserver_f102.png in Resources */,
 				8128CA9A1EAF499100E1389B /* myaccount_gray_dashed_line.png in Resources */,
 				8128C9E81EAF499100E1389B /* f_welcome_jump_btn.png in Resources */,
-				819EF0C71EB0425C003DA7B4 /* XLsn0wLoop.png in Resources */,
 				8128CD741EAF770300E1389B /* MyPolicyViewController.xib in Resources */,
 				8128CC2B1EAF499100E1389B /* vipsrv_icon_gray_05_on.png in Resources */,
 				8128CABF1EAF499100E1389B /* onlineserver_acw.png in Resources */,
@@ -3553,7 +3521,6 @@
 				8128CB501EAF499100E1389B /* policyinforquery_btn_handle.png in Resources */,
 				8128CBDE1EAF499100E1389B /* skyblue_logo_wechat_checked.png in Resources */,
 				8128C9FF1EAF499100E1389B /* healthtest_btn_bgcolor.png in Resources */,
-				819EF0D11EB042CF003DA7B4 /* mm2.jpg in Resources */,
 				8128CB3A1EAF499100E1389B /* onlineserver_line.png in Resources */,
 				8128CA191EAF499100E1389B /* home_pager_activty_icon4.png in Resources */,
 				8128CAEF1EAF499100E1389B /* onlineserver_f037.png in Resources */,
@@ -4031,7 +3998,6 @@
 				8128C9511EAF499000E1389B /* address_add_set_default.9.png in Resources */,
 				8128C96B1EAF499000E1389B /* c_arrow_selected_down.png in Resources */,
 				8128CA5E1EAF499100E1389B /* logo_instagram.png in Resources */,
-				819EF0D31EB042CF003DA7B4 /* mm5.jpg in Resources */,
 				8128CD091EAF532300E1389B /* btn_camera.png in Resources */,
 				8128CCD91EAF532300E1389B /* failed.png in Resources */,
 				8128CA9D1EAF499100E1389B /* myaccount_home_box_4.png in Resources */,
@@ -4097,7 +4063,6 @@
 				8128CBEB1EAF499100E1389B /* skyblue_platform_checked.png in Resources */,
 				8128CA251EAF499100E1389B /* home_pager_refreshing.png in Resources */,
 				8128CBDC1EAF499100E1389B /* skyblue_logo_vkontakte_checked.png in Resources */,
-				819EF0D01EB042CF003DA7B4 /* mm1.jpg in Resources */,
 				8128CD351EAF532300E1389B /* pay_btn_shift_in.png in Resources */,
 				8128CB5B1EAF499100E1389B /* policyinforquery_icon_c_10.png in Resources */,
 				8128CA341EAF499100E1389B /* jbsc_gold_mall_dailytask_popwindow_bg_r.png in Resources */,
@@ -4113,7 +4078,6 @@
 				8128C9421EAF499000E1389B /* accessory_risk_low_coverage_renewal_title_bk1.png in Resources */,
 				8128C9B11EAF499100E1389B /* f_config_active.png in Resources */,
 				8128CB7D1EAF499100E1389B /* register.png in Resources */,
-				819EF0D41EB042CF003DA7B4 /* mm6.jpg in Resources */,
 				8128CB6E1EAF499100E1389B /* product_backgound.png in Resources */,
 				8128C9A51EAF499100E1389B /* ehousekeeper_calendar_edit_save1.png in Resources */,
 				8128CBB81EAF499100E1389B /* skyblue_logo_kakaotalk_checked.png in Resources */,

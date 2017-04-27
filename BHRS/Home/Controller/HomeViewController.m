@@ -49,7 +49,7 @@
     self.loop.time = 2;
     [self.loop setPageColor:[UIColor blueColor] andCurrentPageColor:[UIColor redColor]];
     //支持gif动态图
-    self.loop.imageArray = @[[UIImage imageNamed:@"mm0.jpg"], [UIImage imageNamed:@"mm1.jpg"], [UIImage imageNamed:@"mm2.jpg"], [UIImage imageNamed:@"mm4.jpg"]];
+    self.loop.imageArray = @[[UIImage imageNamed:@"default_banner.jpg"], [UIImage imageNamed:@"default_banner.jpg"], [UIImage imageNamed:@"default_banner.jpg"], [UIImage imageNamed:@"default_banner.jpg"]];
 }
 
 - (void)addTopView {
