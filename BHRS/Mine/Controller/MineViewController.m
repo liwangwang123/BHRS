@@ -14,7 +14,7 @@
 @end
 
 @implementation MineViewController
-
+//
 - (void)viewDidLoad {
     [super viewDidLoad];
   self.navigationController.navigationBar.hidden = YES;
