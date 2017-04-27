@@ -110,40 +110,45 @@
             [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
             [self.navigationController pushViewController:web animated:YES];
         }
-            
             break;
         case 1012: {
             ContactUsViewController *contactUs = [[ContactUsViewController alloc] initWithNibName:@"ContactUsViewController" bundle:nil];
             [self.navigationController pushViewController:contactUs animated:YES];
         }
-            
             break;
         case 1013: {
             
         }
+            break;
+        case 1014: {
+            
+        }
             
             break;
-        case 1014:
+        case 1015: {
+            
+        }
             
             break;
-        case 1015:
+        case 1016: {
+            
+        }
             
             break;
-        case 1016:
+        case 1017: {
             
+        }
             break;
-        case 1017:
+        case 1018: {
             
+        }
             break;
-        case 1018:
+        case 1019: {
             
-            break;
-        case 1019:
-            
+        }
             break;
         case 1020: {
             WebViewController *web = [WebViewController shareInstance];
-            //            [web loadWebViewWithFileName:@"index1"];
             [web loadWebViewWithFileName:@"product_center"];
             [self.navigationController pushViewController:web animated:YES];
         }
@@ -168,14 +173,5 @@
     
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
