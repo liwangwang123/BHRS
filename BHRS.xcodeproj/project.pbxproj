@@ -953,6 +953,11 @@
 		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
 		819EF2001EB07D83003DA7B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819EF1FF1EB07D82003DA7B4 /* WebKit.framework */; };
 		81FF4EC81EB1B23A005D03F2 /* showapp in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4EC71EB1B23A005D03F2 /* showapp */; };
+		81FF4F121EB1C2C1005D03F2 /* MyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F0F1EB1C2C1005D03F2 /* MyOrdersViewController.m */; };
+		81FF4F131EB1C2C1005D03F2 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F111EB1C2C1005D03F2 /* MineViewController.xib */; };
+		81FF4F191EB1C2EA005D03F2 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F141EB1C2EA005D03F2 /* OrderModel.m */; };
+		81FF4F1A1EB1C2EA005D03F2 /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F161EB1C2EA005D03F2 /* MyOrderTableViewCell.xib */; };
+		81FF4F1B1EB1C2EA005D03F2 /* MyOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F171EB1C2EA005D03F2 /* MyOrderTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1920,6 +1925,14 @@
 		819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		819EF1FF1EB07D82003DA7B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		81FF4EC71EB1B23A005D03F2 /* showapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = showapp; sourceTree = "<group>"; };
+		81FF4F0F1EB1C2C1005D03F2 /* MyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrdersViewController.m; sourceTree = "<group>"; };
+		81FF4F101EB1C2C1005D03F2 /* MyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrdersViewController.h; sourceTree = "<group>"; };
+		81FF4F111EB1C2C1005D03F2 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		81FF4F141EB1C2EA005D03F2 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		81FF4F151EB1C2EA005D03F2 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		81FF4F161EB1C2EA005D03F2 /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
+		81FF4F171EB1C2EA005D03F2 /* MyOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderTableViewCell.m; sourceTree = "<group>"; };
+		81FF4F181EB1C2EA005D03F2 /* MyOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2006,6 +2019,11 @@
 		8128C6151EAF3B7400E1389B /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				81FF4F141EB1C2EA005D03F2 /* OrderModel.m */,
+				81FF4F151EB1C2EA005D03F2 /* OrderModel.h */,
+				81FF4F161EB1C2EA005D03F2 /* MyOrderTableViewCell.xib */,
+				81FF4F171EB1C2EA005D03F2 /* MyOrderTableViewCell.m */,
+				81FF4F181EB1C2EA005D03F2 /* MyOrderTableViewCell.h */,
 				8128C6261EAF3FEF00E1389B /* Controller */,
 				8128C6271EAF3FEF00E1389B /* Model */,
 				8128C6281EAF3FEF00E1389B /* View */,
@@ -2036,6 +2054,9 @@
 		8128C6261EAF3FEF00E1389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				81FF4F0F1EB1C2C1005D03F2 /* MyOrdersViewController.m */,
+				81FF4F101EB1C2C1005D03F2 /* MyOrdersViewController.h */,
+				81FF4F111EB1C2C1005D03F2 /* MineViewController.xib */,
 				8128C6321EAF404D00E1389B /* MineViewController.h */,
 				8128C6331EAF404D00E1389B /* MineViewController.m */,
 			);
@@ -3477,6 +3498,7 @@
 				8128CAAE1EAF499100E1389B /* myorder_bottonm_line.png in Resources */,
 				8128CB2A1EAF499100E1389B /* onlineserver_f096.png in Resources */,
 				8128CB3D1EAF499100E1389B /* onlineserver_record.png in Resources */,
+				81FF4F1A1EB1C2EA005D03F2 /* MyOrderTableViewCell.xib in Resources */,
 				8128CA901EAF499100E1389B /* my_policy_connect.png in Resources */,
 				8128CA2A1EAF499100E1389B /* hospitalquery_location_telephone.png in Resources */,
 				8128CB151EAF499100E1389B /* onlineserver_f075.png in Resources */,
@@ -3592,6 +3614,7 @@
 				8128CBE21EAF499100E1389B /* skyblue_logo_wechatmoments_checked.png in Resources */,
 				8128C94D1EAF499000E1389B /* addmenu_button.png in Resources */,
 				8128C9901EAF499000E1389B /* cardbind_add_icon_normal.png in Resources */,
+				81FF4F131EB1C2C1005D03F2 /* MineViewController.xib in Resources */,
 				8128CA211EAF499100E1389B /* home_pager_refresh_load_succeed.png in Resources */,
 				8128CD621EAF532300E1389B /* addmenu_menu_2.png in Resources */,
 				8128CC2D1EAF499100E1389B /* vipsrv_icon_gray_06_on.png in Resources */,
@@ -4115,9 +4138,12 @@
 				819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */,
 				819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */,
 				8128C6341EAF404D00E1389B /* MineViewController.m in Sources */,
+				81FF4F1B1EB1C2EA005D03F2 /* MyOrderTableViewCell.m in Sources */,
 				8128CD731EAF770300E1389B /* MyPolicyViewController.m in Sources */,
 				8128CD781EAF7B5000E1389B /* ContactUsViewController.m in Sources */,
 				8128CD7C1EAF7F6400E1389B /* BuffetView.m in Sources */,
+				81FF4F191EB1C2EA005D03F2 /* OrderModel.m in Sources */,
+				81FF4F121EB1C2C1005D03F2 /* MyOrdersViewController.m in Sources */,
 				8128C63A1EAF472200E1389B /* TopList.m in Sources */,
 				8128C6011EAF398600E1389B /* AppDelegate.m in Sources */,
 				8128C5FE1EAF398600E1389B /* main.m in Sources */,
