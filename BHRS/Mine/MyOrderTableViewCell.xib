@@ -51,15 +51,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eAS-n2-t0J" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="89h-zG-VVv"/>
-<<<<<<< .mine
                             <constraint firstAttribute="bottom" secondItem="0ZY-2H-uye" secondAttribute="bottom" constant="14" id="O2D-e4-LmM"/>
                             <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="12" id="T2f-hI-npX"/>
                             <constraint firstItem="0ZY-2H-uye" firstAttribute="leading" secondItem="eAS-n2-t0J" secondAttribute="trailing" constant="42" id="VjP-j8-BxM"/>
-=======
-                            <constraint firstAttribute="bottom" secondItem="0ZY-2H-uye" secondAttribute="bottom" constant="12" id="O2D-e4-LmM"/>
-                            <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="9" id="T2f-hI-npX"/>
-                            <constraint firstItem="0ZY-2H-uye" firstAttribute="leading" secondItem="eAS-n2-t0J" secondAttribute="trailing" constant="40" id="VjP-j8-BxM"/>
->>>>>>> .r19
                             <constraint firstItem="0ZY-2H-uye" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="12" id="WYv-nK-zyr"/>
                             <constraint firstAttribute="bottom" secondItem="eAS-n2-t0J" secondAttribute="bottom" constant="6" id="ayh-IX-sVr"/>
                             <constraint firstItem="enV-cN-eNW" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="byW-0B-bj4"/>
