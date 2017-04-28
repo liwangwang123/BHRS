@@ -79,6 +79,9 @@
 }
 
 - (IBAction)landingInfo:(UIButton *)sender {
+  LoginViewController *loginVC = [[LoginViewController alloc] init];
+  loginVC.title = @"登陆";
+  [self.navigationController pushViewController:loginVC animated:NO];
 }
 
 - (IBAction)buyInsurance:(UIButton *)sender {
