@@ -971,6 +971,12 @@
 		81FF4F6C1EB2DC9C005D03F2 /* BindingBankCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F6A1EB2DC9C005D03F2 /* BindingBankCardViewController.xib */; };
 		81FF4F701EB2DF96005D03F2 /* RelatedPolicyNOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F6E1EB2DF96005D03F2 /* RelatedPolicyNOViewController.m */; };
 		81FF4F711EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F6F1EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib */; };
+		81FF4F7B1EB30D61005D03F2 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F721EB30D61005D03F2 /* SettingsViewController.xib */; };
+		81FF4F7C1EB30D61005D03F2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F731EB30D61005D03F2 /* SettingsViewController.m */; };
+		81FF4F7D1EB30D61005D03F2 /* oneAp.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F751EB30D61005D03F2 /* oneAp.png */; };
+		81FF4F7E1EB30D61005D03F2 /* OnApViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F761EB30D61005D03F2 /* OnApViewController.xib */; };
+		81FF4F7F1EB30D61005D03F2 /* OnApViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F771EB30D61005D03F2 /* OnApViewController.m */; };
+		81FF4F801EB30D61005D03F2 /* AcountSaftyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F791EB30D61005D03F2 /* AcountSaftyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1966,6 +1972,15 @@
 		81FF4F6D1EB2DF96005D03F2 /* RelatedPolicyNOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedPolicyNOViewController.h; sourceTree = "<group>"; };
 		81FF4F6E1EB2DF96005D03F2 /* RelatedPolicyNOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelatedPolicyNOViewController.m; sourceTree = "<group>"; };
 		81FF4F6F1EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatedPolicyNOViewController.xib; sourceTree = "<group>"; };
+		81FF4F721EB30D61005D03F2 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		81FF4F731EB30D61005D03F2 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		81FF4F741EB30D61005D03F2 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		81FF4F751EB30D61005D03F2 /* oneAp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneAp.png; sourceTree = "<group>"; };
+		81FF4F761EB30D61005D03F2 /* OnApViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnApViewController.xib; sourceTree = "<group>"; };
+		81FF4F771EB30D61005D03F2 /* OnApViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnApViewController.m; sourceTree = "<group>"; };
+		81FF4F781EB30D61005D03F2 /* OnApViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnApViewController.h; sourceTree = "<group>"; };
+		81FF4F791EB30D61005D03F2 /* AcountSaftyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcountSaftyViewController.m; sourceTree = "<group>"; };
+		81FF4F7A1EB30D61005D03F2 /* AcountSaftyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcountSaftyViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2087,6 +2102,15 @@
 		8128C6261EAF3FEF00E1389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				81FF4F721EB30D61005D03F2 /* SettingsViewController.xib */,
+				81FF4F731EB30D61005D03F2 /* SettingsViewController.m */,
+				81FF4F741EB30D61005D03F2 /* SettingsViewController.h */,
+				81FF4F751EB30D61005D03F2 /* oneAp.png */,
+				81FF4F761EB30D61005D03F2 /* OnApViewController.xib */,
+				81FF4F771EB30D61005D03F2 /* OnApViewController.m */,
+				81FF4F781EB30D61005D03F2 /* OnApViewController.h */,
+				81FF4F791EB30D61005D03F2 /* AcountSaftyViewController.m */,
+				81FF4F7A1EB30D61005D03F2 /* AcountSaftyViewController.h */,
 				81FF4F0F1EB1C2C1005D03F2 /* MyOrdersViewController.m */,
 				81FF4F101EB1C2C1005D03F2 /* MyOrdersViewController.h */,
 				81FF4F111EB1C2C1005D03F2 /* MineViewController.xib */,
@@ -3608,6 +3632,7 @@
 				8128CB721EAF499100E1389B /* product_header_item_icon4.png in Resources */,
 				8128CB3F1EAF499100E1389B /* onlineserver_send.png in Resources */,
 				8128CAB91EAF499100E1389B /* network_search_name_bk.png in Resources */,
+				81FF4F7D1EB30D61005D03F2 /* oneAp.png in Resources */,
 				8128CAD51EAF499100E1389B /* onlineserver_f011.png in Resources */,
 				81FF4F491EB1C580005D03F2 /* 我的@2x.png in Resources */,
 				8128CBF61EAF499100E1389B /* ssdk_logo.png in Resources */,
@@ -3621,6 +3646,7 @@
 				8128CC1E1EAF499100E1389B /* vipsrv_herizontal_line.png in Resources */,
 				8128CAE11EAF499100E1389B /* onlineserver_f023.png in Resources */,
 				8128CBA51EAF499100E1389B /* skyblue_logo_facebook.png in Resources */,
+				81FF4F7B1EB30D61005D03F2 /* SettingsViewController.xib in Resources */,
 				8128CB681EAF499100E1389B /* policyrele_box_tip_white.png in Resources */,
 				8128CB251EAF499100E1389B /* onlineserver_f091.png in Resources */,
 				8128CD161EAF532300E1389B /* ic_launcher.png in Resources */,
@@ -3871,6 +3897,7 @@
 				8128C9F71EAF499100E1389B /* framework_splash_4_bottom_dot.png in Resources */,
 				8128CD2A1EAF532300E1389B /* pay_arrow_down_d.png in Resources */,
 				8128CA721EAF499100E1389B /* logo_twitter.png in Resources */,
+				81FF4F7E1EB30D61005D03F2 /* OnApViewController.xib in Resources */,
 				8128CA2B1EAF499100E1389B /* hospitalquery_map_fuc.png in Resources */,
 				8128CC141EAF499100E1389B /* vipsrv_big_btn_sos.png in Resources */,
 				8128CB5E1EAF499100E1389B /* policyinforquery_textarea_bg.png in Resources */,
@@ -4207,6 +4234,7 @@
 				81FF4F191EB1C2EA005D03F2 /* OrderModel.m in Sources */,
 				81FF4F121EB1C2C1005D03F2 /* MyOrdersViewController.m in Sources */,
 				81FF4F521EB1D2C4005D03F2 /* MessageViewController.m in Sources */,
+				81FF4F801EB30D61005D03F2 /* AcountSaftyViewController.m in Sources */,
 				8128C63A1EAF472200E1389B /* TopList.m in Sources */,
 				8128C6011EAF398600E1389B /* AppDelegate.m in Sources */,
 				8128C5FE1EAF398600E1389B /* main.m in Sources */,
@@ -4214,10 +4242,12 @@
 				8128CD6D1EAF538000E1389B /* ProductCenter.m in Sources */,
 				81FF4F611EB1DE1E005D03F2 /* AddCertificatesViewController.m in Sources */,
 				8128CC411EAF4F0F00E1389B /* HotProduct.m in Sources */,
+				81FF4F7F1EB30D61005D03F2 /* OnApViewController.m in Sources */,
 				81FF4F701EB2DF96005D03F2 /* RelatedPolicyNOViewController.m in Sources */,
 				8128C6311EAF403500E1389B /* HomeViewController.m in Sources */,
 				8128C6191EAF3C2200E1389B /* MainViewController.m in Sources */,
 				81FF4F661EB22572005D03F2 /* MyBankCardViewController.m in Sources */,
+				81FF4F7C1EB30D61005D03F2 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
