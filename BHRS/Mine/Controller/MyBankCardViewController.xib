@@ -22,15 +22,15 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ob4-eY-OTa">
                     <rect key="frame" x="0.0" y="74" width="375" height="48"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="os1-Yq-prf">
-                            <rect key="frame" x="0.0" y="4" width="33" height="40"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhaoshang.png" translatesAutoresizingMaskIntoConstraints="NO" id="os1-Yq-prf">
+                            <rect key="frame" x="0.0" y="12" width="23" height="24"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="33" id="gAA-ch-xBG"/>
-                                <constraint firstAttribute="height" constant="40" id="xA5-3J-je0"/>
+                                <constraint firstAttribute="width" constant="23" id="gAA-ch-xBG"/>
+                                <constraint firstAttribute="height" constant="24" id="xA5-3J-je0"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="招商银行信用卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jk-qq-gyx">
-                            <rect key="frame" x="41" y="14" width="140" height="21"/>
+                            <rect key="frame" x="31" y="14" width="140" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="140" id="N9F-PM-opo"/>
                             </constraints>
@@ -39,7 +39,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="622700020001439" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5y-eM-Vsz">
-                            <rect key="frame" x="189" y="14" width="176" height="21"/>
+                            <rect key="frame" x="179" y="14" width="186" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -62,15 +62,15 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Lv-QD-OAV">
                     <rect key="frame" x="0.0" y="130" width="375" height="48"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="buB-En-0fX">
-                            <rect key="frame" x="0.0" y="4" width="33" height="40"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gongshang.png" translatesAutoresizingMaskIntoConstraints="NO" id="buB-En-0fX">
+                            <rect key="frame" x="0.0" y="12.5" width="23" height="23"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="7B8-bK-asv"/>
-                                <constraint firstAttribute="width" constant="33" id="iGh-Kw-AcK"/>
+                                <constraint firstAttribute="height" constant="23" id="7B8-bK-asv"/>
+                                <constraint firstAttribute="width" constant="23" id="iGh-Kw-AcK"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工商银行储蓄卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lby-8d-2X0">
-                            <rect key="frame" x="41" y="14" width="140" height="21"/>
+                            <rect key="frame" x="31" y="14" width="140" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="140" id="tgh-hX-JYf"/>
                             </constraints>
@@ -79,7 +79,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="627600020001527" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGi-vd-NUO">
-                            <rect key="frame" x="189" y="14" width="176" height="21"/>
+                            <rect key="frame" x="179" y="14" width="186" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -137,4 +137,8 @@
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="gongshang.png" width="23" height="23"/>
+        <image name="zhaoshang.png" width="23" height="24"/>
+    </resources>
 </document>

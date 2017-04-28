@@ -11,7 +11,6 @@
 		8128C6011EAF398600E1389B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6001EAF398600E1389B /* AppDelegate.m */; };
 		8128C6041EAF398600E1389B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6031EAF398600E1389B /* ViewController.m */; };
 		8128C6071EAF398600E1389B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8128C6051EAF398600E1389B /* Main.storyboard */; };
-		8128C6091EAF398600E1389B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8128C6081EAF398600E1389B /* Assets.xcassets */; };
 		8128C60C1EAF398600E1389B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8128C60A1EAF398600E1389B /* LaunchScreen.storyboard */; };
 		8128C6191EAF3C2200E1389B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6181EAF3C2200E1389B /* MainViewController.m */; };
 		8128C6311EAF403500E1389B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128C6301EAF403500E1389B /* HomeViewController.m */; };
@@ -977,6 +976,9 @@
 		81FF4F7E1EB30D61005D03F2 /* OnApViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F761EB30D61005D03F2 /* OnApViewController.xib */; };
 		81FF4F7F1EB30D61005D03F2 /* OnApViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F771EB30D61005D03F2 /* OnApViewController.m */; };
 		81FF4F801EB30D61005D03F2 /* AcountSaftyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F791EB30D61005D03F2 /* AcountSaftyViewController.m */; };
+		81FF4F821EB311E9005D03F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F811EB311E9005D03F2 /* Assets.xcassets */; };
+		81FF4F851EB31C3E005D03F2 /* gongshang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F831EB31C3E005D03F2 /* gongshang.png */; };
+		81FF4F861EB31C3F005D03F2 /* zhaoshang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F841EB31C3E005D03F2 /* zhaoshang.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -987,7 +989,6 @@
 		8128C6021EAF398600E1389B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8128C6031EAF398600E1389B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8128C6061EAF398600E1389B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8128C6081EAF398600E1389B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8128C60B1EAF398600E1389B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8128C60D1EAF398600E1389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8128C6171EAF3C2200E1389B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -1981,6 +1982,9 @@
 		81FF4F781EB30D61005D03F2 /* OnApViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnApViewController.h; sourceTree = "<group>"; };
 		81FF4F791EB30D61005D03F2 /* AcountSaftyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcountSaftyViewController.m; sourceTree = "<group>"; };
 		81FF4F7A1EB30D61005D03F2 /* AcountSaftyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcountSaftyViewController.h; sourceTree = "<group>"; };
+		81FF4F811EB311E9005D03F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81FF4F831EB31C3E005D03F2 /* gongshang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gongshang.png; sourceTree = "<group>"; };
+		81FF4F841EB31C3E005D03F2 /* zhaoshang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoshang.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2027,9 +2031,9 @@
 				8128C6021EAF398600E1389B /* ViewController.h */,
 				8128C6031EAF398600E1389B /* ViewController.m */,
 				8128C6051EAF398600E1389B /* Main.storyboard */,
-				8128C6081EAF398600E1389B /* Assets.xcassets */,
 				8128C60A1EAF398600E1389B /* LaunchScreen.storyboard */,
 				8128C60D1EAF398600E1389B /* Info.plist */,
+				81FF4F811EB311E9005D03F2 /* Assets.xcassets */,
 				8128C5FC1EAF398600E1389B /* Supporting Files */,
 			);
 			path = BHRS;
@@ -2222,6 +2226,8 @@
 		8128C63D1EAF497900E1389B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				81FF4F831EB31C3E005D03F2 /* gongshang.png */,
+				81FF4F841EB31C3E005D03F2 /* zhaoshang.png */,
 				81FF4F1C1EB1C37A005D03F2 /* 切图 */,
 				819EF2011EB09CDA003DA7B4 /* tabbarImage */,
 				8128CC441EAF532300E1389B /* drawable */,
@@ -3320,6 +3326,7 @@
 				8128CB3E1EAF499100E1389B /* onlineserver_recordactive.png in Resources */,
 				8128CA781EAF499100E1389B /* logo_yixin.png in Resources */,
 				8128CD531EAF532300E1389B /* progressdialog_bg.9.png in Resources */,
+				81FF4F821EB311E9005D03F2 /* Assets.xcassets in Resources */,
 				8128CB051EAF499100E1389B /* onlineserver_f059.png in Resources */,
 				8128CBE81EAF499100E1389B /* skyblue_logo_yixinmoments_checked.png in Resources */,
 				8128CBF41EAF499100E1389B /* ssdk_auth_title_back.png in Resources */,
@@ -3788,6 +3795,7 @@
 				8128CAF11EAF499100E1389B /* onlineserver_f039.png in Resources */,
 				8128CC161EAF499100E1389B /* vipsrv_blue_btn.png in Resources */,
 				8128CD3E1EAF532300E1389B /* pay_edit_big.png in Resources */,
+				81FF4F861EB31C3F005D03F2 /* zhaoshang.png in Resources */,
 				8128C9BB1EAF499100E1389B /* f_found_jbz.png in Resources */,
 				8128CB811EAF499100E1389B /* renewalpayment_btn_blue_move.png in Resources */,
 				8128CA0B1EAF499100E1389B /* home_page_bottom2.png in Resources */,
@@ -3978,7 +3986,6 @@
 				8128CAD71EAF499100E1389B /* onlineserver_f013.png in Resources */,
 				8128C9A71EAF499100E1389B /* ehousekeeper_calendar_list_item_icon1.png in Resources */,
 				8128CD1F1EAF532300E1389B /* message_bg.png in Resources */,
-				8128C6091EAF398600E1389B /* Assets.xcassets in Resources */,
 				8128C9E51EAF499100E1389B /* f_tai_logo.png in Resources */,
 				8128CAC61EAF499100E1389B /* onlineserver_buttonactive.png in Resources */,
 				8128CBE01EAF499100E1389B /* skyblue_logo_wechatfavorite_checked.png in Resources */,
@@ -4129,6 +4136,7 @@
 				8128CAE41EAF499100E1389B /* onlineserver_f026.png in Resources */,
 				8128CA971EAF499100E1389B /* myaccount_bt_balance.png in Resources */,
 				8128C9961EAF499000E1389B /* countersrv_teller_cell_bg.png in Resources */,
+				81FF4F851EB31C3E005D03F2 /* gongshang.png in Resources */,
 				8128CB321EAF499100E1389B /* onlineserver_f104.png in Resources */,
 				8128CA411EAF499100E1389B /* jbsc_gold_mall_viewpager_unselecter.png in Resources */,
 				8128CB661EAF499100E1389B /* policyreinstatement_orderdetail_write.png in Resources */,

@@ -12,6 +12,8 @@
 #import "MyCertificateViewController.h"
 #import "MyBankCardViewController.h"
 #import "RelatedPolicyNOViewController.h"
+#import "SettingsViewController.h"
+#import "WebViewController.h"
 
 @interface MineViewController ()
 
@@ -80,6 +82,9 @@
 }
 
 - (IBAction)buyInsurance:(UIButton *)sender {
+    WebViewController *web = [WebViewController shareInstance];
+    [web loadWebViewWithFileName:@"product_details"];
+    [self.navigationController pushViewController:web animated:YES];
 }
 
 - (IBAction)referAllOrders:(UIButton *)sender {

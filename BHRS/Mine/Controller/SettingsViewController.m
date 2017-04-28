@@ -9,6 +9,8 @@
 #import "SettingsViewController.h"
 #import "AcountSaftyViewController.h"
 #import "OnApViewController.h"
+#import "ContactUsViewController.h"
+#import "WebViewController.h"
 
 @interface SettingsViewController ()
 //@property (nonatomic,strong) UIButton *aCountSafty;
@@ -82,7 +84,14 @@
     AcountSaftyViewController *acountVC = [[AcountSaftyViewController alloc] init];
     acountVC.title = @"账户安全";
     [self.navigationController pushViewController:acountVC animated:NO];
-  }else if (button.tag == 105){
+  } else if (button.tag == 101) {
+      ContactUsViewController *contactUs = [[ContactUsViewController alloc] initWithNibName:@"ContactUsViewController" bundle:nil];
+      [self.navigationController pushViewController:contactUs animated:YES];
+  } else if (button.tag == 104) {
+      WebViewController *web = [WebViewController shareInstance];
+      [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
+      [self.navigationController pushViewController:web animated:YES];
+  } else if (button.tag == 105) {
     OnApViewController *onVC = [[OnApViewController alloc] init];
     onVC.title = @"关于";
     [self.navigationController pushViewController:onVC animated:NO];

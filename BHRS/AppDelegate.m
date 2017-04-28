@@ -57,7 +57,7 @@
     mineNC.tabBarItem = mineItem;
     selfNC.tabBarItem = selfItem;
     
-    NSArray *NCsArray = @[homeNC, mineNC, selfNC];
+    NSArray *NCsArray = @[homeNC, selfNC, mineNC];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
 //    tabBarController.tabBar.barTintColor = COLOR_RGB(56, 59, 62);//tab背景颜色
