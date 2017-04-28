@@ -39,7 +39,9 @@
 
 }
 - (void)viewWillAppear:(BOOL)animated{
+  [super viewWillAppear:animated];
   self.navigationController.navigationBar.hidden = YES;
+  self.tabBarController.tabBar.hidden = NO;
 
 }
 
@@ -63,6 +65,9 @@
 */
 
 - (IBAction)settingSomethings:(UIButton *)sender {
+  SettingsViewController *controller = [[SettingsViewController alloc] init];
+  controller.title = @"设置";
+  [self.navigationController pushViewController:controller animated:NO];
 }
 
 - (IBAction)messageList:(UIButton *)sender {
