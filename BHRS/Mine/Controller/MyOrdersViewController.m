@@ -29,6 +29,7 @@ static NSString * const cellIdentifier = @"MyOrderTableViewCell";
   [self initWithUI];
 }
 - (void)viewWillAppear:(BOOL)animated{
+  [super viewWillAppear:animated];
   self.navigationController.navigationBar.hidden = NO;
   self.tabBarController.tabBar.hidden = YES;
 }
