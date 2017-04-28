@@ -8,6 +8,10 @@
 
 #import "MineViewController.h"
 #import "MyOrdersViewController.h"
+#import "MessageViewController.h"
+#import "MyCertificateViewController.h"
+#import "MyBankCardViewController.h"
+#import "RelatedPolicyNOViewController.h"
 
 @interface MineViewController ()
 
@@ -39,6 +43,10 @@
 
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    self.navigationController.navigationBar.hidden = NO;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -58,6 +66,9 @@
 }
 
 - (IBAction)messageList:(UIButton *)sender {
+    
+    MessageViewController *message = [[MessageViewController alloc] init];
+    [self.navigationController pushViewController:message animated:YES];
 }
 
 - (IBAction)landingInfo:(UIButton *)sender {
@@ -93,6 +104,8 @@
   [self.navigationController pushViewController:orderCtrl animated:NO];
 }
 - (IBAction)referRelebancyOrders:(UIButton *)sender {
+    RelatedPolicyNOViewController *related = [[RelatedPolicyNOViewController alloc] init];
+    [self.navigationController pushViewController:related animated:YES];
 }
 
 - (IBAction)referMyOrders:(UIButton *)sender {
@@ -101,7 +114,11 @@
 }
 
 - (IBAction)referMyCredentials:(UIButton *)sender {
+    MyCertificateViewController *certificate = [[MyCertificateViewController alloc] init];
+    [self.navigationController pushViewController:certificate animated:YES];
 }
 - (IBAction)referMyDebitCards:(UIButton *)sender {
+    MyBankCardViewController *bank = [[MyBankCardViewController alloc] init];
+    [self.navigationController pushViewController:bank animated:YES];
 }
 @end

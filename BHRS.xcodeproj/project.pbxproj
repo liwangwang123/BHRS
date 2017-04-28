@@ -965,6 +965,12 @@
 		81FF4F5D1EB1D9D7005D03F2 /* CertificateDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F5B1EB1D9D7005D03F2 /* CertificateDetailsViewController.xib */; };
 		81FF4F611EB1DE1E005D03F2 /* AddCertificatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F5F1EB1DE1E005D03F2 /* AddCertificatesViewController.m */; };
 		81FF4F621EB1DE1E005D03F2 /* AddCertificatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F601EB1DE1E005D03F2 /* AddCertificatesViewController.xib */; };
+		81FF4F661EB22572005D03F2 /* MyBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F641EB22572005D03F2 /* MyBankCardViewController.m */; };
+		81FF4F671EB22572005D03F2 /* MyBankCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F651EB22572005D03F2 /* MyBankCardViewController.xib */; };
+		81FF4F6B1EB2DC9C005D03F2 /* BindingBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F691EB2DC9C005D03F2 /* BindingBankCardViewController.m */; };
+		81FF4F6C1EB2DC9C005D03F2 /* BindingBankCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F6A1EB2DC9C005D03F2 /* BindingBankCardViewController.xib */; };
+		81FF4F701EB2DF96005D03F2 /* RelatedPolicyNOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F6E1EB2DF96005D03F2 /* RelatedPolicyNOViewController.m */; };
+		81FF4F711EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F6F1EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1951,6 +1957,15 @@
 		81FF4F5E1EB1DE1E005D03F2 /* AddCertificatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCertificatesViewController.h; sourceTree = "<group>"; };
 		81FF4F5F1EB1DE1E005D03F2 /* AddCertificatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCertificatesViewController.m; sourceTree = "<group>"; };
 		81FF4F601EB1DE1E005D03F2 /* AddCertificatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCertificatesViewController.xib; sourceTree = "<group>"; };
+		81FF4F631EB22572005D03F2 /* MyBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBankCardViewController.h; sourceTree = "<group>"; };
+		81FF4F641EB22572005D03F2 /* MyBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBankCardViewController.m; sourceTree = "<group>"; };
+		81FF4F651EB22572005D03F2 /* MyBankCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBankCardViewController.xib; sourceTree = "<group>"; };
+		81FF4F681EB2DC9C005D03F2 /* BindingBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingBankCardViewController.h; sourceTree = "<group>"; };
+		81FF4F691EB2DC9C005D03F2 /* BindingBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingBankCardViewController.m; sourceTree = "<group>"; };
+		81FF4F6A1EB2DC9C005D03F2 /* BindingBankCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindingBankCardViewController.xib; sourceTree = "<group>"; };
+		81FF4F6D1EB2DF96005D03F2 /* RelatedPolicyNOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedPolicyNOViewController.h; sourceTree = "<group>"; };
+		81FF4F6E1EB2DF96005D03F2 /* RelatedPolicyNOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelatedPolicyNOViewController.m; sourceTree = "<group>"; };
+		81FF4F6F1EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelatedPolicyNOViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2089,6 +2104,15 @@
 				81FF4F5E1EB1DE1E005D03F2 /* AddCertificatesViewController.h */,
 				81FF4F5F1EB1DE1E005D03F2 /* AddCertificatesViewController.m */,
 				81FF4F601EB1DE1E005D03F2 /* AddCertificatesViewController.xib */,
+				81FF4F631EB22572005D03F2 /* MyBankCardViewController.h */,
+				81FF4F641EB22572005D03F2 /* MyBankCardViewController.m */,
+				81FF4F651EB22572005D03F2 /* MyBankCardViewController.xib */,
+				81FF4F681EB2DC9C005D03F2 /* BindingBankCardViewController.h */,
+				81FF4F691EB2DC9C005D03F2 /* BindingBankCardViewController.m */,
+				81FF4F6A1EB2DC9C005D03F2 /* BindingBankCardViewController.xib */,
+				81FF4F6D1EB2DF96005D03F2 /* RelatedPolicyNOViewController.h */,
+				81FF4F6E1EB2DF96005D03F2 /* RelatedPolicyNOViewController.m */,
+				81FF4F6F1EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -3885,6 +3909,7 @@
 				8128CD0C1EAF532300E1389B /* btn_share.png in Resources */,
 				8128CAF51EAF499100E1389B /* onlineserver_f043.png in Resources */,
 				8128CA841EAF499100E1389B /* map_route_walk_active.png in Resources */,
+				81FF4F671EB22572005D03F2 /* MyBankCardViewController.xib in Resources */,
 				8128CA961EAF499100E1389B /* myaccount_box_notice.png in Resources */,
 				8128CADF1EAF499100E1389B /* onlineserver_f021.png in Resources */,
 				8128C9881EAF499000E1389B /* c_view_polserbaseactivity.png in Resources */,
@@ -4009,6 +4034,7 @@
 				8128CBF11EAF499100E1389B /* srvintroduce_service_home_item_3.png in Resources */,
 				8128CD691EAF532300E1389B /* f_title_bk.png in Resources */,
 				8128CA731EAF499100E1389B /* logo_vkontakte.png in Resources */,
+				81FF4F711EB2DF96005D03F2 /* RelatedPolicyNOViewController.xib in Resources */,
 				8128CB5D1EAF499100E1389B /* policyinforquery_icon_c_12.png in Resources */,
 				8128CD401EAF532300E1389B /* pay_ic_back.png in Resources */,
 				8128C9EC1EAF499100E1389B /* framework_splash_1.png in Resources */,
@@ -4019,6 +4045,7 @@
 				8128C9C21EAF499100E1389B /* f_listmodules_infor.png in Resources */,
 				8128CB2C1EAF499100E1389B /* onlineserver_f098.png in Resources */,
 				8128CBE31EAF499100E1389B /* skyblue_logo_whatsapp.png in Resources */,
+				81FF4F6C1EB2DC9C005D03F2 /* BindingBankCardViewController.xib in Resources */,
 				8128C9FB1EAF499100E1389B /* framework_splash_bottom_dot.png in Resources */,
 				8128CB861EAF499100E1389B /* setting_contactsus_feedback_redarrow.9.png in Resources */,
 				8128C9EF1EAF499100E1389B /* framework_splash_2.png in Resources */,
@@ -4176,6 +4203,7 @@
 				8128CD781EAF7B5000E1389B /* ContactUsViewController.m in Sources */,
 				81FF4F5C1EB1D9D7005D03F2 /* CertificateDetailsViewController.m in Sources */,
 				8128CD7C1EAF7F6400E1389B /* BuffetView.m in Sources */,
+				81FF4F6B1EB2DC9C005D03F2 /* BindingBankCardViewController.m in Sources */,
 				81FF4F191EB1C2EA005D03F2 /* OrderModel.m in Sources */,
 				81FF4F121EB1C2C1005D03F2 /* MyOrdersViewController.m in Sources */,
 				81FF4F521EB1D2C4005D03F2 /* MessageViewController.m in Sources */,
@@ -4186,8 +4214,10 @@
 				8128CD6D1EAF538000E1389B /* ProductCenter.m in Sources */,
 				81FF4F611EB1DE1E005D03F2 /* AddCertificatesViewController.m in Sources */,
 				8128CC411EAF4F0F00E1389B /* HotProduct.m in Sources */,
+				81FF4F701EB2DF96005D03F2 /* RelatedPolicyNOViewController.m in Sources */,
 				8128C6311EAF403500E1389B /* HomeViewController.m in Sources */,
 				8128C6191EAF3C2200E1389B /* MainViewController.m in Sources */,
+				81FF4F661EB22572005D03F2 /* MyBankCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

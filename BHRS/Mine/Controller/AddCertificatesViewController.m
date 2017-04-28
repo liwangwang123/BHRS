@@ -26,6 +26,8 @@
     [super viewDidLoad];
     self.navigationController.title = @"添加证件";
 }
+- (IBAction)certificatesBtnClick:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

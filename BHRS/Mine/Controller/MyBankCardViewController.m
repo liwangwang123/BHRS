@@ -1,20 +1,19 @@
 //
-//  MyCertificateViewController.m
+//  MyBankCardViewController.m
 //  BHRS
 //
 //  Created by 王力 on 2017/4/27.
 //  Copyright © 2017年 王力. All rights reserved.
 //
 
-#import "MyCertificateViewController.h"
-#import "CertificateDetailsViewController.h"
-#import "AddCertificatesViewController.h"
+#import "MyBankCardViewController.h"
+#import "BindingBankCardViewController.h"
 
-@interface MyCertificateViewController ()
+@interface MyBankCardViewController ()
 
 @end
 
-@implementation MyCertificateViewController
+@implementation MyBankCardViewController
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
@@ -25,17 +24,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"我的证件";
+    self.navigationController.title = @"我的银行卡";
 }
-//身份证
-- (IBAction)myIdCardClick:(id)sender {
-    CertificateDetailsViewController *certificate = [[CertificateDetailsViewController alloc] init];
-    [self.navigationController pushViewController:certificate animated:YES];
-}
-//新增证件
-- (IBAction)addDocuments:(id)sender {
-    AddCertificatesViewController *add = [[AddCertificatesViewController alloc] init];
-    [self.navigationController pushViewController:add animated:YES];
+- (IBAction)addNewBankCardClick:(id)sender {
+    BindingBankCardViewController *binding = [[BindingBankCardViewController alloc] init];
+    [self.navigationController pushViewController:binding animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCP-V7-tQI">
-                    <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                    <rect key="frame" x="0.0" y="74" width="375" height="200"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardbind_detail_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="sOq-TS-FeR">
                             <rect key="frame" x="8" y="8" width="40" height="28"/>
@@ -116,7 +116,7 @@
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="nCP-V7-tQI" secondAttribute="trailing" id="G7c-s5-X5Q"/>
                 <constraint firstItem="nCP-V7-tQI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nCx-Yw-hb5"/>
-                <constraint firstItem="nCP-V7-tQI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="z5H-KD-Bbd"/>
+                <constraint firstItem="nCP-V7-tQI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="z5H-KD-Bbd"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
