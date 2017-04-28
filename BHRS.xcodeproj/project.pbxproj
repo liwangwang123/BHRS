@@ -788,7 +788,6 @@
 		8128CC431EAF4F1C00E1389B /* HotProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC421EAF4F1C00E1389B /* HotProduct.xib */; };
 		8128CCD91EAF532300E1389B /* failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC451EAF532300E1389B /* failed.png */; };
 		8128CCDA1EAF532300E1389B /* failed1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC461EAF532300E1389B /* failed1.png */; };
-		8128CCDB1EAF532300E1389B /* home_page_button.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC471EAF532300E1389B /* home_page_button.9.png */; };
 		8128CCDC1EAF532300E1389B /* new_icon_s_61.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC481EAF532300E1389B /* new_icon_s_61.png */; };
 		8128CCDD1EAF532300E1389B /* bangclepay_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC4A1EAF532300E1389B /* bangclepay_keyboard.png */; };
 		8128CCDE1EAF532300E1389B /* bangclepay_keyboard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8128CC4B1EAF532300E1389B /* bangclepay_keyboard_bg.png */; };
@@ -979,6 +978,9 @@
 		81FF4F821EB311E9005D03F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F811EB311E9005D03F2 /* Assets.xcassets */; };
 		81FF4F851EB31C3E005D03F2 /* gongshang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F831EB31C3E005D03F2 /* gongshang.png */; };
 		81FF4F861EB31C3F005D03F2 /* zhaoshang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F841EB31C3E005D03F2 /* zhaoshang.png */; };
+		81FF4F8A1EB31E50005D03F2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F871EB31E50005D03F2 /* LoginViewController.xib */; };
+		81FF4F8B1EB31E50005D03F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF4F881EB31E50005D03F2 /* LoginViewController.m */; };
+		81FF4F8D1EB3224D005D03F2 /* f_head_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FF4F8C1EB3224D005D03F2 /* f_head_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1774,7 +1776,6 @@
 		8128CC421EAF4F1C00E1389B /* HotProduct.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotProduct.xib; sourceTree = "<group>"; };
 		8128CC451EAF532300E1389B /* failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failed.png; sourceTree = "<group>"; };
 		8128CC461EAF532300E1389B /* failed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failed1.png; sourceTree = "<group>"; };
-		8128CC471EAF532300E1389B /* home_page_button.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_page_button.9.png; sourceTree = "<group>"; };
 		8128CC481EAF532300E1389B /* new_icon_s_61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_icon_s_61.png; sourceTree = "<group>"; };
 		8128CC4A1EAF532300E1389B /* bangclepay_keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangclepay_keyboard.png; sourceTree = "<group>"; };
 		8128CC4B1EAF532300E1389B /* bangclepay_keyboard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangclepay_keyboard_bg.png; sourceTree = "<group>"; };
@@ -1985,6 +1986,10 @@
 		81FF4F811EB311E9005D03F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81FF4F831EB31C3E005D03F2 /* gongshang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gongshang.png; sourceTree = "<group>"; };
 		81FF4F841EB31C3E005D03F2 /* zhaoshang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhaoshang.png; sourceTree = "<group>"; };
+		81FF4F871EB31E50005D03F2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		81FF4F881EB31E50005D03F2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		81FF4F891EB31E50005D03F2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		81FF4F8C1EB3224D005D03F2 /* f_head_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_head_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2106,6 +2111,9 @@
 		8128C6261EAF3FEF00E1389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				81FF4F871EB31E50005D03F2 /* LoginViewController.xib */,
+				81FF4F881EB31E50005D03F2 /* LoginViewController.m */,
+				81FF4F891EB31E50005D03F2 /* LoginViewController.h */,
 				81FF4F721EB30D61005D03F2 /* SettingsViewController.xib */,
 				81FF4F731EB30D61005D03F2 /* SettingsViewController.m */,
 				81FF4F741EB30D61005D03F2 /* SettingsViewController.h */,
@@ -3017,7 +3025,6 @@
 			children = (
 				8128CC451EAF532300E1389B /* failed.png */,
 				8128CC461EAF532300E1389B /* failed1.png */,
-				8128CC471EAF532300E1389B /* home_page_button.9.png */,
 				8128CC481EAF532300E1389B /* new_icon_s_61.png */,
 			);
 			path = drawable;
@@ -3169,6 +3176,7 @@
 				8128CCD01EAF532300E1389B /* addmenu_menu_2.png */,
 				8128CCD11EAF532300E1389B /* addmenu_menu_3.png */,
 				8128CCD21EAF532300E1389B /* addmenu_menu_4.png */,
+				81FF4F8C1EB3224D005D03F2 /* f_head_background.png */,
 				8128CCD31EAF532300E1389B /* addmenu_menu_5.png */,
 				8128CCD41EAF532300E1389B /* addmenu_menu_6.png */,
 				8128CCD51EAF532300E1389B /* addmenu_menu_7.png */,
@@ -3675,6 +3683,7 @@
 				8128CBA91EAF499100E1389B /* skyblue_logo_flickr.png in Resources */,
 				8128CA021EAF499100E1389B /* healthtest_main_btn_background.png in Resources */,
 				8128C9B71EAF499100E1389B /* f_found_jbsc_3.png in Resources */,
+				81FF4F8A1EB31E50005D03F2 /* LoginViewController.xib in Resources */,
 				8128CA581EAF499100E1389B /* logo_evernote.png in Resources */,
 				8128CA2D1EAF499100E1389B /* ic_launcher.png in Resources */,
 				8128CAEC1EAF499100E1389B /* onlineserver_f034.png in Resources */,
@@ -3922,7 +3931,6 @@
 				8128C9C81EAF499100E1389B /* f_login_d.png in Resources */,
 				8128C9D61EAF499100E1389B /* f_new_icon_s_small.png in Resources */,
 				8128CD411EAF532300E1389B /* pay_ic_card.png in Resources */,
-				8128CCDB1EAF532300E1389B /* home_page_button.9.png in Resources */,
 				8128CA711EAF499100E1389B /* logo_tumblr.png in Resources */,
 				8128CD681EAF532300E1389B /* addmenu_menu_8.png in Resources */,
 				8128CBE71EAF499100E1389B /* skyblue_logo_yixinmoments.png in Resources */,
@@ -3972,6 +3980,7 @@
 				8128CCE51EAF532300E1389B /* bangclepay_keyboard_letter_gray.png in Resources */,
 				8128CB231EAF499100E1389B /* onlineserver_f089.png in Resources */,
 				8128CD261EAF532300E1389B /* more_bg.jpg in Resources */,
+				81FF4F8D1EB3224D005D03F2 /* f_head_background.png in Resources */,
 				8128C9481EAF499000E1389B /* accessory_risk_not_renewal_title_bg.png in Resources */,
 				8128CD6F1EAF538D00E1389B /* ProductCenter.xib in Resources */,
 				8128CB711EAF499100E1389B /* product_header_item_icon3.png in Resources */,
@@ -4228,6 +4237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FF4F8B1EB31E50005D03F2 /* LoginViewController.m in Sources */,
 				8128C6041EAF398600E1389B /* ViewController.m in Sources */,
 				819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */,
 				819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */,

@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.navigationController.navigationBar.hidden = NO;
+    self.title = @"我的保单";
 }
 
 - (void)didReceiveMemoryWarning {

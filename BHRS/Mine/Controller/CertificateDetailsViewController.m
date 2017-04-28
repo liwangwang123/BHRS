@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"证件详情";
+    self.title = @"证件详情";
 }
 - (IBAction)changeInfoClick:(id)sender {
     

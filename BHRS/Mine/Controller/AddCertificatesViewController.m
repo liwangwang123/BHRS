@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"添加证件";
+    self.title = @"添加证件";
 }
 - (IBAction)certificatesBtnClick:(id)sender {
 }

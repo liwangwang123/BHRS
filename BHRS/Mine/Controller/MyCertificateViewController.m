@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"我的证件";
+    self.title = @"我的证件";
 }
 //身份证
 - (IBAction)myIdCardClick:(id)sender {

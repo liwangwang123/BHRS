@@ -13,7 +13,9 @@
 #import "MyBankCardViewController.h"
 #import "RelatedPolicyNOViewController.h"
 #import "SettingsViewController.h"
+#import "LoginViewController.h"
 #import "WebViewController.h"
+#import "MyPolicyViewController.h"
 
 @interface MineViewController ()
 
@@ -43,12 +45,13 @@
 - (void)viewWillAppear:(BOOL)animated{
   [super viewWillAppear:animated];
   self.navigationController.navigationBar.hidden = YES;
-  self.tabBarController.tabBar.hidden = NO;
+    
 
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -67,71 +70,94 @@
 */
 
 - (IBAction)settingSomethings:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   SettingsViewController *controller = [[SettingsViewController alloc] init];
   controller.title = @"设置";
   [self.navigationController pushViewController:controller animated:NO];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)messageList:(UIButton *)sender {
-    
+    self.hidesBottomBarWhenPushed = YES;
     MessageViewController *message = [[MessageViewController alloc] init];
     [self.navigationController pushViewController:message animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)landingInfo:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   LoginViewController *loginVC = [[LoginViewController alloc] init];
   loginVC.title = @"登陆";
   [self.navigationController pushViewController:loginVC animated:NO];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)buyInsurance:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
     WebViewController *web = [WebViewController shareInstance];
     [web loadWebViewWithFileName:@"product_details"];
     [self.navigationController pushViewController:web animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)referAllOrders:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   MyOrdersViewController *controller = [[MyOrdersViewController alloc] init];
   controller.title = @"我的订单";
   [self.navigationController pushViewController:controller animated:NO];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)referCompletedOrders:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1000];
   [orderCtrl btnClicked:button];
   [self.navigationController pushViewController:orderCtrl animated:NO];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)referUncompletedOrders:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1001];
   [orderCtrl btnClicked:button];
-  [self.navigationController pushViewController:orderCtrl animated:NO];
+  [self.navigationController pushViewController:orderCtrl animated:NO];self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)referExpireOrders:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1002];
   [orderCtrl btnClicked:button];
   [self.navigationController pushViewController:orderCtrl animated:NO];
+    self.hidesBottomBarWhenPushed = NO;
 }
 - (IBAction)referRelebancyOrders:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
     RelatedPolicyNOViewController *related = [[RelatedPolicyNOViewController alloc] init];
     [self.navigationController pushViewController:related animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (IBAction)referMyOrders:(UIButton *)sender {
- 
+    self.hidesBottomBarWhenPushed = YES;
+    MyPolicyViewController *myPolicy = [[MyPolicyViewController alloc] initWithNibName:@"MyPolicyViewController" bundle:nil];
+    [self.navigationController pushViewController:myPolicy animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
   
 }
 
 - (IBAction)referMyCredentials:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
     MyCertificateViewController *certificate = [[MyCertificateViewController alloc] init];
     [self.navigationController pushViewController:certificate animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 - (IBAction)referMyDebitCards:(UIButton *)sender {
+    self.hidesBottomBarWhenPushed = YES;
     MyBankCardViewController *bank = [[MyBankCardViewController alloc] init];
     [self.navigationController pushViewController:bank animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 @end

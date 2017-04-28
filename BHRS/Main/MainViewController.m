@@ -22,6 +22,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO;//处理UIScrollView或者其子视图,与导航条的高度冲突问题
     [self navigationBarAttributeChanges];
     
+    
 }
 
 - (void)navigationBarAttributeChanges {

@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"我的银行卡";
+    self.title = @"我的银行卡";
 }
 - (IBAction)addNewBankCardClick:(id)sender {
     BindingBankCardViewController *binding = [[BindingBankCardViewController alloc] init];

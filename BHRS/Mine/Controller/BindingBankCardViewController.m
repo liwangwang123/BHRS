@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"绑定银行卡";
+    self.title = @"绑定银行卡";
 }
 
 - (void)didReceiveMemoryWarning {

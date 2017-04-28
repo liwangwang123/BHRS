@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"关联保单号";
+    self.title = @"关联保单号";
 }
 
 - (void)didReceiveMemoryWarning {

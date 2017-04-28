@@ -37,14 +37,14 @@
     
     UIImage *homeImage = [[UIImage imageNamed:@"首页.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *homeSelectedImage = [[UIImage imageNamed:@"首页_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *mineImage = [[UIImage imageNamed:@"自助服务.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *mineSelectedImage = [[UIImage imageNamed:@"自助服务_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *selffImage = [[UIImage imageNamed:@"我的.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *selfSelectedImage = [[UIImage imageNamed:@"我的_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *selffImage = [[UIImage imageNamed:@"自助服务.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *selfSelectedImage = [[UIImage imageNamed:@"自助服务_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineImage = [[UIImage imageNamed:@"我的.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineSelectedImage = [[UIImage imageNamed:@"我的_click.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     UITabBarItem *homeItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:homeImage selectedImage:homeSelectedImage];
     UITabBarItem *mineItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:mineImage selectedImage:mineSelectedImage];
-    UITabBarItem *selfItem = [[UITabBarItem alloc] initWithTitle:@"发现" image:selffImage selectedImage:selfSelectedImage];
+    UITabBarItem *selfItem = [[UITabBarItem alloc] initWithTitle:@"自助服务" image:selffImage selectedImage:selfSelectedImage];
     
     [homeItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateSelected];
     [homeItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
