@@ -11,6 +11,7 @@
 #import "OnApViewController.h"
 #import "ContactUsViewController.h"
 #import "WebViewController.h"
+#import "LoginViewController.h"
 
 @interface SettingsViewController ()
 //@property (nonatomic,strong) UIButton *aCountSafty;
@@ -48,7 +49,8 @@
     // Do any additional setup after loading the view from its nib.
 }
 - (void)login{
-
+    LoginViewController *log = [[LoginViewController alloc] init];
+    [self.navigationController pushViewController:log animated:YES];
 }
 - (void)creatButtonwithleftTitle:(NSString *)leftTitle andRightTitle:(NSString *)rightTitle height:(NSInteger)height color:(UIColor *)color integarTag:(NSInteger)tag{
 //  UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
@@ -90,6 +92,7 @@
   } else if (button.tag == 104) {
       WebViewController *web = [WebViewController shareInstance];
       [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
+      web.title = @"公司介绍";
       [self.navigationController pushViewController:web animated:YES];
   } else if (button.tag == 105) {
     OnApViewController *onVC = [[OnApViewController alloc] init];

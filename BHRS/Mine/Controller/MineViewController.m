@@ -96,6 +96,7 @@
     self.hidesBottomBarWhenPushed = YES;
     WebViewController *web = [WebViewController shareInstance];
     [web loadWebViewWithFileName:@"product_details"];
+    web.title = @"产品中心";
     [self.navigationController pushViewController:web animated:YES];
     self.hidesBottomBarWhenPushed = NO;
 }
@@ -113,6 +114,7 @@
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1000];
   [orderCtrl btnClicked:button];
+    orderCtrl.title = @"我的订单";
   [self.navigationController pushViewController:orderCtrl animated:NO];
     self.hidesBottomBarWhenPushed = NO;
 }
@@ -122,6 +124,7 @@
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1001];
   [orderCtrl btnClicked:button];
+    orderCtrl.title = @"我的订单";
   [self.navigationController pushViewController:orderCtrl animated:NO];self.hidesBottomBarWhenPushed = NO;
 }
 
@@ -130,6 +133,7 @@
   MyOrdersViewController *orderCtrl = [[MyOrdersViewController alloc] init];
   UIButton *button = (UIButton *)[orderCtrl.view viewWithTag:1002];
   [orderCtrl btnClicked:button];
+    orderCtrl.title = @"我的订单";
   [self.navigationController pushViewController:orderCtrl animated:NO];
     self.hidesBottomBarWhenPushed = NO;
 }
