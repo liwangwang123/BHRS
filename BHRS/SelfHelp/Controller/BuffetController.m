@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"自助服务";
     [self addBuffetView];
 }
 
@@ -47,12 +48,14 @@
         case 1022: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithUrl:@"http://www.bohailife.net/xwzx/bhxw/index.shtml"];
+            web.title = @"新闻资讯";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1023: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithUrl:@"http://www.bohailife.net/xwzx/bhxw/index.shtml"];
+            web.title = @"新闻资讯";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
@@ -60,6 +63,7 @@
             WebViewController *web = [WebViewController shareInstance];
             //            [web loadWebViewWithFileName:@"index1"];
             [web loadWebViewWithUrl:@"http://www.bohailife.net/mobile/about/index.jsp"];
+            web.title = @"公司介绍";
             [self.navigationController pushViewController:web animated:YES];
 
         }

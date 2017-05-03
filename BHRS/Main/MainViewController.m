@@ -21,8 +21,10 @@
     self.view.backgroundColor = Main_View_Color;
     self.automaticallyAdjustsScrollViewInsets = NO;//处理UIScrollView或者其子视图,与导航条的高度冲突问题
     [self navigationBarAttributeChanges];
-    
-    
+//    self.navigationController.navigationItem.ret.title = @"";
+  UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:nil action:nil];
+  self.navigationItem.backBarButtonItem = barButtonItem;
+  
 }
 
 - (void)navigationBarAttributeChanges {
