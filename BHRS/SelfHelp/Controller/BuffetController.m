@@ -39,6 +39,7 @@
 - (void)btnClick:(id)sender {
     UIButton *btn = sender;
     NSInteger tag = btn.tag;
+    self.hidesBottomBarWhenPushed = YES;
     switch (tag) {
         case 1021: {
             MyPolicyViewController *myPolicy = [[MyPolicyViewController alloc] initWithNibName:@"MyPolicyViewController" bundle:nil];
@@ -72,6 +73,7 @@
         default:
             break;
     }
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 - (void)didReceiveMemoryWarning {
