@@ -939,6 +939,8 @@
 		8128CD791EAF7B5000E1389B /* ContactUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8128CD771EAF7B5000E1389B /* ContactUsViewController.xib */; };
 		8128CD7C1EAF7F6400E1389B /* BuffetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128CD7B1EAF7F6400E1389B /* BuffetView.m */; };
 		8128CD7E1EAF7F6F00E1389B /* BuffetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8128CD7D1EAF7F6F00E1389B /* BuffetView.xib */; };
+		816BA9EC1EBC1B59005C198B /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BA9EA1EBC1B59005C198B /* FeedbackViewController.m */; };
+		816BA9ED1EBC1B59005C198B /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9EB1EBC1B59005C198B /* FeedbackViewController.xib */; };
 		819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */; };
 		819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DC1EB055A9003DA7B4 /* BuffetController.m */; };
 		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
@@ -1931,6 +1933,9 @@
 		8128CD7A1EAF7F6400E1389B /* BuffetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuffetView.h; sourceTree = "<group>"; };
 		8128CD7B1EAF7F6400E1389B /* BuffetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuffetView.m; sourceTree = "<group>"; };
 		8128CD7D1EAF7F6F00E1389B /* BuffetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuffetView.xib; sourceTree = "<group>"; };
+		816BA9E91EBC1B59005C198B /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		816BA9EA1EBC1B59005C198B /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		816BA9EB1EBC1B59005C198B /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
 		819EF0C31EB0425C003DA7B4 /* XLsn0wLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLoop.h; sourceTree = "<group>"; };
 		819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLoop.m; sourceTree = "<group>"; };
 		819EF0DB1EB055A9003DA7B4 /* BuffetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuffetController.h; sourceTree = "<group>"; };
@@ -2204,6 +2209,9 @@
 				8128CD751EAF7B5000E1389B /* ContactUsViewController.h */,
 				8128CD761EAF7B5000E1389B /* ContactUsViewController.m */,
 				8128CD771EAF7B5000E1389B /* ContactUsViewController.xib */,
+				816BA9E91EBC1B59005C198B /* FeedbackViewController.h */,
+				816BA9EA1EBC1B59005C198B /* FeedbackViewController.m */,
+				816BA9EB1EBC1B59005C198B /* FeedbackViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -3752,6 +3760,7 @@
 				8128C97D1EAF499000E1389B /* c_policy_layout_arrow1.png in Resources */,
 				8128CC221EAF499100E1389B /* vipsrv_icon_gray_01.png in Resources */,
 				8128CA861EAF499100E1389B /* my_background.png in Resources */,
+				816BA9ED1EBC1B59005C198B /* FeedbackViewController.xib in Resources */,
 				8128CA631EAF499100E1389B /* logo_laiwang.png in Resources */,
 				8128CB961EAF499100E1389B /* skyblue_editpage_divider.9.png in Resources */,
 				8128CAB01EAF499100E1389B /* mypolicy.png in Resources */,
@@ -4254,6 +4263,7 @@
 				81FF4F521EB1D2C4005D03F2 /* MessageViewController.m in Sources */,
 				81FF4F801EB30D61005D03F2 /* AcountSaftyViewController.m in Sources */,
 				8128C63A1EAF472200E1389B /* TopList.m in Sources */,
+				816BA9EC1EBC1B59005C198B /* FeedbackViewController.m in Sources */,
 				8128C6011EAF398600E1389B /* AppDelegate.m in Sources */,
 				8128C5FE1EAF398600E1389B /* main.m in Sources */,
 				819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */,

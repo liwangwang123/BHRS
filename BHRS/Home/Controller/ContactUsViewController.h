@@ -9,5 +9,13 @@
 #import "MainViewController.h"
 
 @interface ContactUsViewController : MainViewController
+/**电话*/
+@property (weak, nonatomic) IBOutlet UIButton *telLabel;
+/**网址*/
+@property (weak, nonatomic) IBOutlet UIButton *webLabel;
+/**微信*/
+@property (weak, nonatomic) IBOutlet UIButton *wxLabel;
+/**反馈*/
+@property (weak, nonatomic) IBOutlet UIButton *feedbackBtn;
 
 @end

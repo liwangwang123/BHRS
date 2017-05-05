@@ -124,14 +124,14 @@
             //product_details
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品中心";
+            web.title = @"热销产品";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1014: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品中心";
+            web.title = @"热销产品";
             [self.navigationController pushViewController:web animated:YES];
         }
             
@@ -139,7 +139,7 @@
         case 1015: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品中心";
+            web.title = @"热销产品";
             [self.navigationController pushViewController:web animated:YES];
         }
             
@@ -147,7 +147,7 @@
         case 1016: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品详情";
+            web.title = @"产品中心";
             [self.navigationController pushViewController:web animated:YES];
         }
             
@@ -155,21 +155,21 @@
         case 1017: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品详情";
+            web.title = @"产品中心";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1018: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品详情";
+            web.title = @"产品中心";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
         case 1019: {
             WebViewController *web = [WebViewController shareInstance];
             [web loadWebViewWithFileName:@"product_details"];
-            web.title = @"产品详情";
+            web.title = @"产品中心";
             [self.navigationController pushViewController:web animated:YES];
         }
             break;
