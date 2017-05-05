@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -100,7 +100,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    我的订单" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mB-me-x7r">
-                    <rect key="frame" x="0.0" y="289" width="375" height="48"/>
+                    <rect key="frame" x="0.0" y="289" width="374" height="48"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="48" id="MZL-n7-uJy"/>
@@ -256,7 +256,7 @@
                 <constraint firstItem="WTU-mN-95h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aa3-C6-fiC"/>
                 <constraint firstAttribute="trailing" secondItem="bLp-uH-gUf" secondAttribute="trailing" id="am7-RX-2cH"/>
                 <constraint firstItem="pCH-fH-UUO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="byE-gH-IzH"/>
-                <constraint firstAttribute="trailing" secondItem="7mB-me-x7r" secondAttribute="trailing" id="c4N-0b-Ala"/>
+                <constraint firstAttribute="trailing" secondItem="7mB-me-x7r" secondAttribute="trailing" constant="1" id="c4N-0b-Ala"/>
                 <constraint firstItem="8tS-tk-Y4C" firstAttribute="top" secondItem="U4A-u2-lxe" secondAttribute="bottom" constant="20" id="cIt-VR-sVV"/>
                 <constraint firstItem="bwV-Ts-uAa" firstAttribute="leading" secondItem="jlb-th-2c3" secondAttribute="trailing" constant="1" id="czs-BW-YIQ"/>
                 <constraint firstItem="p8i-JH-4uQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="d4j-2r-oce"/>
