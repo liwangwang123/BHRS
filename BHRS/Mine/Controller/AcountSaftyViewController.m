@@ -55,7 +55,7 @@
   if (rightTitle.length <=1 ) {
     return;
   }
-  UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(200, 0, 120, 40)];
+  UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width- 120 - 40, 0, 120, 40)];
   label2.textAlignment = NSTextAlignmentRight;
   label2.font = [UIFont systemFontOfSize:12];
   label2.text = rightTitle;

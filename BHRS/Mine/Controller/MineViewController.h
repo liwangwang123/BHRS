@@ -50,5 +50,9 @@
 - (IBAction)referMyCredentials:(UIButton *)sender;
 
 - (IBAction)referMyDebitCards:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageViewHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *allorederHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *orderHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *revanceHeight;
 
 @end
