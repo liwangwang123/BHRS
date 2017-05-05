@@ -56,6 +56,7 @@
 //  UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
 //  imgView.frame = CGRectMake(0, 0+height, self.view.bounds.size.width, 60);
 //  [self.view addSubview:imgView];
+  
   UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
   [btn setBackgroundColor:[UIColor whiteColor]];
   [btn setImage:[UIImage imageNamed:@"position_about_set_arrow_icon.png"] forState:UIControlStateNormal];
@@ -72,6 +73,8 @@
   if (rightTitle.length <=1 ) {
     return;
   }
+  //  禁止多次点击
+  [btn setExclusiveTouch:YES];
   UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width- 120 - 40, 0, 120, 40)];
   label2.textAlignment = NSTextAlignmentRight;
   label2.font = [UIFont systemFontOfSize:12];
