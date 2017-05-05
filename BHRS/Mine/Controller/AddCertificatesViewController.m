@@ -7,6 +7,7 @@
 //
 
 #import "AddCertificatesViewController.h"
+#import "SelectCertificateTypeView.h"
 
 @interface AddCertificatesViewController ()
 
@@ -25,8 +26,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"添加证件";
+    
+    [self addRightBarButtonItemWithText:@"保存"];
 }
+
+- (void)rightBarbuttonItemAction:(UIBarButtonItem *)item {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"信息不全" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确定", nil];
+    [alert show];
+}
+
+
+
 - (IBAction)certificatesBtnClick:(id)sender {
+    SelectCertificateTypeView *select = [[SelectCertificateTypeView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:select];
 }
 
 - (void)didReceiveMemoryWarning {

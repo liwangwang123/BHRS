@@ -942,6 +942,11 @@
 		816BA9EC1EBC1B59005C198B /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BA9EA1EBC1B59005C198B /* FeedbackViewController.m */; };
 		816BA9ED1EBC1B59005C198B /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9EB1EBC1B59005C198B /* FeedbackViewController.xib */; };
 		816BA9F11EBC48C8005C198B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9F01EBC48C8005C198B /* Assets.xcassets */; };
+		816BA9F31EBC56A5005C198B /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9F21EBC56A4005C198B /* pass.png */; };
+		816BA9F61EBC584B005C198B /* TooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BA9F51EBC584B005C198B /* TooltipView.m */; };
+		816BA9F81EBC585D005C198B /* TooltipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9F71EBC585D005C198B /* TooltipView.xib */; };
+		816BA9FB1EBC5E72005C198B /* SelectCertificateTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BA9FA1EBC5E72005C198B /* SelectCertificateTypeView.m */; };
+		816BA9FD1EBC5E7F005C198B /* SelectCertificateTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816BA9FC1EBC5E7F005C198B /* SelectCertificateTypeView.xib */; };
 		819EF0C61EB0425C003DA7B4 /* XLsn0wLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */; };
 		819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DC1EB055A9003DA7B4 /* BuffetController.m */; };
 		819EF0E01EB06EE1003DA7B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EF0DF1EB06EE1003DA7B4 /* WebViewController.m */; };
@@ -1937,6 +1942,13 @@
 		816BA9EA1EBC1B59005C198B /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
 		816BA9EB1EBC1B59005C198B /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
 		816BA9F01EBC48C8005C198B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816BA9F21EBC56A4005C198B /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
+		816BA9F41EBC584B005C198B /* TooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TooltipView.h; sourceTree = "<group>"; };
+		816BA9F51EBC584B005C198B /* TooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TooltipView.m; sourceTree = "<group>"; };
+		816BA9F71EBC585D005C198B /* TooltipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TooltipView.xib; sourceTree = "<group>"; };
+		816BA9F91EBC5E72005C198B /* SelectCertificateTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCertificateTypeView.h; sourceTree = "<group>"; };
+		816BA9FA1EBC5E72005C198B /* SelectCertificateTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCertificateTypeView.m; sourceTree = "<group>"; };
+		816BA9FC1EBC5E7F005C198B /* SelectCertificateTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectCertificateTypeView.xib; sourceTree = "<group>"; };
 		819EF0C31EB0425C003DA7B4 /* XLsn0wLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLoop.h; sourceTree = "<group>"; };
 		819EF0C41EB0425C003DA7B4 /* XLsn0wLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLoop.m; sourceTree = "<group>"; };
 		819EF0DB1EB055A9003DA7B4 /* BuffetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuffetController.h; sourceTree = "<group>"; };
@@ -2116,6 +2128,7 @@
 		8128C6261EAF3FEF00E1389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				816BA9F21EBC56A4005C198B /* pass.png */,
 				81FF4F871EB31E50005D03F2 /* LoginViewController.xib */,
 				81FF4F881EB31E50005D03F2 /* LoginViewController.m */,
 				81FF4F891EB31E50005D03F2 /* LoginViewController.h */,
@@ -2168,6 +2181,12 @@
 		8128C6281EAF3FEF00E1389B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				816BA9F41EBC584B005C198B /* TooltipView.h */,
+				816BA9F51EBC584B005C198B /* TooltipView.m */,
+				816BA9F71EBC585D005C198B /* TooltipView.xib */,
+				816BA9F91EBC5E72005C198B /* SelectCertificateTypeView.h */,
+				816BA9FA1EBC5E72005C198B /* SelectCertificateTypeView.m */,
+				816BA9FC1EBC5E7F005C198B /* SelectCertificateTypeView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3410,6 +3429,7 @@
 				8128C9521EAF499000E1389B /* addressmanager_item_icon_default.png in Resources */,
 				8128CC3D1EAF499100E1389B /* vipsrv_txt_bg_right.9.png in Resources */,
 				8128CC1A1EAF499100E1389B /* vipsrv_dailog_vip_cancel.png in Resources */,
+				816BA9F81EBC585D005C198B /* TooltipView.xib in Resources */,
 				8128CA451EAF499100E1389B /* loaninfor_btn_blue_move.png in Resources */,
 				8128CB5C1EAF499100E1389B /* policyinforquery_icon_c_11.png in Resources */,
 				8128CB941EAF499100E1389B /* skyblue_editpage_bg.9.png in Resources */,
@@ -3472,6 +3492,7 @@
 				8128CBB11EAF499100E1389B /* skyblue_logo_instapaper.png in Resources */,
 				8128CAFF1EAF499100E1389B /* onlineserver_f053.png in Resources */,
 				8128C9C01EAF499100E1389B /* f_list_bt.png in Resources */,
+				816BA9FD1EBC5E7F005C198B /* SelectCertificateTypeView.xib in Resources */,
 				8128CAEE1EAF499100E1389B /* onlineserver_f036.png in Resources */,
 				8128CA001EAF499100E1389B /* healthtest_gender_bg.png in Resources */,
 				8128CB841EAF499100E1389B /* service_net.png in Resources */,
@@ -3705,6 +3726,7 @@
 				8128CC2E1EAF499100E1389B /* vipsrv_icon_gray_07.png in Resources */,
 				8128CBBB1EAF499100E1389B /* skyblue_logo_line.png in Resources */,
 				8128CBFC1EAF499100E1389B /* strengthnci_honor.png in Resources */,
+				816BA9F31EBC56A5005C198B /* pass.png in Resources */,
 				8128CB9B1EAF499100E1389B /* skyblue_logo_bluetooth.png in Resources */,
 				8128CAB41EAF499100E1389B /* network_search_downlist_sanjiao_active.9.png in Resources */,
 				8128CB981EAF499100E1389B /* skyblue_editpage_image_remove.png in Resources */,
@@ -4258,6 +4280,7 @@
 				81FF4F5C1EB1D9D7005D03F2 /* CertificateDetailsViewController.m in Sources */,
 				8128CD7C1EAF7F6400E1389B /* BuffetView.m in Sources */,
 				81FF4F6B1EB2DC9C005D03F2 /* BindingBankCardViewController.m in Sources */,
+				816BA9F61EBC584B005C198B /* TooltipView.m in Sources */,
 				81FF4F191EB1C2EA005D03F2 /* OrderModel.m in Sources */,
 				81FF4F121EB1C2C1005D03F2 /* MyOrdersViewController.m in Sources */,
 				81FF4F521EB1D2C4005D03F2 /* MessageViewController.m in Sources */,
@@ -4267,6 +4290,7 @@
 				8128C6011EAF398600E1389B /* AppDelegate.m in Sources */,
 				8128C5FE1EAF398600E1389B /* main.m in Sources */,
 				819EF0DD1EB055A9003DA7B4 /* BuffetController.m in Sources */,
+				816BA9FB1EBC5E72005C198B /* SelectCertificateTypeView.m in Sources */,
 				8128CD6D1EAF538000E1389B /* ProductCenter.m in Sources */,
 				81FF4F611EB1DE1E005D03F2 /* AddCertificatesViewController.m in Sources */,
 				8128CC411EAF4F0F00E1389B /* HotProduct.m in Sources */,

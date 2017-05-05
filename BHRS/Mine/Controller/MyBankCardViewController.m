@@ -27,6 +27,7 @@
     self.title = @"我的银行卡";
 }
 - (IBAction)addNewBankCardClick:(id)sender {
+    self.hidesBottomBarWhenPushed = YES;
     BindingBankCardViewController *binding = [[BindingBankCardViewController alloc] init];
     [self.navigationController pushViewController:binding animated:YES];
 }

@@ -7,6 +7,7 @@
 //
 
 #import "CertificateDetailsViewController.h"
+#import "TooltipView.h"
 
 @interface CertificateDetailsViewController ()
 
@@ -26,7 +27,8 @@
     self.title = @"证件详情";
 }
 - (IBAction)changeInfoClick:(id)sender {
-    
+    TooltipView *tooltip = [[TooltipView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:tooltip];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -29,11 +29,13 @@
 }
 //身份证
 - (IBAction)myIdCardClick:(id)sender {
+    self.hidesBottomBarWhenPushed = YES;
     CertificateDetailsViewController *certificate = [[CertificateDetailsViewController alloc] init];
     [self.navigationController pushViewController:certificate animated:YES];
 }
 //新增证件
 - (IBAction)addDocuments:(id)sender {
+    self.hidesBottomBarWhenPushed = YES;
     AddCertificatesViewController *add = [[AddCertificatesViewController alloc] init];
     [self.navigationController pushViewController:add animated:YES];
 }
