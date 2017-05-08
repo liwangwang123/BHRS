@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -32,7 +32,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZY-2H-uye">
-                                <rect key="frame" x="325" y="12" width="15" height="14"/>
+                                <rect key="frame" x="325" y="12" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Dib-jz-xBG"/>
+                                    <constraint firstAttribute="width" constant="15" id="hok-c3-BZR"/>
+                                </constraints>
                                 <state key="normal" image="myaccount_myorder_item_share.png"/>
                                 <connections>
                                     <action selector="shareInfoToOther:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sR4-Dd-T9D"/>
@@ -51,13 +55,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eAS-n2-t0J" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="89h-zG-VVv"/>
-                            <constraint firstAttribute="bottom" secondItem="0ZY-2H-uye" secondAttribute="bottom" constant="14" id="O2D-e4-LmM"/>
-                            <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="12" id="T2f-hI-npX"/>
-                            <constraint firstItem="0ZY-2H-uye" firstAttribute="leading" secondItem="eAS-n2-t0J" secondAttribute="trailing" constant="42" id="VjP-j8-BxM"/>
-                            <constraint firstItem="0ZY-2H-uye" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="12" id="WYv-nK-zyr"/>
+                            <constraint firstItem="0ZY-2H-uye" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="12" id="BcX-sc-1O8"/>
                             <constraint firstAttribute="bottom" secondItem="eAS-n2-t0J" secondAttribute="bottom" constant="6" id="ayh-IX-sVr"/>
                             <constraint firstItem="enV-cN-eNW" firstAttribute="top" secondItem="D6x-DR-wHC" secondAttribute="top" constant="8" id="byW-0B-bj4"/>
                             <constraint firstAttribute="height" constant="40" id="cLn-OW-siU"/>
+                            <constraint firstAttribute="trailing" secondItem="0ZY-2H-uye" secondAttribute="trailing" constant="12" id="eHe-Fb-yM6"/>
                             <constraint firstItem="enV-cN-eNW" firstAttribute="leading" secondItem="D6x-DR-wHC" secondAttribute="leading" constant="8" id="mDV-DR-kFB"/>
                             <constraint firstItem="eAS-n2-t0J" firstAttribute="leading" secondItem="enV-cN-eNW" secondAttribute="trailing" constant="9" id="uKx-ev-fgX"/>
                         </constraints>
@@ -183,7 +185,7 @@
                 <outlet property="shareButton" destination="0ZY-2H-uye" id="4OA-cr-0ip"/>
                 <outlet property="sumMoney" destination="TEr-jj-lwk" id="539-Al-7mu"/>
             </connections>
-            <point key="canvasLocation" x="52" y="-11.5"/>
+            <point key="canvasLocation" x="30" y="-30"/>
         </tableViewCell>
     </objects>
     <resources>
